@@ -10,7 +10,7 @@ date: 2020-05-01 19:00:00
 mp3_file: assets/mp3/2020-05-01_Careers_Stories.mp3
 summary: Moro and Mike interview a series of Cybersecurity and IT professionals about their career stories and advice for career development.
 duration: "01:53:18" #audio length in min
-length: "106062096" #filesize in byte
+length: "79427654" #filesize in byte
 explicit: "no" #other option is no
 block: "no" #means is shown in itunes
 ---
