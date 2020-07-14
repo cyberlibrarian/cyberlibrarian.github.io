@@ -1,0 +1,72 @@
+# Site
+name: 'The Cybersecurity Librarian'
+description: 'Cataloguing Threats, Classifying Risks, and Building Literacy'
+logo: 'assets/images/logo.png'
+favicon: 'assets/images/favicon.ico'
+lang: en-us
+baseurl: ''
+#disqus: 'demowebsite'
+email: 'michael@cyberlibrarian.ca'
+#mailchimp-list: 'https://wowthemes.us11.list-manage.com/subscribe/post?u=8aeb20a530e124561927d3bd8&amp;id=8c3d2d214b'
+author: Michael McDonnell
+include: ["_pages"]
+permalink: /:title/
+
+# Plugins
+plugins: 
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-paginate
+  - jekyll-seo-tag
+  
+authors:
+    michael:
+      name:           Michael McDonnell
+      short-name:     michael
+      email:          michael@cyberlibrarian.ca
+      twitter:        https://twitter.com/_cyberlibrarian
+      linkedin:       https://linkedin.com/in/itpromichael
+      site:           https://linkedin.com/in/itpromichael
+      youtube:        https://www.youtube.com/channel/UC0knSd6A0GsnA7jlVdc-pGA/
+      avatar:         assets/images/IMG_0515a.png
+      bio:            "Michael McDonnell is The Cybersecurity Librarian. A cybersecurity professional (CISM, CTIA, GCIA, GCWN) and a professional librarian (MLIS)."
+ 
+    moro:
+      name:           Morohito Arakaki
+      short-name:     moro
+      email:          michael@cyberlibrarian.ca
+      linkedin:       https://linkedin.com/in/moroarakaki
+      site:           https://linkedin.com/in/moroarakaki
+      youtube:        https://www.youtube.com/channel/UC0knSd6A0GsnA7jlVdc-pGA/
+      avatar:         assets/images/moro-yellow-transparent1.png
+      bio:            "Moro is a modern day rennaissance man, an experienced network analyst, and cybersecurity professional. He is co-host of the Moro & Mike livestream."
+      
+ 
+ 
+# Defaults
+defaults:
+
+  # all posts
+  - scope:
+      path: "_posts"
+    values:
+      layout: post
+      author: cyberlibrarian
+      avatar: assets/images/IMG_0515a.png
+      
+  # all pages
+  - scope:
+      path: "_pages"
+    values:
+      layout: page
+      
+# Syntax
+markdown: kramdown
+highlighter: rouge
+
+# Paginate
+paginate: 10
+
+
+# Exclude metadata and development time dependencies (like Grunt plugins)
+exclude: [README.markdown, package.json, grunt.js, Gruntfile.js, Gruntfile.coffee, node_modules]
