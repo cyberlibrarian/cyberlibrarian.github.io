@@ -3,7 +3,7 @@ layout: post
 title:  "Cybersecurity Certifications"
 subtitle: "making the right choice"
 authors: [michael,moro]
-categories: [ Moro & Mike ]
+categories: [ Moro and Mike ]
 image: assets/images/2020-07-16.png
 youtube: WqeYdHrSqCo
 tags: [featured, upcoming, youtube, livestream, cybersecurity,certifications, training, career-development]
@@ -19,7 +19,11 @@ In this livestream we will discuss question such as:
   - How many certifications do I need?
   - What experience do I need?
 
-Moro & Mike will help you navigate the cybersecurity universe maze, and we have a highly certified guest to share his experience and answer your questions.
+Moro, Mike, and guest Mark Shykula will help you navigate the cybersecurity universe maze, and we have a highly certified guest to share his experience and answer your questions.
+
+# News Articles
+
+ISC2. [May 12, 2020]. (ISC)2 CISSP Certification Now Comparable to Masters Degree Standard. ISC2 News. https://www.isc2.org/News-and-Events/Press-Room/Posts/2020/05/12/ISC2-CISSP-Certification-Now-Comparable-to-Masters-Degree-Standard
 
 # Resources
 This is a list of resources to help you explore Cybersecurity Certifications
