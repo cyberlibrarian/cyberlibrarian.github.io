@@ -1,11 +1,19 @@
 ---
 layout: post
 title:  "Advice on Resumes and Cover Letters"
-authors: [michael]
-categories: [ Moro & Mike, Job Hunting ]
+authors: [michael, moro]
+categories: [ Moro and Mike ]
 image: assets/images/2020-05-08.png
 youtube: yfUy0xxd2k4
 tags: [Job Hunting, Networking]
+tags: [careers, podcast, livestream, professional development]
+date: 2020-05-08 19:00:00
+mp3_file: assets/mp3/2020-05-08_Resumes_and_Cover_Letters.mp3
+summary: Moro and Mike and guest Jim Clark provide advice on Resumes and Cover Letters
+duration: "01:59:38" #audio length in min
+length: "86137774" #filesize in byte
+explicit: "no" #other option is no
+block: "no" #means is shown in itunes
 ---
 This article is a companion piece for a YouTube Live stream hosted by myself and Moro Arakaki on May 8, 2020 @7 PM MDT. https://youtu.be/yfUy0xxd2k4
 
