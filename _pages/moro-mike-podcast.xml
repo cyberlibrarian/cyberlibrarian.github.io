@@ -18,7 +18,7 @@ permalink: "/moro-and-mike/podcast.rss"
     <atom:link href="{{ site.url }}/moro-and-mike/podcast.rss" rel="self" type="application/rss+xml" />
 	<image>
       <link>{{ site.url }}/moro-and-mike</link>
-      <url>{{ site.url }}/assets/images/moro-and-mike-thumb-itunes.png</url>
+      <url>{{ site.url }}/assets/images/moro-and-mike-thumb-podcast.png</url>
       <title>Moro and Mike</title>
 	</image>
 	<itunes:subtitle>Professional Development in Cybersecurity and IT</itunes:subtitle>
@@ -50,7 +50,7 @@ permalink: "/moro-and-mike/podcast.rss"
 			<itunes:summary>{{ post.summary | xml_escape }}</itunes:summary>
 			<itunes:duration>{{ post.duration }}</itunes:duration>
 			<itunes:keywords>{{ post.tags | join: ',' }}</itunes:keywords>
-			<itunes:image href="{{ site.url }}/assets/images/moro-and-mike-thumb-itunes.png" />
+			<itunes:image href="{{ site.url }}/assets/images/moro-and-mike-thumb-podcast.png" />
 			<itunes:explicit>{{ post.explicit }}</itunes:explicit>
 			<itunes:block>{{ post.block }}</itunes:block>
 		</item>{% endif %}{% endfor %}
