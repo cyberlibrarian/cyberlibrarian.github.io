@@ -6,6 +6,13 @@ categories: [ moro-and-mike, livestream ]
 image: assets/images/2020-05-29.png
 youtube: 9z_gR7IywxE
 tags: [careers, job-interview, professional-development]
+date: 2020-05-29 19:00:00
+mp3_file: assets/mp3/2020-05-29_Job_Interviews.mp3
+summary: Moro and Mike talk to Jessica Riad-Wallace about how people can prepare for job interviews.
+duration: "01:40:00" #audio length in min
+length: "93610674" #filesize in byte
+explicit: "no" #other option is no
+block: "no" #means is shown in itunes
 ---
 In this LiveStream we will host a Question and Answer session on Job Interview Preparation with our panelists. Our group will take questions from the audience and provide feedback.
 

@@ -6,6 +6,13 @@ categories: [ moro-and-mike, livestream ]
 image: assets/images/2020-05-22.png
 youtube: EKv5Ejdt7vs
 tags: [featured, cybersecurity, music, movies, books, popular-culture]
+date: 2020-05-22 19:00:00
+mp3_file: assets/mp3/2020-05-22_Cybersecurity_in_Popular_Culture.mp3
+summary: Moro and Mike are joined friends to discuss representations of cybersecurity in popular culture including music, books, news, and movies.
+duration: "02:11:03" #audio length in min
+length: "94367912" #filesize in byte
+explicit: "no" #other option is no
+block: "no" #means is shown in itunes
 ---
 Join Moro & Mike, and our friends and colleagues to critique and comment on Cybersecurity in Popular Culture. 
 
