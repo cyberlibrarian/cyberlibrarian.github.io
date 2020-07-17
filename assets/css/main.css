@@ -5464,8 +5464,8 @@ button.bg-lightblue:focus {
 .justify-content-end {
   justify-content: flex-end !important; }
 
-.justify-content-center {
-#  justify-content: center !important; }
+.xjustify-content-center {
+  justify-content: center !important; }
 
 .justify-content-between {
   justify-content: space-between !important; }
