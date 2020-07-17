@@ -6,7 +6,14 @@ authors: [michael,moro]
 categories: [ Moro and Mike ]
 image: assets/images/2020-07-16.png
 youtube: WqeYdHrSqCo
-tags: [featured, upcoming, youtube, livestream, cybersecurity,certifications, training, career-development]
+tags: [featured, youtube, livestream, cybersecurity,certifications, training, career-development]
+date: 2020-07-16 19:00:00
+mp3_file: assets/mp3/2020-07-16_Cybersecurity_Certifications.mp3
+summary: Moro and Mike are joined by Mark Shykula to discuss the types, value, and controveries of cybersecurity certifications.
+duration: "01:39:36" #audio length in min
+length: "93233572" #filesize in byte
+explicit: "no" #other option is no
+block: "no" #means is shown in itunes
 ---
 Cybersecurity is unique due to the number and variety of certifications available. Certification is often considered essential to get hired or a barrier to entering the profession.
 
@@ -33,4 +40,17 @@ Jerimy, Paul. (2020). Security Certification Roadmap. https://pauljerimy.com/sec
 
 GIAC. (2020). Trust Me, I'm Certified. Podcast. https://www.giac.org/podcasts
 : This podcast promoting GIAC certification addresses a wide variety of topics related to SANS Institute training and certification including imposter syndrome, SANS Institute training, career development, and mentorship. It is a relatively new podcast showcasing a new professional and topic each episode.
+
+ISACA. [n.d.] CSX Cybersecurity Fundamentals Certification. https://www.isaca.org/credentialing/cybersecurity/csx-fundamentals-certificate
+: I found the book for this to be one of the best, most concise, guides to define what cybersecurity is and is not. It's short, well written, and easy to read. A great and inexpensive starting point. There is also an inexpensive exam to go with it. A great starting place for ANYONE in IT.
+
+# Certification Sites
+(ISC2) https://www.isc2.org/
+: CISSP, SSCP, CCSP, CAP, CSSLP, HCISSP
+ISACA https://www.isaca.org/
+: CISM, CISA, CRISC, CGEIT
+GIAC https://www.giac.org/
+: GSEC, GCIA, GCIH, GCWN, GCFW, and on and on and on
+EC-Council https://www.eccouncil.org
+: CEH, CCISO, CTIA, and many more
 
