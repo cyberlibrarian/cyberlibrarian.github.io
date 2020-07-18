@@ -2,12 +2,12 @@
 layout: post
 title:  "Job Hunt? Do these 3 thing first"
 authors: [michael,moro]
-categories: [ Moro & Mike, Job Hunting ]
+categories: [ Moro and Mike ]
 image: assets/images/2020-05-15.png
 youtube: DgBer_nb2no
 tags: [Job Hunting, Networking]
 ---
-This is a companion article to a YouTube Livestream on Fri May 15, 2020 on using social networking in a job search. Check it out here: https://youtu.be/DgBer_nb2no
+This is a companion article to a YouTube Livestream on Fri May 15, 2020 on using social networking in a job search. Check it out here: <https://youtu.be/DgBer_nb2no>
 
 I recently found myself hunting for a job and realizing that... I had NO IDEA what I was doing. Despite decades of experience in my field, multiple degrees and certifications, and a healthy reputation I had no job offers, no interviews, and nobody was even looking at my LinkedIn profile.
 

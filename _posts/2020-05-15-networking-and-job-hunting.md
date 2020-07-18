@@ -19,15 +19,15 @@ This is part of a weekly series of live discussions between cyber security profe
 In this episode we will discuss how to manage your online presence and leverage it during your job hunt. Mostly this means, "How do you maximize my use of LinkedIn features and my professional network."
 
 Cybersecurity & IT Career Paths and Stories
-  https://youtu.be/gsgO_S1e9v4
+  <https://youtu.be/gsgO_S1e9v4>
 
 Advice on Job Hunting and LinkedIn
-  https://youtu.be/53f1H9B9CSg
-  https://www.linkedin.com/pulse/job-hunt-do-3-things-first-michael-mcdonnell
+  <https://youtu.be/53f1H9B9CSg>
+  <https://www.linkedin.com/pulse/job-hunt-do-3-things-first-michael-mcdonnell>
 
 Advice on Resumes and Cover Letters
-  https://youtu.be/yfUy0xxd2k4
-  https://www.linkedin.com/pulse/advice-resumes-cover-letters-michael-mcdonnell
+  <https://youtu.be/yfUy0xxd2k4>
+  <https://www.linkedin.com/pulse/advice-resumes-cover-letters-michael-mcdonnell>
 
 In this live stream, we talk with 3 panelists. John a recruiter with TEK Systems explains what it is like to work with an external recruiter for contract IT work. 
 

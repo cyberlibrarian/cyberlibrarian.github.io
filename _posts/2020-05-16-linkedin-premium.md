@@ -2,10 +2,10 @@
 layout: post
 title:  "Is LinkedIn Premium Worth the Cost?"
 authors: [michael]
-categories: [ job-hunting ]
+categories: [ Careers ]
 image: assets/images/linkedin-premium.png
 youtube: 53f1H9B9CSg
-tags: [job-hunting,linkedin,advice,review]
+tags: [job-hunting,linkedin,advice,review,careers]
 ---
 Watch this video for a tour of LinkedIn Premium and description of how I found some feature useful and others not so useful.
 
@@ -23,12 +23,12 @@ Some of the features worked for me (like InMail) and some made no difference at 
 This video is a companion piece to a recent "Moro & Mike" live stream on Job Hunting and the use of social media. You can see that video here: 
 
 Cybersecurity & IT Career Paths and Stories
-  https://youtu.be/gsgO_S1e9v4
+  <https://youtu.be/gsgO_S1e9v4>
 
 Advice on Job Hunting and LinkedIn
-  https://youtu.be/53f1H9B9CSg
-  https://www.linkedin.com/pulse/job-hunt-do-3-things-first-michael-mcdonnell
+  <https://youtu.be/53f1H9B9CSg>
+  <https://www.linkedin.com/pulse/job-hunt-do-3-things-first-michael-mcdonnell>
 
 Advice on Resumes and Cover Letters
-  https://youtu.be/yfUy0xxd2k4
-  https://www.linkedin.com/pulse/advice-resumes-cover-letters-michael-mcdonnell
+  <https://youtu.be/yfUy0xxd2k4>
+  <https://www.linkedin.com/pulse/advice-resumes-cover-letters-michael-mcdonnell>

@@ -20,6 +20,6 @@ Moro and Mike are turning the livestream over to two outstanding student leaders
 # Resources
 This is a list of resources of interest to Cybersecurity Students and New Professionals
 
-Jerimy, Paul. (2020). Security Certification Roadmap. https://pauljerimy.com/security-certification-roadmap/
+Jerimy, Paul. (2020). Security Certification Roadmap. <https://pauljerimy.com/security-certification-roadmap/>
 : Jerimy's infographic is an interesting attempt to classify and visual cybersecurity certifications. The list is comprehensive and is ranked by degree of difficulty and categorized by type-of-work. While the ranking is somewhat subjective I was say that it is reasonably accurate. Importantly, Jerimy's work highlights the deficency in training and certification on defense. It begs the question, "Why are we obsessed with becoming hackers?"
 

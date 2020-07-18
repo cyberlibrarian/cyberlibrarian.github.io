@@ -30,27 +30,27 @@ Moro, Mike, and guest Mark Shykula will help you navigate the cybersecurity univ
 
 # News Articles
 
-ISC2. [May 12, 2020]. (ISC)2 CISSP Certification Now Comparable to Masters Degree Standard. ISC2 News. https://www.isc2.org/News-and-Events/Press-Room/Posts/2020/05/12/ISC2-CISSP-Certification-Now-Comparable-to-Masters-Degree-Standard
+ISC2. [May 12, 2020]. (ISC)2 CISSP Certification Now Comparable to Masters Degree Standard. ISC2 News. <https://www.isc2.org/News-and-Events/Press-Room/Posts/2020/05/12/ISC2-CISSP-Certification-Now-Comparable-to-Masters-Degree-Standard>
 
 # Resources
 This is a list of resources to help you explore Cybersecurity Certifications
 
-Jerimy, Paul. (2020). Security Certification Roadmap. https://pauljerimy.com/security-certification-roadmap/
+Jerimy, Paul. (2020). Security Certification Roadmap. <https://pauljerimy.com/security-certification-roadmap/>
 : Jerimy's infographic is an interesting attempt to classify and visual cybersecurity certifications. The list is comprehensive and is ranked by degree of difficulty and categorized by type-of-work. While the ranking is somewhat subjective I was say that it is reasonably accurate. Importantly, Jerimy's work highlights the deficency in training and certification on defense. It begs the question, "Why are we obsessed with becoming hackers?"
 
-GIAC. (2020). Trust Me, I'm Certified. Podcast. https://www.giac.org/podcasts
+GIAC. (2020). Trust Me, I'm Certified. Podcast. <https://www.giac.org/podcasts>
 : This podcast promoting GIAC certification addresses a wide variety of topics related to SANS Institute training and certification including imposter syndrome, SANS Institute training, career development, and mentorship. It is a relatively new podcast showcasing a new professional and topic each episode.
 
-ISACA. [n.d.] CSX Cybersecurity Fundamentals Certification. https://www.isaca.org/credentialing/cybersecurity/csx-fundamentals-certificate
+ISACA. [n.d.] CSX Cybersecurity Fundamentals Certification. <https://www.isaca.org/credentialing/cybersecurity/csx-fundamentals-certificate>
 : I found the book for this to be one of the best, most concise, guides to define what cybersecurity is and is not. It's short, well written, and easy to read. A great and inexpensive starting point. There is also an inexpensive exam to go with it. A great starting place for ANYONE in IT.
 
 # Certification Sites
-(ISC2) https://www.isc2.org/
+(ISC2) <https://www.isc2.org/>
 : CISSP, SSCP, CCSP, CAP, CSSLP, HCISSP
-ISACA https://www.isaca.org/
+ISACA <https://www.isaca.org/>
 : CISM, CISA, CRISC, CGEIT
-GIAC https://www.giac.org/
+GIAC <https://www.giac.org/>
 : GSEC, GCIA, GCIH, GCWN, GCFW, and on and on and on
-EC-Council https://www.eccouncil.org
+EC-Council <https://www.eccouncil.org>
 : CEH, CCISO, CTIA, and many more
 

@@ -2,7 +2,7 @@
 layout: post
 title:  "Threat Intelligence"
 authors: [michael,moro]
-categories: [ moro-and-mike, livestream ]
+categories: [ Moro and Mike ]
 image: assets/images/2020-06-18.png
 youtube: bsxRiOKHjQw
 tags: [featured, threat-intel]

@@ -2,7 +2,7 @@
 layout: post
 title:  "Networking for Professional Development"
 authors: [michael,moro]
-categories: [ moro-and-mike, livestream ]
+categories: [ Moro and Mike ]
 image: assets/images/2020-06-05.png
 youtube: P5WCaXRNnx8
 tags: [networking, professional-development, career-development, job-hunting]

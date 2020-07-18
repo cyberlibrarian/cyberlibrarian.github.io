@@ -2,7 +2,7 @@
 layout: post
 title:  "Resumes and Cover Letters"
 authors: [michael,moro]
-categories: [ moro-and-mike, livestream ]
+categories: [ Moro and Mike ]
 image: assets/images/2020-05-08.png
 youtube: yfUy0xxd2k4
 tags: [featured, careers, resumes, cover-letters, job-hunting]
@@ -12,15 +12,15 @@ This is part of a weekly series of live discussions between cyber security profe
 In this episode we will discuss how to create resumes and cover letters that get noticed. Michael will share his recent experience job hunting and making over his resume. 
 
 Cybersecurity & IT Career Paths and Stories
-  https://youtu.be/gsgO_S1e9v4
+  <https://youtu.be/gsgO_S1e9v4>
 
 Advice on Job Hunting and LinkedIn
-  https://youtu.be/53f1H9B9CSg
-  https://www.linkedin.com/pulse/job-hunt-do-3-things-first-michael-mcdonnell
+  <https://youtu.be/53f1H9B9CSg>
+  <https://www.linkedin.com/pulse/job-hunt-do-3-things-first-michael-mcdonnell>
 
 Advice on Resumes and Cover Letters
-  https://youtu.be/yfUy0xxd2k4
-  https://www.linkedin.com/pulse/advice-resumes-cover-letters-michael-mcdonnell
+  <https://youtu.be/yfUy0xxd2k4>
+  <https://www.linkedin.com/pulse/advice-resumes-cover-letters-michael-mcdonnell>
 
 We will offer a guided tour of some really good resources and short courses that can help you with your resumes.
 

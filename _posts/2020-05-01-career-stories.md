@@ -19,15 +19,15 @@ Hosts Moro &amp; Mike interview a series of IT and Cybersecurity professionals a
 This is the first episode in a series about Careers in Cyber security. We invited 8 people to tell us their unique career story: how they got started, and the challenges they faced. We asked them what advice they had for people getting started in their cyber security or IT careers.
 
 Cybersecurity & IT Career Paths and Stories
-  https://youtu.be/gsgO_S1e9v4
+  <https://youtu.be/gsgO_S1e9v4>
 
 Advice on Job Hunting and LinkedIn
-  https://youtu.be/53f1H9B9CSg
-  https://www.linkedin.com/pulse/job-hunt-do-3-things-first-michael-mcdonnell
+  <https://youtu.be/53f1H9B9CSg>
+  <https://www.linkedin.com/pulse/job-hunt-do-3-things-first-michael-mcdonnell>
 
 Advice on Resumes and Cover Letters
-  https://youtu.be/yfUy0xxd2k4
-  https://www.linkedin.com/pulse/advice-resumes-cover-letters-michael-mcdonnell
+  <https://youtu.be/yfUy0xxd2k4>
+  <https://www.linkedin.com/pulse/advice-resumes-cover-letters-michael-mcdonnell>
 
 Note: the title includes "Job Hunting and Interviewing" but we ran out of time. Job Hunting will be part of a 3 part series in our next 3 episodes!
 

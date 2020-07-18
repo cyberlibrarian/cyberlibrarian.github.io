@@ -2,7 +2,7 @@
 layout: post
 title:  "Docker and Github"
 authors: [michael]
-categories: [ technical-tuesday, livestream ]
+categories: [ Technical Tuesday ]
 image: assets/images/2020-05-12.png
 youtube: -JdsAC7heks
 tags: [docker,github,devops]

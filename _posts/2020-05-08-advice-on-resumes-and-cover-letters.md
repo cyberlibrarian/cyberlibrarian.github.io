@@ -5,8 +5,7 @@ authors: [michael, moro]
 categories: [ Moro and Mike ]
 image: assets/images/2020-05-08.png
 youtube: yfUy0xxd2k4
-tags: [Job Hunting, Networking]
-tags: [careers, podcast, livestream, professional development]
+tags: [careers, podcast, livestream, professional development,job hunting, networking]
 date: 2020-05-08 19:00:00
 mp3_file: assets/mp3/2020-05-08_Resumes_and_Cover_Letters.mp3
 summary: Moro and Mike and guest Jim Clark provide advice on Resumes and Cover Letters
@@ -15,7 +14,7 @@ length: "86137774" #filesize in byte
 explicit: "no" #other option is no
 block: "no" #means is shown in itunes
 ---
-This article is a companion piece for a YouTube Live stream hosted by myself and Moro Arakaki on May 8, 2020 @7 PM MDT. https://youtu.be/yfUy0xxd2k4
+This article is a companion piece for a YouTube Live stream hosted by myself and Moro Arakaki on May 8, 2020 @7 PM MDT. <https://youtu.be/yfUy0xxd2k4>
 
 Recently, I found myself struggling to find a new job. For months, my experience was difficult. Despite decades of experience, two degrees, multiple professional credentials, and extensive training... I was not getting noticed. Not only did I not find a job after many months of trying, I did not have a single interview, and did not have anyone looking at my LinkedIn profile. I felt like I was screaming my resume into the void.
 
@@ -111,8 +110,9 @@ Here is what my cover letters look like now:
 [image]
 
 # Appendix: How to get access to Lynda.com/LinkedIn Learning
-For Calgarians, to get a FREE membership to Calgary Public Library, go here: https://calgarylibrary.ca/your-library/join/
+For Calgarians, to get a FREE membership to Calgary Public Library, go here: 
+  <https://calgarylibrary.ca/your-library/join/>
 
-If you are already a member of Calgary Public Library, go here to login to Lynda.com and use your library card and PIN to logon: https://www.lynda.com/portal/sip?org=calgarylibrary.ca
+If you are already a member of Calgary Public Library, go here to login to Lynda.com and use your library card and PIN to logon: <https://www.lynda.com/portal/sip?org=calgarylibrary.ca>
 
 If your public library does not offer Lynda.com, you can still access LinkedIn Learning. The cheapest way is to subscribe to LinkedIn Premium, which is useful in many ways for your job search. You will have full access to LinkedIn Learning via your LinkedIn Premium subscription.

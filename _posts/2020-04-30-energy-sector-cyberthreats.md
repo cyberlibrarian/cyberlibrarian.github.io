@@ -2,7 +2,7 @@
 layout: post
 title:  "Energy Sector Cyberthreats"
 authors: [michael]
-categories: [ threat-intel ]
+categories: [ Threat Intelligence ]
 image: assets/images/energy-sector-cyberthreats.png
 youtube: 42gPLWg2sRw
 tags: [featured, threat-intel, hacktivism, cybercrime, cyberwar, hackers]

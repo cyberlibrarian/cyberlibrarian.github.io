@@ -2,10 +2,10 @@
 layout: post
 title:  "Kali Linux in Docker"
 authors: [michael]
-categories: [ technical-tuesday, livestream ]
+categories: [ Technical Tuesday ]
 image: assets/images/2020-06-02.png
 youtube: 62Yt-AU-2Dc
-tags: [docker,vagrant,ansible]
+tags: [docker,vagrant,ansible,livestream]
 ---
 In this livestream I will show how I run Kali Linux in a Docker Container on Docker for Windows. It helps me get the best of both worlds, and I don't need to maintain a VM.
 

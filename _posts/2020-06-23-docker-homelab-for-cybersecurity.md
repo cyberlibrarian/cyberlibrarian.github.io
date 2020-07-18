@@ -2,7 +2,7 @@
 layout: post
 title:  "Docker Homelab for Cybersecurity"
 authors: [michael]
-categories: [ technical-tuesday, livestream ]
+categories: [ Technical Tuesday ]
 image: assets/images/2020-06-23.png
 youtube: xSO4UEx4NUA
 tags: [docker,homelab,cybersecurity]

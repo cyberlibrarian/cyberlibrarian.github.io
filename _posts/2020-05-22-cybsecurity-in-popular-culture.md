@@ -2,7 +2,7 @@
 layout: post
 title:  "Cybersecurity in Popular Culture"
 authors: [michael,moro]
-categories: [ moro-and-mike, livestream ]
+categories: [ Moro and Mike ]
 image: assets/images/2020-05-22.png
 youtube: EKv5Ejdt7vs
 tags: [featured, cybersecurity, music, movies, books, popular-culture]
@@ -21,13 +21,13 @@ We will discuss representation of hackers and information security in music, mov
 We cannot broadcast clips but you can follow along at home and watch too. Use these playlists:
 
 Cybersecurity in the Movies (War Games, Hackers, Sneakers, and more):
-    https://www.youtube.com/playlist?list=PLwO8Dz1s6R5EUmhwrozgCQzX0gh---pWW
+    <https://www.youtube.com/playlist?list=PLwO8Dz1s6R5EUmhwrozgCQzX0gh---pWW>
 
 Cybersecurity in TV (Mr Robot... duh!):
-    https://www.youtube.com/playlist?list=PLwO8Dz1s6R5FjvOapmHfQjXeATT9dCYM5
+    <https://www.youtube.com/playlist?list=PLwO8Dz1s6R5FjvOapmHfQjXeATT9dCYM5>
 
 Cybersecurity in Music (Nerdcore Hip Hop, Darksoft, and more):
-    https://www.youtube.com/playlist?list=PLwO8Dz1s6R5FZTHuwrfU9atjAjPTrUTLl
+    <https://www.youtube.com/playlist?list=PLwO8Dz1s6R5FZTHuwrfU9atjAjPTrUTLl>
 
 OMG! The Music though! Seriously, cybersecurity, IT, and machine learning are entering our music.
 
