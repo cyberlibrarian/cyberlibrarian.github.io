@@ -1,7 +1,7 @@
 ---
-title: "moro"
+title: "Morohito Arakaki"
 layout: default
-permalink: "/author-moro.html"
+permalink: "/author-moro"
 ---
 <div class="container">
 <div class="row justify-content-center">
