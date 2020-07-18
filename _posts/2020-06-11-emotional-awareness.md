@@ -14,7 +14,7 @@ length: "72634138" #filesize in byte
 explicit: "no" #other option is no
 block: "no" #means is shown in itunes
 ---
-[A short curated YouTube playlist introducing Emotional Intelligence](https://www.youtube.com/playlist?list=PLwO8Dz1s6R5EtkxVPjv365KC_EUMBW_uj)
+[A short curated YouTube playlist introducing Emotional Intelligence](https://www.youtube.com/playlist?list=PLwO8Dz1s6R5EtkxVPjv365KC_EUMBW_uj).
 
 In the first part of our series on Cybersecurity/IT Leadership we will be discussing Emotional Awareness and Emotional Quotient (EQ). 
 
