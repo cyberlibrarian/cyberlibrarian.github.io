@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Cybersecurity Certifications"
+title:  "Cybersecurity Certifications" 
 subtitle: "making the right choice"
 authors: [michael,moro]
 categories: [ Moro and Mike ]
