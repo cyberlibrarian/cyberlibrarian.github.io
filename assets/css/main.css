@@ -8121,7 +8121,7 @@ html {
 .justify-content-end {
   justify-content: flex-end !important; }
 
-.justify-content-center {
+.xjustify-content-center {
   justify-content: center !important; }
 
 .justify-content-between {
