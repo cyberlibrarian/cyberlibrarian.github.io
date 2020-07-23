@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Threat Intelligence"
+title:  "Threat Intelligence July 2020"
 subtitle: "July 2020 Cybersecurity News"
 authors: [michael,moro]
 categories: [ Moro and Mike ]
