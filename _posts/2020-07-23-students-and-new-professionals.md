@@ -3,7 +3,7 @@ layout: post
 title:  "Students and New Professionals"
 subtitle: "We let them ask you anything"
 authors: [michael,moro]
-categories: [ Moro and Mike ]
+categories: [Moro and Mike]
 image: assets/images/2020-07-23.png
 youtube: NopjYght8vQ
 tags: [featured, upcoming, youtube, livestream, cybersecurity, career-development, students]
