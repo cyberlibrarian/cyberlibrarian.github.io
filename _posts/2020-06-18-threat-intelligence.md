@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Threat Intelligence"
+title:  "Threat Intelligence June 18 2020"
 authors: [michael,moro]
-categories: [ Moro and Mike ]
+categories: [Moro and Mike]
 image: assets/images/2020-06-18.png
 youtube: bsxRiOKHjQw
 tags: [featured, threat-intel]

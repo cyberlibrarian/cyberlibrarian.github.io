@@ -2,7 +2,7 @@
 layout: post
 title:  "Leadership and Emotional Awareness"
 authors: [michael,moro]
-categories: [ Moro and Mike ]
+categories: [Moro and Mike]
 image: assets/images/2020-06-11.png
 youtube: 20QchkM_qho
 tags: [featured, leadership, emotional-awareness, eq, emotional-intelligence]

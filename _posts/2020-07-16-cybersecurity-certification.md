@@ -3,7 +3,7 @@ layout: post
 title:  "Cybersecurity Certifications"
 subtitle: "making the right choice"
 authors: [michael,moro]
-categories: [ Moro and Mike ]
+categories: [Moro and Mike]
 image: assets/images/2020-07-16.png
 youtube: WqeYdHrSqCo
 tags: [featured, youtube, livestream, cybersecurity,certifications, training, career-development]

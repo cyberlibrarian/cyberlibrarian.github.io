@@ -3,7 +3,7 @@ layout: post
 title:  "Threat Intelligence July 30 2020"
 subtitle: "July 2020 Cybersecurity News"
 authors: [michael,moro]
-categories: [ Moro and Mike ]
+categories: [Moro and Mike]
 image: assets/images/2020-07-30.png
 youtube: cDB_WgxTLEM
 tags: [featured, upcoming, youtube, livestream, cybersecurity, threat intelligence]
