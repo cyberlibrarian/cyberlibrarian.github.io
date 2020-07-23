@@ -15,7 +15,7 @@ summary: Alec and Chris join Moro and Mike for a briefing on the latest threats 
 explicit: "no" #other option is no
 block: "no" #means is shown in itunes
 ---
-Alec and Chris are back to presents some of the latest cyber-threats and discuss cybersecurity news for July 2020.
+Cybersecurity Analysts Alec and Chris are back to presents some of the latest cyber-threats and discuss cybersecurity news for July 2020.
 
 Join us for a LIVE discussion and Q&A at the end. We will be discussing numerous aspects of the Twitter Hack and taking your questions.
 
