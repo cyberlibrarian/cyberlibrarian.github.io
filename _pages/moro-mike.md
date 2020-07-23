@@ -10,7 +10,6 @@ permalink: "/moro-and-mike"
         <h1 class="font-weight-bold title h6 text-uppercase mb-4">Moro and Mike</h1>
             
         <h4 class="font-weight-bold spanborder text-capitalize" id="moro-and-mike"><span>Moro and Mike</span></h4>
-            
         {% assign pages_list = 'Moro and Mike' %}
         {% for post in pages_list %}
         {% if post.title != null %}
@@ -22,12 +21,10 @@ permalink: "/moro-and-mike"
         {% endfor %}
         {% assign pages_list = nil %}
         {% assign group = nil %}
-
         </div>
-        
-            <div class="col-md-4">
+        <div class="col-md-4">
         {% include sidebar-featured.html %}    
-    </div>
+        </div>
         
     </div>
 </div>
