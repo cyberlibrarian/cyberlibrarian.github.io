@@ -8,10 +8,10 @@ image: assets/images/2020-07-23.png
 youtube: NopjYght8vQ
 tags: [featured, upcoming, youtube, livestream, cybersecurity, career-development, students]
 date: 2020-07-23 19:00:00
-#mp3_file: assets/mp3/2020-07-16_Cybersecurity_Certifications.mp3
+mp3_file: assets/mp3/2020-07-23_students.mp3
 summary: Student Leaders Emily and Alex host the show and interview Moro, Mike, and a panel of experts about careers in Cybersecurity
-#duration: "01:39:36" #audio length in min
-#length: "93233572" #filesize in byte
+duration: "02:03:14" #audio length in min
+length: "88734765" #filesize in byte
 explicit: "no" #other option is no
 block: "no" #means is shown in itunes
 ---
