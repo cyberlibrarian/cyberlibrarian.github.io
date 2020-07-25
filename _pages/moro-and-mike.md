@@ -15,59 +15,59 @@ permalink: "/moro-and-mike/about2"
 		<p>This is a tentative list of future livestreams. Some guests are still TBD. Please contact us if you or someone you know might be a great guest for one of these topics.</p>
 		<table style="border: 1px solid black; border-collapse: collapse; padding: 1em;">
 		  <tr>
-		    <th style="border: 1px solid black; white-space:nowrap; width:7em;">Date</th style="border: 1px solid black;">
-			<th style="border: 1px solid black;">Topic</th style="border: 1px solid black;">
+		    <th style="border: 1px solid black; white-space:nowrap; width:7em;">Date</th>
+			<th style="border: 1px solid black;">Topic</th>
 			<th style="border: 1px solid black;">Guests</th style="border: 1px solid black;">
 		  </tr>
 		  <tr>
-		    <td style="border: 1px solid black; vertical-align:top;">2020-07-30</td style="border: 1px solid black; vertical-align:top;">
-			<td style="border: 1px solid black; vertical-align:top;">Threat Intelligence</td style="border: 1px solid black; vertical-align:top;">
-			<td style="border: 1px solid black; vertical-align:top;">Alec&nbsp;Mather-Shapiro and Chris&nbsp;McNeil</td style="border: 1px solid black; vertical-align:top;">
+		    <td style="border: 1px solid black; vertical-align:top;">2020-07-30</td>
+			<td style="border: 1px solid black; vertical-align:top;">Threat Intelligence</td>
+			<td style="border: 1px solid black; vertical-align:top;">Alec&nbsp;Mather-Shapiro and Chris&nbsp;McNeil</td>
 		  </tr>
 		  <tr>
-		    <td style="border: 1px solid black; vertical-align:top;">2020-08-06</td style="border: 1px solid black; vertical-align:top;">
-			<td style="border: 1px solid black; vertical-align:top;">Rejection: It's not the end of the world and how to deal with it</td style="border: 1px solid black; vertical-align:top;">
-			<td style="border: 1px solid black; vertical-align:top;">TBD</td style="border: 1px solid black; vertical-align:top;">
+		    <td style="border: 1px solid black; vertical-align:top;">2020-08-06</td>
+			<td style="border: 1px solid black; vertical-align:top;">Rejection: It's not the end of the world and how to deal with it</td>
+			<td style="border: 1px solid black; vertical-align:top;">TBD</td>
 		  </tr>
 		  <tr>
-		    <td style="border: 1px solid black; vertical-align:top;">2020-08-13</td style="border: 1px solid black; vertical-align:top;">
-			<td style="border: 1px solid black; vertical-align:top;">Futurism: When will the future arrive</td style="border: 1px solid black; vertical-align:top;">
-			<td style="border: 1px solid black; vertical-align:top;">Warren&nbsp;Lafountain</td style="border: 1px solid black; vertical-align:top;">
+		    <td style="border: 1px solid black; vertical-align:top;">2020-08-13</td>
+			<td style="border: 1px solid black; vertical-align:top;">Futurism: When will the future arrive</td>
+			<td style="border: 1px solid black; vertical-align:top;">Warren&nbsp;Lafountain</td>
 		  </tr>
 		  <tr>
-		    <td style="border: 1px solid black; vertical-align:top;">2020-08-20</td style="border: 1px solid black; vertical-align:top;">
-			<td style="border: 1px solid black; vertical-align:top;">Mentorship: What it means to be a mentor or a protege</td style="border: 1px solid black; vertical-align:top;">
-			<td style="border: 1px solid black; vertical-align:top;">TBD</td style="border: 1px solid black; vertical-align:top;">
+		    <td style="border: 1px solid black; vertical-align:top;">2020-08-20</td>
+			<td style="border: 1px solid black; vertical-align:top;">Mentorship: What it means to be a mentor or a protege</td>
+			<td style="border: 1px solid black; vertical-align:top;">TBD</td>
 		  </tr>
 		  <tr>
-		    <td style="border: 1px solid black; vertical-align:top;">2020-08-27</td style="border: 1px solid black; vertical-align:top;">
-			<td style="border: 1px solid black; vertical-align:top;">Mentorship: Finding a mentor</td style="border: 1px solid black; vertical-align:top;">
-			<td style="border: 1px solid black; vertical-align:top;">TBD</td style="border: 1px solid black; vertical-align:top;">
+		    <td style="border: 1px solid black; vertical-align:top;">2020-08-27</td>
+			<td style="border: 1px solid black; vertical-align:top;">Mentorship: Finding a mentor</td>
+			<td style="border: 1px solid black; vertical-align:top;">TBD</td>
 		  </tr>
 		  <tr>
-		    <td style="border: 1px solid black; vertical-align:top;">2020-09-03</td style="border: 1px solid black; vertical-align:top;">
-			<td style="border: 1px solid black; vertical-align:top;">TBD</td style="border: 1px solid black; vertical-align:top;">
-			<td style="border: 1px solid black; vertical-align:top;">TBD</td style="border: 1px solid black; vertical-align:top;">
+		    <td style="border: 1px solid black; vertical-align:top;">2020-09-03</td>
+			<td style="border: 1px solid black; vertical-align:top;">TBD</td>
+			<td style="border: 1px solid black; vertical-align:top;">TBD</td>
 		  </tr>
 		  <tr>
-		    <td style="border: 1px solid black; vertical-align:top;">2020-09-10</td style="border: 1px solid black; vertical-align:top;">
-			<td style="border: 1px solid black; vertical-align:top;">Management: Is it for you? Do you have what it takes?</td style="border: 1px solid black; vertical-align:top;">
-			<td style="border: 1px solid black; vertical-align:top;">TBD</td style="border: 1px solid black; vertical-align:top;">
+		    <td style="border: 1px solid black; vertical-align:top;">2020-09-10</td>
+			<td style="border: 1px solid black; vertical-align:top;">Management: Is it for you? Do you have what it takes?</td>
+			<td style="border: 1px solid black; vertical-align:top;">TBD</td>
 		  </tr>
  		  <tr>
-		    <td style="border: 1px solid black; vertical-align:top;">2020-09-17</td style="border: 1px solid black; vertical-align:top;">
-			<td style="border: 1px solid black; vertical-align:top;">Mentorship: Peer-mentorship and your team</td style="border: 1px solid black; vertical-align:top;">
-			<td style="border: 1px solid black; vertical-align:top;">TBD</td style="border: 1px solid black; vertical-align:top;">
+		    <td style="border: 1px solid black; vertical-align:top;">2020-09-17</td>
+			<td style="border: 1px solid black; vertical-align:top;">Mentorship: Peer-mentorship and your team</td>
+			<td style="border: 1px solid black; vertical-align:top;">TBD</td>
 		  </tr>
 		  <tr>
-		    <td style="border: 1px solid black; vertical-align:top;">2020-09-24</td style="border: 1px solid black; vertical-align:top;">
-			<td style="border: 1px solid black; vertical-align:top;">Leadership: Being a great boss</td style="border: 1px solid black; vertical-align:top;">
-			<td style="border: 1px solid black; vertical-align:top;">TBD</td style="border: 1px solid black; vertical-align:top;">
+		    <td style="border: 1px solid black; vertical-align:top;">2020-09-24</td>
+			<td style="border: 1px solid black; vertical-align:top;">Leadership: Being a great boss</td>
+			<td style="border: 1px solid black; vertical-align:top;">TBD</td>
 		  </tr>
 		  <tr>
-		    <td style="border: 1px solid black; vertical-align:top;">2020-10-01</td style="border: 1px solid black; vertical-align:top;">
-			<td style="border: 1px solid black; vertical-align:top;">TBD</td style="border: 1px solid black; vertical-align:top;">
-			<td style="border: 1px solid black; vertical-align:top;">TBD</td style="border: 1px solid black; vertical-align:top;">
+		    <td style="border: 1px solid black; vertical-align:top;">2020-10-01</td>
+			<td style="border: 1px solid black; vertical-align:top;">TBD</td>
+			<td style="border: 1px solid black; vertical-align:top;">TBD</td>
 		  </tr>
 		</table>
 		<p>&nbsp;</p>
