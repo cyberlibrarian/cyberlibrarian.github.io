@@ -3,10 +3,11 @@ title: "Michael McDonnell"
 layout: default
 permalink: "/author-michael"
 ---
-## [{{page.title}}]({{site.authors.michael.linkedin}})
+## {{page.title}} [Follow]({{site.authors.michael.linkedin}}) {#justify-content-center}
 [{{site.authors.michael.site}}]({{site.authors.michael.site}})
 {{ site.authors.michael.bio }}
 ![{{site.authors.michael.name}}]({{site.baseurl}}/{{site.authors.michael.avatar}})
+
 <div class="container">
 <div class="row justify-content-center">
 
