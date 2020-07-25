@@ -17,7 +17,7 @@ permalink: "/moro-and-mike/about2"
 		  <tr>
 		    <th style="border: 1px solid black; white-space:nowrap; width:7em;">Date</th>
 			<th style="border: 1px solid black;">Topic</th>
-			<th style="border: 1px solid black;">Guests</th style="border: 1px solid black;">
+			<th style="border: 1px solid black;">Guests</th>
 		  </tr>
 		  <tr>
 		    <td style="border: 1px solid black; vertical-align:top;">2020-07-30</td>
