@@ -3,16 +3,14 @@ title: "Moro and Mike"
 layout: default
 permalink: "/moro-and-mike/about2"
 ---
-<div class="container">
-    <div class="row justify-content-center">
-        <div class="col-md-8">
-		
-# Moro and Mike {: .font-weight-bold .title .h6 .text-uppercase .mb-4 }
+# Moro and Mike {: .font-weight-bold }
 
-		<p>"Moro and Mike" is a weekly livestream discussing the cybersecurity profession practice. Our topics includes leadership, management, job hunting, career development, emotional intelligence, threat intelligence, situational awareness and more. We go beyond the technology to discuss the professional practice of cybersecurity and IT.</p>
+"Moro and Mike" is a weekly livestream discussing the cybersecurity profession practice. Our topics includes leadership, management, job hunting, career development, emotional intelligence, threat intelligence, situational awareness and more. We go beyond the technology to discuss the professional practice of cybersecurity and IT.
 		
-		<h2 class="font-weight-bold spanborder" id="future-topics">Future Topics</h2>
-		<p>This is a tentative list of future livestreams. Some guests are still TBD. Please contact us if you or someone you know might be a great guest for one of these topics.</p>
+## Future Topics
+
+This is a tentative list of future livestreams. Some guests are still TBD. Please contact us if you or someone you know might be a great guest for one of these topics.
+
 		<table style="border: 1px solid black; border-collapse: collapse; padding: 1em;">
 		  <tr>
 		    <th style="border: 1px solid black; white-space:nowrap; width:7em;">Date</th>
@@ -70,27 +68,21 @@ permalink: "/moro-and-mike/about2"
 			<td style="border: 1px solid black; vertical-align:top;">TBD</td>
 		  </tr>
 		</table>
-		<p>&nbsp;</p>
 
-        <h4 class="font-weight-bold spanborder" id="livestreams">Podcasts</h4>
-		<p>Moro and Mike is recorded live on YouTube, but past episodes are available in podcast (audio-only) format on <a href="https://podcasts.apple.com/ca/podcast/moro-and-mike/id1523514571">iTunes</a>, <a href="https://open.spotify.com/show/0YK3VLKedbZ3YZyj33v7Cq?si=PtWdFp3ATJ21jhnp3TRvdw">Spotify</a>, and <a href="https://podcasts.google.com/feed/aHR0cHM6Ly93d3cuY3liZXJsaWJyYXJpYW4uY2EvbW9yby1hbmQtbWlrZS9wb2RjYXN0LnJzcw?sa=X&ved=0CAYQrrcFahcKEwi4zImFw-TqAhUAAAAAHQAAAAAQAQ">Google Podcasts</a>. Search for "Moro and Mike".</p>
-		<p>&nbsp;</p>
+## Podcasts
 
-        <h4 class="font-weight-bold spanborder" id="livestreams"><span>Upcoming and Past Livestreams</span></h4>
+Moro and Mike is recorded live on YouTube, but past episodes are available in podcast (audio-only) format on <a href="https://podcasts.apple.com/ca/podcast/moro-and-mike/id1523514571">iTunes</a>, <a href="https://open.spotify.com/show/0YK3VLKedbZ3YZyj33v7Cq?si=PtWdFp3ATJ21jhnp3TRvdw">Spotify</a>, and <a href="https://podcasts.google.com/feed/aHR0cHM6Ly93d3cuY3liZXJsaWJyYXJpYW4uY2EvbW9yby1hbmQtbWlrZS9wb2RjYXN0LnJzcw?sa=X&ved=0CAYQrrcFahcKEwi4zImFw-TqAhUAAAAAHQAAAAAQAQ">Google Podcasts</a>. Search for "Moro and Mike".</p>
+
+## Upcoming and Past Livestreams
         {% assign pages_list = 'Moro and Mike' %}
         {% for post in pages_list %}
         {% if post.title != null %}
-          {% if group == null or group == post.group %}
-         
-            {% include main-loop-card.html %}
-          {% endif %}
+          {% include main-loop-card.html %}
         {% endif %}
         {% endfor %}
         {% assign pages_list = nil %}
         {% assign group = nil %}
-        </div>
-        <div class="col-md-4">
-        {% include sidebar-featured.html %}    
-        </div>
-    </div>
+
+<div class="col-md-4">
+{% include sidebar-featured.html %}    
 </div>
