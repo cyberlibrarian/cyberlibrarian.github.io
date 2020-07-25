@@ -6,7 +6,9 @@ permalink: "/moro-and-mike/about2"
 <div class="container">
     <div class="row justify-content-center">
         <div class="col-md-8">
+		
 # Moro and Mike {: .font-weight-bold .title .h6 .text-uppercase .mb-4 }
+
 		<p>"Moro and Mike" is a weekly livestream discussing the cybersecurity profession practice. Our topics includes leadership, management, job hunting, career development, emotional intelligence, threat intelligence, situational awareness and more. We go beyond the technology to discuss the professional practice of cybersecurity and IT.</p>
 		
 		<h2 class="font-weight-bold spanborder" id="future-topics">Future Topics</h2>
