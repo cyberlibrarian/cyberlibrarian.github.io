@@ -5,7 +5,7 @@ logo: 'assets/images/logo.png'
 favicon: 'assets/images/favicon.ico'
 lang: en-us
 baseurl: ''
-url: 'https://cyberlibrarian.ca/'
+url: 'https://cyberlibrarian.ca'
 email: 'michael@cyberlibrarian.ca'
 author: Michael McDonnell
 include: ["_pages"]
