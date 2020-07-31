@@ -81,7 +81,7 @@ DopplePaymer, who does steal data during their extortion, started as people who 
 
 ### Twitter Hack
 
-Isaac, M., Frenkel, S., and Conger, K. \[July 17, 2020\]. Twitter Struggles to Unpack a Hack Within Its Walls. New York Times. <https://www.nytimes.com/2020/07/16/technology/twitter-hack-investigation.html
+Isaac, M., Frenkel, S., and Conger, K. \[July 17, 2020\]. Twitter Struggles to Unpack a Hack Within Its Walls. New York Times. <https://www.nytimes.com/2020/07/16/technology/twitter-hack-investigation.html>
 
 Barrett, B. \[July 18, 2020\]. Security News This Week: Who Pulled Off the Twitter Hack? WIRED Magazine. <https://www.wired.com/story/twitter-hack-suspect-vpns-securit-news/>
 
