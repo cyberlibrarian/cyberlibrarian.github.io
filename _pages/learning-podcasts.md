@@ -25,6 +25,7 @@ The Cybersecurity Librarian recommends these 3 podcasts. They have these attribu
 : *Personal Comment* It is the professional duty of librarians to identify bias and help people navigate complex presentation of ideas whether in books, articles, or podcasts. As a cybersecurity professional, The Darknet Diaries bias makes my blood boil, but I believe it is a necassary bias that makes the how work, and it is vital that cybersecurity defenders hear these stories. We have our own biases to be concious of as well. It is OK to call the guests of show criminals, and to hope they are held to account. It is also OK to be fascinated by their stories and to hope they "make good" of their lives.
 
 
+
 ## General
 
 
