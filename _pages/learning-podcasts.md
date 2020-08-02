@@ -26,8 +26,6 @@ The Cybersecurity Librarian recommends these 3 podcasts. They have these attribu
 : *Bias Caution* The host has an obvious bias and may state, as fact, his opinion about the motivations of the people he interviews. The show may also fail to verify the accuracy of statements made by the guests: sometimes the guest's word is taken as fact. The compelling storytelling and engaging interviews makes it hard to notice this bias. Are the people he interviews the misunderstood geniuses they claim to be or are they antisocial criminals? Be concious of possible bias and draw your own conclusions.
 : *Personal Comment* It is the professional duty of librarians to identify bias and help people navigate complex presentation of ideas whether in books, articles, or podcasts. As a cybersecurity professional, The Darknet Diaries bias makes my blood boil, but I believe it is a necassary bias that makes the how work, and it is vital that cybersecurity defenders hear these stories. We have our own biases to be concious of as well. It is OK to call the guests of show criminals, and to hope they are held to account. It is also OK to be fascinated by their stories and to hope they "make good" of their lives.
 
-## General
-
 ## News / Threat Intelligence
 
 [Recorded Future Podcast](https://www.recordedfuture.com/resources/podcast/)
@@ -41,6 +39,11 @@ The Cybersecurity Librarian recommends these 3 podcasts. They have these attribu
 
 ## Privacy, Law, and Policy
 
+[Caveat](https://www.thecyberwire.com/podcasts/caveat)
+: Caveat is hosted by Cyberwire's Dave Bittner and Lawyer Ben Yelin. You do not have to be a lawyer to enjoy or learn from this podcast. It discusses recent cybersecurity news and events that are impacted by law.
+
+[Privacy Insider](https://wirewheel.io/resources/the-privacy-insider/)
+: Hosted by Justin Antonipllai, the former Under Secretary for Economic Affairs at the US Department of Commerce, this podcast takes a serious look at law, policy, and social issues related to privacy. *The Cybersecurity Librarian has yet to render a verdict on bias. It is sponsored, but the content seemed more "privacy geek" than marketing.*
 
 
 ## Management and Leadership
