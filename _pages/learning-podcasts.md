@@ -26,18 +26,18 @@ The Cybersecurity Librarian recommends these 3 podcasts. They have these attribu
 : *Bias Caution* The host has an obvious bias and may state, as fact, his opinion about the motivations of the people he interviews. The show may also fail to verify the accuracy of statements made by the guests: sometimes the guest's word is taken as fact. The compelling storytelling and engaging interviews makes it hard to notice this bias. Are the people he interviews the misunderstood geniuses they claim to be or are they antisocial criminals? Be concious of possible bias and draw your own conclusions.
 : *Personal Comment* It is the professional duty of librarians to identify bias and help people navigate complex presentation of ideas whether in books, articles, or podcasts. As a cybersecurity professional, The Darknet Diaries bias makes my blood boil, but I believe it is a necassary bias that makes the how work, and it is vital that cybersecurity defenders hear these stories. We have our own biases to be concious of as well. It is OK to call the guests of show criminals, and to hope they are held to account. It is also OK to be fascinated by their stories and to hope they "make good" of their lives.
 
-
-
 ## General
-
 
 ## News / Threat Intelligence
 
+[Recorded Future Podcast](https://www.recordedfuture.com/resources/podcast/)
+: Recorded Future is a company that offers Threat Intelligence services. Their podcast is hosted by Cyberwire host Dave Bittner, and presents interviews with professionals involved in Cyber Threat Intelligence work. Unlike many other vendor podcasts, this one does not focus exclusively on interviewing their own staff and includes many people throughout the industry. It is not a sales-focused marketing initiative and the treatment of topics and selection of guests does not appear to be overly biased.
 
 ## People and Profession
 
-[Moro and Mike]({{site.url}}/moro-and-mike/podcast.rss)
+[Moro and Mike]({{site.baseurl}}/moro-and-mike/podcast.rss)
 : Available in iTunes/Apple Podcasts, Google Podcasts, Spotify and others, this is the audio-only recording of the weekly Moro and Mike YouTube livestream. The show focuses on professional development issues, not technical training and tries to bring many guests from outside Cybersecurity to help us develop a better profession.
+
 
 ## Privacy, Law, and Policy
 

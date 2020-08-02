@@ -1,6 +1,6 @@
 ---
 title: "Writing Skills"
-permalink: "/learning/podcasts"
+permalink: "/learning/writing"
 ---
 
 # {{page.title}}
