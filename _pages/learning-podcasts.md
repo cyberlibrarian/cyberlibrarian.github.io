@@ -36,7 +36,6 @@ The Cybersecurity Librarian recommends these 3 podcasts. They have these attribu
 [Moro and Mike]({{site.baseurl}}/moro-and-mike/podcast.rss)
 : Available in iTunes/Apple Podcasts, Google Podcasts, Spotify and others, this is the audio-only recording of the weekly Moro and Mike YouTube livestream. The show focuses on professional development issues, not technical training and tries to bring many guests from outside Cybersecurity to help us develop a better profession.
 
-
 ## Privacy, Law, and Policy
 
 [Caveat](https://www.thecyberwire.com/podcasts/caveat)
@@ -50,6 +49,3 @@ The Cybersecurity Librarian recommends these 3 podcasts. They have these attribu
 
 [Dev.Sec.Lead](https://www.devseclead.com/)
 : Hosted by Threat Intelligence author Wilson Bautisa Jr., this podcast focuses on leadership development. It is of interest not just to CISOs and managers, but also for the every-day professional. The interview and topics vary greatly and the depth the topics are treated is refreshing. These guests are positive role models focused on improving our profession.
-
-## Cybercrime
-
