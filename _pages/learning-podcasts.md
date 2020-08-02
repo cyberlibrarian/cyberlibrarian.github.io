@@ -32,7 +32,6 @@ The Cybersecurity Librarian recommends these 3 podcasts. They have these attribu
 ## News / Threat Intelligence
 
 
-
 ## People and Profession
 
 
@@ -41,11 +40,9 @@ The Cybersecurity Librarian recommends these 3 podcasts. They have these attribu
 
 ## Management
 
+[Dev.Sec.Lead](https://www.devseclead.com/)
+: Hosted by Threat Intelligence author Wilson Bautisa Jr., this podcast focuses on leadership development. It is of interest not just to CISOs and managers, but also for the every-day professional. The interview and topics vary greatly and the depth the topics are treated is refreshing. These guests are positive role models focused on improving our profession.
+
 
 ## Cybercrime
 
-## Notes
-
-There are a few podcasts that are quite popular that The Cybersecurity Librarian does not recommend. While popular they lack qualities that make the others outstanding or have "quality" issues or a track record of avoidable bias. Basically, if the hosts are sexist, hyperbolic, narracistic, or present personal rather than professional opinions, I'm not going to recommend it. I'm not saying don't listen to them, I'm saying, "Listen with a critical mind." VICE Motherboard's "CYBER" for example, or "Security Weekly" are both entertaining and engaging, but CYBER makes avoidable factual errors, presents instinct as evidence frequently. Security Weekly cultivates sexism and hyperbole for the sake of being entertaining. Today, we have so many choices, it simply isn't necassary to embrace the unstated bias of these podcasts.
-
-There I did it. I called out two of the most popular cybersecurity podcasts like a good librarian.
