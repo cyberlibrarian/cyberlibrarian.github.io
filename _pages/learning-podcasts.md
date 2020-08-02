@@ -5,6 +5,8 @@ permalink: "/learning/podcasts"
 
 # {{page.title}}
 
+This is a list of high-quality audio-only podcasts 
+
 ## Top 3
 
 The Cybersecurity Librarian recommends these 3 podcasts. They have these attributes:
@@ -34,15 +36,17 @@ The Cybersecurity Librarian recommends these 3 podcasts. They have these attribu
 
 ## People and Profession
 
+[Moro and Mike]({{site.url}}/moro-and-mike/podcast.rss)
+: Available in iTunes/Apple Podcasts, Google Podcasts, Spotify and others, this is the audio-only recording of the weekly Moro and Mike YouTube livestream. The show focuses on professional development issues, not technical training and tries to bring many guests from outside Cybersecurity to help us develop a better profession.
 
-## Privacy
+## Privacy, Law, and Policy
 
 
-## Management
+
+## Management and Leadership
 
 [Dev.Sec.Lead](https://www.devseclead.com/)
 : Hosted by Threat Intelligence author Wilson Bautisa Jr., this podcast focuses on leadership development. It is of interest not just to CISOs and managers, but also for the every-day professional. The interview and topics vary greatly and the depth the topics are treated is refreshing. These guests are positive role models focused on improving our profession.
-
 
 ## Cybercrime
 
