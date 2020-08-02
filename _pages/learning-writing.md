@@ -26,6 +26,9 @@ Penetration Testers rarely start as excellent writers. Some, but not all, start 
 
 Start with learning how to write a narrative report: the most common and easiest type of pentest report. "Easy" is relative. Most people can easily write a narrative report, but it takes practices and feedback to write a good one. Like pentesting, you get better with practice and with harder and harder challenges.
 
+[Penetration Test Report](https://www.offensive-security.com/reports/sample-penetration-testing-report.pdf)
+: [Offensive Security](https://www.offensive-security.com/) has provided this template for use by their OSCP penetration testing students for years. It is a narrative report and is intended to capture what activities you carried our in your pentest and the order you did them. You should report evidence of vulnerabilities you discover, but the best reports also contain evidence when you find nothing (allowing clients to understand what attacks did *not* work).
+
 I recommend Offensive Security's advice on narratives (but not their assertion that a narrative is the same as a pentest report). 
 
 When you get good at writing your narrative reports, and consistently include verifiable proof of testing as well as verifiable findings, it will be time to practice writing more complete reports (your narrative report is just an appendix to the actual report the client will want). Clients need background, context, risk rankings, and evidence-based recommendations. It is not easy, but it just takes practice. Sadly, again, there are not many good examples to learn fromm. I recommend starting with this SANS Paper by Alharbi (2010).
