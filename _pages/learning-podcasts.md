@@ -5,21 +5,23 @@ permalink: "/learning/podcasts"
 
 # {{page.title}}
 
-## Top Rate
+## Top 3
 
 The Cybersecurity Librarian recommends these 3 podcasts. They have these attributes:
 
 - Original Content
 - Quality Analysis
 
-The Cyberwire
-I believe this is the gold standard for general daily cybersecurity news. The content is timely.  The producers actively minimize, disclose, or state bias. The information is accurate and authoritative. The sources they choose are well selected and authoritative. I have seen them state when a source was not primary. The analysis is insightful. The style of the primary host (Dave Bittner) is charming, wry, and still effecient and professional. The guests are well choosen and diverse. While the revenue model they have (advertising/sponsorship) does bias their selection of guests, the interviews themselves appear to be far less bias than other similar shows. 
+[The Cyberwire](https://www.thecyberwire.com/)
+: I believe this is the gold standard for general daily cybersecurity news. The content is timely.  The producers actively minimize, disclose, or state bias. The information is accurate and authoritative. The sources they choose are well selected and authoritative. I have seen them state when a source was not primary. The analysis is insightful. The style of the primary host (Dave Bittner) is charming, wry, and still effecient and professional. The guests are well choosen and diverse. While the revenue model they have (advertising/sponsorship) does bias their selection of guests, the interviews themselves appear to be far less bias than other similar shows. 
+: The Cyberwire has a number of spin-off podcasts on the topics of Social Engineer, Cybersecurity Law, Security and Vulnerability Research, and Security Management. Each strikes its own balance of entertainment, education, and original content. Each relies on unique and authoritative guests.
 
-Malicious Life
-An extraordinary documentary-style podcast. The host Ran Levi is an engaging presenter and selects worthy topics from the history of cybercrime. What makes this podcast worth listening too is how the producers take complicate timelines of events, balance the detail required, and tell the story of major historical cybersecurity events. There is occaisional bias, but the hosts are good at stating it (mostly). The accuracy and historical detail of the content are impressive. They manage to balance the level of historical and technical detail and tell an entertaining and educational story.
+[Malicious Life](https://malicious.life/)
+: An extraordinary documentary-style podcast. The host Ran Levi is an engaging presenter and selects worthy topics from the history of cybercrime. What makes this podcast worth listening too is how the producers take complicate timelines of events, balance the detail required, and tell the story of major historical cybersecurity events. There is occaisional bias, but the hosts are good at stating it (mostly). The accuracy and historical detail of the content are impressive. They manage to balance the level of historical and technical detail and tell an entertaining and educational story.
 
-Darknet Diaries
-: *Bias Caution* Darknet Diaries is an extraordinary podcast: entertaining, unique, and much needed. The host has an obvious bias and frequently states, as fact, his opinion about the motivations of the people he interviews. Jack Reysider is a compelling storyteller and engaging interviewer which makes it hard for the audience to notice the bias. Are the people he interviews antisocial criminals or misunderstood geniuses? Be concious of the host's bias and draw your own conclusions.
+[Darknet Diaries](https://darknetdiaries.com/)
+: Darknet Diaries presents stories of recent cybercrimes and interviews with cybercriminals, hackers, and penetration testers. Despite the title, the stories are not about the Darknet per se, but about criminal hacking and world of those that compromise security. The topics are diverse, the storytelling is compelling, and interviewed guests are unique. This will give you more than just an entertaining look at cybercrime, it allows us a window into the minds of the people behind many well known security incidents. You will hear first hand accounts from criminals and here them state their motivations, tell their life stories, and explain their actions.
+: *Bias Caution* The host has an obvious bias and frequently states, as fact, his opinion about the motivations of the people he interviews. While the producers attempt to verify things said by the guests, sometimes the guests word is taken as fact. The compelling storytelling and engaging interviews makes it hard to notice this bias. Are the people he interviews antisocial criminals or misunderstood geniuses? Be concious of possible bias and draw your own conclusions.
 
 
 ## General
