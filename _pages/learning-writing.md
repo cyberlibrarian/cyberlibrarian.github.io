@@ -3,8 +3,6 @@ title: "Writing Skills"
 permalink: "/learning/writing"
 ---
 
-# {{page.title}}
-
 Writing is a vital skill in cybersecurity. Even those in highly technical roles will be required to write clear concise technical documentation, procedures, and playbooks. Those involved in the assessment of risk, threats, and vulnerabilities will benefit from strong report writing skills. Managers and Consultants have the greatest need to develop effective communication and persuasive writing abilities.
 
 The resources listed on this page will help you develop your writing skills, no matter what your role and need. Please share with us anything that you found helpful. The most useful, clear, and authoritative resources will be added to this list.

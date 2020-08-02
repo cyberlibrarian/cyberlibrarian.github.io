@@ -3,8 +3,6 @@ title: "Recommended Podcasts"
 permalink: "/learning/podcasts"
 ---
 
-# {{page.title}}
-
 This is a list of high-quality audio-only podcasts 
 
 ## Top 3

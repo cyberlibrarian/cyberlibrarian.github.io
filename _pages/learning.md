@@ -1,9 +1,7 @@
 ---
-title: "Learning References"
+title: "Learning Resources"
 permalink: "/learning"
 ---
-
-# Learning References
 
 The Cybersecurity Librarian maintains a list of use references for helping you to learn more about cybersecurity, to keep up to date, and to develop your skills and knowledge. There are seperate pages for major categories of reference material.
 
