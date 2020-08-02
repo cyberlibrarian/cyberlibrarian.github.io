@@ -1,6 +1,5 @@
 ---
 title: "Learning References"
-layout: default
 permalink: "/learning"
 ---
 
