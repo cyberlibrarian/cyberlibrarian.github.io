@@ -15,23 +15,21 @@ The resources listed on this page will help you develop your writing skills, no 
 [How to write Proposals, Sales Letters & Reports](https://books.google.ca/books?id=KUyrAbpXGi8C&lpg=PP1&dq=inauthor%3A%22Neil%20Sawers%22&pg=PA84#v=onepage&q&f=false)
 : Also from Neil Sawer, this book uses some of the same writing advice from "Write Better Essays" and applies it to the business world. There is more emphasis on persuasive writing and on communicating with visuals, charts, etc.
 
-
 ## Writing for Penetration Testers and Vulnerability Assessment
 
 *If you have additional or better examples, templates, or writing guides for pentration testers, please let us know!*
 
-Penetration Testers rarely start as excellent writers. Some, but not all, start their careers following less formal paths and do not benefit from the learning that only comes when you are required to present your thoughts in writing. Do not let anything stop you from becoming a great writer! Your observations and discoveries benefit nobody if they cannot be communicated and understood. It is up to you to make that happen. Sadly, there are few good resources to help out the motivated pentester to write a good report.
+Penetration Testers rarely start as excellent writers. Your observations and discoveries need to be communicated and understood if they are to be valued. If you have felt frustrated trying to find good resources on writing pentest reports, you are not alone. Standards for writing pentest reports are emerging and so is advince on good writing. If writing is new to you, remember it just takes practice, just like pentesting does.
 
-Start with learning how to write a narrative report: the most common and easiest type of pentest report. "Easy" is relative. Most people can easily write a narrative report, but it takes practices and feedback to write a good one. Like pentesting, you get better with practice and with harder and harder challenges.
+Start with learning how to write a narrative report: the most common and easiest type of pentest report.
 
 [Penetration Test Report](https://www.offensive-security.com/reports/sample-penetration-testing-report.pdf)
-: [Offensive Security](https://www.offensive-security.com/) has provided this template for use by their OSCP penetration testing students for years. It is a narrative report and is intended to capture what activities you carried our in your pentest and the order you did them. You should report evidence of vulnerabilities you discover, but the best reports also contain evidence when you find nothing (allowing clients to understand what attacks did *not* work).
+: [Offensive Security](https://www.offensive-security.com/) has provided this template for use by their OSCP penetration testing students for years. It is intended to capture what activities you carried our in your pentest and the order you did them. While it does include recommendations the main focus is on capturing evidence.
 
-I recommend Offensive Security's advice on narratives (but not their assertion that a narrative is the same as a pentest report). 
-
-When you get good at writing your narrative reports, and consistently include verifiable proof of testing as well as verifiable findings, it will be time to practice writing more complete reports (your narrative report is just an appendix to the actual report the client will want). Clients need background, context, risk rankings, and evidence-based recommendations. It is not easy, but it just takes practice. Sadly, again, there are not many good examples to learn fromm. I recommend starting with this SANS Paper by Alharbi (2010).
+Your clients may not value a narrative report. Most want documented observations, risk assessment, and actionable recommendations. When you get good at writing your narrative reports, and consistently include verifiable proof of testing as well as verifiable findings, it will be time to practice writing more complete reports. 
 
 [Writing Penetration Testing Reports](https://www.sans.org/reading-room/whitepapers/bestprac/writing-penetration-testing-report-33343)
+: This is a paper from the SANS Institute's Reading Room, submitted by a GIAC candidates paper for "GOLD" certification. It presents a fuller view of what a penetration testing report should look like. You will notice that it does not bear much resemblance to the Offensive Security "narrative" template. A narrative report would be an appendix to this type of report. This is what a client is looking for from a vulnerability report: background, risk assessment, and actionable recommendations.
 
 ## Project Propoals and Statements of Work
 
