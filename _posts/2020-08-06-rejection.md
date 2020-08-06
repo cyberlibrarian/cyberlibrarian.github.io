@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Quick and Dirty DFIR"
-subtitle: "Performing live incident response before you are not ready"
+title:  "Handling Rejection"
+subtitle: "For Job Seekers and Hiring Managers"
 authors: [michael,moro]
 categories: [Moro and Mike]
 image: assets/images/2020-08-06.png
