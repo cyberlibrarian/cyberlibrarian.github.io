@@ -1,5 +1,4 @@
 ---
-published: false
 layout: post
 title:  "Quick and Dirty DFIR"
 subtitle: "Performing live incident response before you are not ready"
