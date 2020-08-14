@@ -5,7 +5,7 @@ authors: [michael,moro]
 categories: [ Moro and Mike ]
 image: assets/images/2020-05-08.png
 youtube: yfUy0xxd2k4
-tags: [careers, resumes, cover-letters, job-hunting]
+tags: [careers,resumes,cover-letters,job-hunting]
 ---
 This is part of a weekly series of live discussions between cyber security professionals in Calgary, AB. Hosted by Moro and Mike, every Friday we interview our friends and colleagues about issues that matter in IT and Cyber security.
 
