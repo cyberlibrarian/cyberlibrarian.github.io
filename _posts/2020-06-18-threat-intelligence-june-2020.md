@@ -5,7 +5,7 @@ authors: [michael,moro]
 categories: [Moro and Mike]
 image: assets/images/2020-06-18.png
 youtube: bsxRiOKHjQw
-tags: [featured, threat-intel]
+tags: [threat-intel]
 date: 2020-06-18 19:00:00
 mp3_file: assets/mp3/2020-06-18_Threat_Intelligence.mp3
 summary: Moro and Mike are joined by Chris McNeil and Alec Mather-Shapiro to discuss the value of Threat Intel reports and to discuss recent breaches and cybersecurity news.

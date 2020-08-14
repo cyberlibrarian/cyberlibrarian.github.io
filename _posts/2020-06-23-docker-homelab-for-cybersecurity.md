@@ -5,7 +5,7 @@ authors: [michael]
 categories: [ Technical Tuesday ]
 image: assets/images/2020-06-23.png
 youtube: xSO4UEx4NUA
-tags: [docker,homelab,cybersecurity]
+tags: [featured,docker,homelab,cybersecurity]
 ---
 In this livestream I explain how to use Docker for Windows to create a cybersecurity Homelab. 
 

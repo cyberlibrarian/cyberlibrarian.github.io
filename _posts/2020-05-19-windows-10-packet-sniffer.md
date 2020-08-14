@@ -5,7 +5,7 @@ authors: [michael]
 categories: [ Technical Tuesday ]
 image: assets/images/2020-05-19.png
 youtube: 1sJSKWkhh7k
-tags: [windows,windows10,packet-sniffer,pktmon]
+tags: [featured,windows,windows10,packet-sniffer,pktmon]
 ---
 This Tuesday I will demonstrate "pktmon" the new Windows 10 packet sniffer. It is built-in to the latest release of Windows 10 and promised to be the new great way to get packet captures.
 

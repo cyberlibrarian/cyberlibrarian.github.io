@@ -6,7 +6,7 @@ authors: [michael,moro]
 categories: [Moro and Mike]
 image: assets/images/2020-07-16.png
 youtube: WqeYdHrSqCo
-tags: [featured, youtube, livestream, cybersecurity,certifications, training, career-development]
+tags: [youtube, livestream, cybersecurity,certifications, training, career-development]
 date: 2020-07-16 19:00:00
 mp3_file: assets/mp3/2020-07-16_Cybersecurity_Certifications.mp3
 summary: Moro and Mike are joined by Mark Shykula to discuss the types, value, and controveries of cybersecurity certifications.

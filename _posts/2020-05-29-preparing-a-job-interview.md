@@ -5,7 +5,7 @@ authors: [michael,moro]
 categories: [ Moro and Mike ]
 image: assets/images/2020-05-29.png
 youtube: 9z_gR7IywxE
-tags: [careers, job-interview, professional-development]
+tags: [featured,careers, job-interview, professional-development]
 date: 2020-05-29 19:00:00
 mp3_file: assets/mp3/2020-05-29_Job_Interviews.mp3
 summary: Moro and Mike talk to Jessica Riad-Wallace about how people can prepare for job interviews.

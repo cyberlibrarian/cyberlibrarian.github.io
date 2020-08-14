@@ -5,7 +5,7 @@ authors: [michael,moro]
 categories: [ Moro and Mike ]
 image: assets/images/2020-05-15.png
 youtube: DgBer_nb2no
-tags: [Job Hunting, Networking]
+tags: [featured,Job Hunting, Networking]
 ---
 This is a companion article to a YouTube Livestream on Fri May 15, 2020 on using social networking in a job search. Check it out here: <https://youtu.be/DgBer_nb2no>
 

@@ -5,7 +5,7 @@ authors: [michael]
 categories: [ Threat Intelligence ]
 image: assets/images/energy-sector-cyberthreats.png
 youtube: 42gPLWg2sRw
-tags: [featured, threat-intel, hacktivism, cybercrime, cyberwar, hackers]
+tags: [threat-intel, hacktivism, cybercrime, cyberwar, hackers]
 ---
 This is new recording of a talk I frequently gave between 2015-2017. It is an open-source intelligence review of emerging Cyber Threats in the Energy Sector. This is a short version of the talk: there was a much longer in-depth version, but for my purposes this short version will suffice.
 
