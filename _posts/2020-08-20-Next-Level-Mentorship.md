@@ -15,7 +15,7 @@ explicit: "no" #other option is no
 block: "no" #means is shown in itunes
 ---
 
-Moro & Mike will be joined by Patti Blackstaffe C.P.C, (she/her/hers) to discuss mentorship.
+Moro & Mike will be joined by [Patti Blackstaffe C.P.C, (she/her/hers)](https://www.linkedin.com/in/pattiblackstaffe/) to discuss mentorship.
 
 *LIVE on Thu Aug 20, 2020 at 7 PM MDT*
 
@@ -23,3 +23,4 @@ Cybersecurity lacks the same tradition of mentorship found in other established 
 
 Join as we learn from Patti's experience, and take your LIVE questions.
 
+# References
