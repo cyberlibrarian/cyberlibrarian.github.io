@@ -28,3 +28,4 @@ Join as we learn from Patti's experience, and take your LIVE questions.
 Faber, S. \[2009\]. [Greater Than Yourself](https://www.goodreads.com/book/show/6072142-greater-than-yourself). *Crown Business*. <https://www.goodreads.com/book/show/6072142-greater-than-yourself>
 
 
+
