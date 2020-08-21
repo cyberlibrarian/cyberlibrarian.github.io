@@ -27,5 +27,5 @@ Join as we learn from Patti's experience, and take your LIVE questions.
 
 Faber, S. \[2009\]. [Greater Than Yourself](https://www.goodreads.com/book/show/6072142-greater-than-yourself). *Crown Business*. <https://www.goodreads.com/book/show/6072142-greater-than-yourself>
 
-
+Staff. \[May 13, 2020\]. [3 Ways to Find a Cybersecurity Mentor](https://blog.isc2.org/isc2_blog/2020/05/3-ways-to-find-a-cybersecurity-mentor.html). *ISC2 Blog*. <https://blog.isc2.org/isc2_blog/2020/05/3-ways-to-find-a-cybersecurity-mentor.html>
 
