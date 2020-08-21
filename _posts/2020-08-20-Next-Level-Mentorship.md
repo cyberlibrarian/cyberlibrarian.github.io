@@ -7,9 +7,9 @@ image: assets/images/2020-08-20.png
 youtube: pNHP_uusl1g
 tags: [featured, upcoming futurism, artificial intelligence, crispr, decision intelligence, self-driving cars, machine learning, blockchain]
 date: 2020-08-20 19:00:00
-#mp3_file: assets/mp3/2020-08-13_Futurism.mp3
-#duration: "01:48:13" #audio length in min
-#length: "101302692" #filesize in byte
+mp3_file: assets/mp3/2020-08-20_Next_Level_Mentorship.mp3
+duration: "01:27:2" #audio length in min
+length: "81781908" #filesize in byte
 summary: Moro and Mike are joined by guest Patti Blackstaffe to discuss how to take mentorship to the next level in your career.
 explicit: "no" #other option is no
 block: "no" #means is shown in itunes
