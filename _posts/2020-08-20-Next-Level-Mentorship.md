@@ -47,10 +47,6 @@ Other links that may be of interest??
 
 [The Jigsaw Organization Download](https://www.scopism.com/the-jigsaw-organization-putting-the-pieces-back-together/) – Future Forward steps in a new complex world
 
-Inauthenticate leadership
-lack of transparency
-culture and complicity (complicity in someone else drama)
-not getting to the root
 
 # Patti's Projects and Companies
 
