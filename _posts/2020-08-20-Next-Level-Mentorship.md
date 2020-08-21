@@ -44,3 +44,9 @@ Other links that may be of interest??
 Keeping the Learning On (KTLOLearn) Episodes, YouTube. Conversations on technology and humanity
 Bright Talk Strategic Approach Webinar free with login – learn strategy and a systematic lessons learned
 The Jigsaw Organization Download – Future Forward steps in a new complex world
+
+Inauthenticate leadership
+lack of transparency
+culture and complicity (complicity in someone else drama)
+not getting to the root
+
