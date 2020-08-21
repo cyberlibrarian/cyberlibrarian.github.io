@@ -41,9 +41,11 @@ European Mentoring and Coaching Council EMCC Code of ethics
 <https://www.emccglobal.org/wp-content/uploads/sites/6/2018/01/4.pdf>
 
 Other links that may be of interest??
-Keeping the Learning On (KTLOLearn) Episodes, YouTube. Conversations on technology and humanity
-Bright Talk Strategic Approach Webinar free with login – learn strategy and a systematic lessons learned
-The Jigsaw Organization Download – Future Forward steps in a new complex world
+[Keeping the Learning On (KTLOLearn)](https://www.youtube.com/channel/UCr53yxLJjTintGvccowj4LA) Episodes, YouTube. Conversations on technology and humanity
+
+[Bright Talk Strategic Approach Webinar](https://www.brighttalk.com/webcast/8855/399154?utm_campaign=viewing-history&utm_source=brighttalk-portal&utm_medium=web) free with login – learn strategy and a systematic lessons learned
+
+[The Jigsaw Organization Download](https://www.scopism.com/the-jigsaw-organization-putting-the-pieces-back-together/) – Future Forward steps in a new complex world
 
 Inauthenticate leadership
 lack of transparency
