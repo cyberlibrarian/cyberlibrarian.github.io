@@ -29,3 +29,4 @@ Faber, S. \[2009\]. [Greater Than Yourself](https://www.goodreads.com/book/show/
 
 Staff. \[May 13, 2020\]. [3 Ways to Find a Cybersecurity Mentor](https://blog.isc2.org/isc2_blog/2020/05/3-ways-to-find-a-cybersecurity-mentor.html). *ISC2 Blog*. <https://blog.isc2.org/isc2_blog/2020/05/3-ways-to-find-a-cybersecurity-mentor.html>
 
+[ISACA Vancouver Chapter Mentorship Program](https://engage.isaca.org/vancouverchapter/mentorship7). *ISACA*. <https://engage.isaca.org/vancouverchapter/mentorship7>
