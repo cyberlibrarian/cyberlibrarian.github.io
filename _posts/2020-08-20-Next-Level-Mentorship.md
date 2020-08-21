@@ -30,3 +30,17 @@ Faber, S. \[2009\]. [Greater Than Yourself](https://www.goodreads.com/book/show/
 Staff. \[May 13, 2020\]. [3 Ways to Find a Cybersecurity Mentor](https://blog.isc2.org/isc2_blog/2020/05/3-ways-to-find-a-cybersecurity-mentor.html). *ISC2 Blog*. <https://blog.isc2.org/isc2_blog/2020/05/3-ways-to-find-a-cybersecurity-mentor.html>
 
 [ISACA Vancouver Chapter Mentorship Program](https://engage.isaca.org/vancouverchapter/mentorship7). *ISACA*. <https://engage.isaca.org/vancouverchapter/mentorship7>
+
+Greater than yourself
+<https://www.amazon.ca/dp/B001NLL4S2/ref=dp-kindle-redirect?_encoding=UTF8&btkr=1>
+
+Sign up to keep abreast of the book launch
+<https://lp.constantcontactpages.com/su/YNA9l4w>
+
+European Mentoring and Coaching Council EMCC Code of ethics
+<https://www.emccglobal.org/wp-content/uploads/sites/6/2018/01/4.pdf>
+
+Other links that may be of interest??
+Keeping the Learning On (KTLOLearn) Episodes, YouTube. Conversations on technology and humanity
+Bright Talk Strategic Approach Webinar free with login – learn strategy and a systematic lessons learned
+The Jigsaw Organization Download – Future Forward steps in a new complex world
