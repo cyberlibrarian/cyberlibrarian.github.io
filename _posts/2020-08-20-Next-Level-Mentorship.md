@@ -47,6 +47,9 @@ Other links that may be of interest??
 
 [The Jigsaw Organization Download](https://www.scopism.com/the-jigsaw-organization-putting-the-pieces-back-together/) – Future Forward steps in a new complex world
 
+# Patti's BIO
+
+Helping leaders balance technology and humanity, because our world and our businesses are not binary. 20 years in IT, working internationally on large infrastructure control systems and since 2008 helping companies adopt technology and lead change. Currently working with executive technology leaders in creating the kind of organization that takes balancing technology and humanity seriously. From leadership and governance to training and consulting on organizational structures that support technology meeting business strategy. Geek, artist, writer, and loves dancing.
 
 # Patti's Projects and Companies
 
