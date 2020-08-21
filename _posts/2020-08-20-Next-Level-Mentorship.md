@@ -50,3 +50,14 @@ lack of transparency
 culture and complicity (complicity in someone else drama)
 not getting to the root
 
+# Patti's Projects and Companies
+
+<https://strategicsense.com/>
+
+<https://globalsway.com/>
+
+<https://www.youtube.com/channel/UCr53yxLJjTintGvccowj4LA/videos>
+
+<https://ktlolearn.com/>
+
+
