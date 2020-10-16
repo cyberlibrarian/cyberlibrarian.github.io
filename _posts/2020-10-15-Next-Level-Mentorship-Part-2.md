@@ -26,5 +26,5 @@ Kristin comes from a professional society that has an established program for en
 
 # References
 
-(Mentorship Program at IABC)[https://iabccalgary.com/learn/mentorship-program/]
+[Mentorship Program at IABC](https://iabccalgary.com/learn/mentorship-program/)
 
