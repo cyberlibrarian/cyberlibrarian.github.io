@@ -4,7 +4,7 @@ layout: null
 permalink: "/moro-and-mike/podcast.rss"
 ---
 <?xml version="1.0" encoding="UTF-8"?> 
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xml:lang="{{ site.lang }}" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"> 
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xml:lang="{{ site.lang }}" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
 <channel>
     <link>{{ site.url }}/moro-and-mike</link>
     <title>Moro and Mike</title>
