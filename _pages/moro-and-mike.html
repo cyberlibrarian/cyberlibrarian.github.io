@@ -14,7 +14,7 @@ permalink: "/moro-and-mike/about"
 		<p>&nbsp;</p>
 
         <h4 class="font-weight-bold spanborder" id="livestreams"><span>Past Livestreams</span></h4>
-        {% assign posts = site.posts | where:"authors","moro" %}
+        {% assign posts = site.posts | where:"categories","Moro and Mike" %}
         {% for post in posts %}
         {% if post.title != null %}
           {% if group == null or group == post.group %}         
