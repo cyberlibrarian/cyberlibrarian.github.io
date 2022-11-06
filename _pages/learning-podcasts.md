@@ -21,18 +21,18 @@ The Cybersecurity Librarian recommends these 3 podcasts. They have these attribu
 : An extraordinary documentary-style podcast. The host Ran Levi is an engaging presenter and selects worthy topics from the history of cybercrime. What makes this podcast worth listening too is how the producers take complicate timelines of events, balance the detail required, and tell the story of major historical cybersecurity events. There is occaisional bias, but the hosts are good at stating it (mostly). The accuracy and historical detail of the content are impressive. They manage to balance the level of historical and technical detail and tell an entertaining and educational story.
 
 [Darknet Diaries](https://darknetdiaries.com/)
-: Darknet Diaries presents stories of recent cybercrimes and interviews with cybercriminals, hackers, and penetration testers. Despite the title, the stories are not about the Darknet per se, but about criminal hacking and world of those that compromise security. The topics are diverse, the storytelling is compelling, and interviewed guests are unique. This will give you more than just an entertaining look at cybercrime, it allows us a window into the minds of the people behind many well known security incidents. You will hear first hand accounts from criminals and here them state their motivations, tell their life stories, and explain their actions.
-: *Bias Caution* The host has an obvious bias and may state, as fact, his opinion about the motivations of the people he interviews. The show may also fail to verify the accuracy of statements made by the guests: sometimes the guest's word is taken as fact. The compelling storytelling and engaging interviews makes it hard to notice this bias. Are the people he interviews the misunderstood geniuses they claim to be or are they antisocial criminals? Be concious of possible bias and draw your own conclusions.
+: Darknet Diaries presents stories of recent cybercrimes and interviews with cybercriminals, hackers, and penetration testers. Despite the title, the stories are not about the Darknet per se, but about criminal hacking and world of those that compromise security. The topics are diverse, the storytelling is compelling, and interviewed guests are unique. This will give you more than just an entertaining look at cybercrime, it allows us a window into the minds of the people behind many well known security incidents. This is not fact-checked journalism: these are excellent stories. You will hear first hand accounts from criminals and here them state their motivations, tell their life stories, and explain their actions. 
 
 ## News / Threat Intelligence
 
+[Discarded](https://www.proofpoint.com/us/podcasts/discarded)
+: Proofpoint has an amazing Cyber Threat Intelligence team. They are especially well known for tracking email-based threats. This podcasts gives you a behind-the-scenes look into the work of Proofpoint's intelligence analysts. Typical episodes introduce you to a few analysts, their backgrounds, and the focus of their intelligence work. Then there is a discussion that follows about notable threat actors or analysis methods. If your work involves reporting on any of the "TA" actors (TA505, TA577, TA570), then this podcast is for you. While this is sponsored by a security vendor it is not marketing oriented, and seems to be driven by the analysts themselves giving it an authentic feel: quality content instead of shiny production values.
+
+[Click Here](https://therecord.media/podcast/)
+: Recorded Future's newest podcast takes a journalistic style that is different than many other security podcasts. The topics are typically similar to what you might see in the news, but coving the "cyber" side: cyber-espionage, cyber-crime, or cyber-intelligence. The host, Dina Temple-Raston, was formerly part of NPR's Investigation team and the podcast takes on a serious and more intriguing tone: The format is documentary journalism not round-table discussion.
+
 [Recorded Future Podcast](https://www.recordedfuture.com/resources/podcast/)
 : Recorded Future is a company that offers Threat Intelligence services. Their podcast is hosted by Cyberwire host Dave Bittner, and presents interviews with professionals involved in Cyber Threat Intelligence work. Unlike many other vendor podcasts, this one does not focus exclusively on interviewing their own staff and includes many people throughout the industry. It is not a sales-focused marketing initiative and the treatment of topics and selection of guests does not appear to be overly biased.
-
-## People and Profession
-
-[Moro and Mike](https://cyberlibrarian.ca/moro-and-mike/podcast.rss)
-: Available in iTunes/Apple Podcasts, Google Podcasts, Spotify and others, this is the audio-only recording of the weekly Moro and Mike YouTube livestream. The show focuses on professional development issues, not technical training and tries to bring many guests from outside Cybersecurity to help us develop a better profession.
 
 ## Privacy, Law, and Policy
 
@@ -42,8 +42,7 @@ The Cybersecurity Librarian recommends these 3 podcasts. They have these attribu
 [Privacy Insider](https://wirewheel.io/resources/the-privacy-insider/)
 : Hosted by Justin Antonipllai, the former Under Secretary for Economic Affairs at the US Department of Commerce, this podcast takes a serious look at law, policy, and social issues related to privacy. *The Cybersecurity Librarian has yet to render a verdict on bias. It is sponsored, but the content seemed more "privacy geek" than marketing.*
 
-
 ## Management and Leadership
 
-[Dev.Sec.Lead](https://www.devseclead.com/)
-: Hosted by Threat Intelligence author Wilson Bautisa Jr., this podcast focuses on leadership development. It is of interest not just to CISOs and managers, but also for the every-day professional. The interview and topics vary greatly and the depth the topics are treated is refreshing. These guests are positive role models focused on improving our profession.
+[Dev.Sec.Lead](https://podcasts.apple.com/us/podcast/dev-sec-lead/id1469494249)
+: While this podcast is no longer produced, it is still available on most platforms. Hosted by Threat Intelligence author Wilson Bautisa Jr., this podcast focuses on leadership development. It is of interest not just to CISOs and managers, but also for the every-day professional. The interview and topics vary greatly and the depth the topics are treated is refreshing. These guests are positive role models focused on improving our profession. This
