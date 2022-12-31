@@ -64,7 +64,7 @@ defaults:
       
 # Syntax
 markdown: kramdown
-#highlighter: rouge
+highlighter: rouge
 
 
 # Exclude metadata and development time dependencies (like Grunt plugins)
