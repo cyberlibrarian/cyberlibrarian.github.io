@@ -17,7 +17,7 @@ permalink: "/moro-and-mike/about"
         {% for post in posts %}
         {% if post.title != null %}
           {% if group == null or group == post.group %}         
-          - {% post.title %}
+          - {{ post.title }}
           {% endif %}
         {% endif %}
         {% endfor %}
