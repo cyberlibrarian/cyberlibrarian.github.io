@@ -1,6 +1,5 @@
 ---
 title: "Learning Resources"
-layout: pages
 permalink: "/learning"
 ---
 
