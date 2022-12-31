@@ -1,5 +1,6 @@
 ---
 title: "Writing Skills"
+layout: pages
 permalink: "/learning/writing"
 ---
 

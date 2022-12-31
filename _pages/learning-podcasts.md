@@ -1,5 +1,6 @@
 ---
 title: "Recommended Podcasts"
+layout: pages
 permalink: "/learning/podcasts"
 ---
 
