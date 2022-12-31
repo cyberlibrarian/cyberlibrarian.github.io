@@ -1,8 +1,6 @@
 ---
 title: "The Cybersecurity Librarian"
 layout: default
-pagination:
-    enabled: true
 description: "Enabling Cybersecurity Learners"
 ---
 <div class="container">
