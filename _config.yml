@@ -7,6 +7,7 @@ baseurl: ''
 url: 'https://cyberlibrarian.ca'
 show_excerpts: true
 logo: 'assets/images/logo.png'
+paginate: true
   
 # custom Variables for my site
 logo: 'assets/images/logo.png'
@@ -48,7 +49,7 @@ theme: 'minima'
 # Plugins
 plugins: 
   - jekyll-feed
-#  - jekyll-sitemap
+  - jekyll-sitemap
 #  - jekyll-remote-theme
 
 # Exclude from processing.

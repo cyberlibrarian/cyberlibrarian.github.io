@@ -14,4 +14,4 @@ This allows me to re-use my containers and easily create new analysis experiment
 
 In this livestream I will walk through my use cases and how I use docker step-by-step.
 
-[![Youtube Video: {{post.title}}]({{post.image}})]({{post.youtube}} "{{post.title}}")
+[![{{page.title}}]({{post.image}})]({{page.youtube}} "{{page.title}}")
