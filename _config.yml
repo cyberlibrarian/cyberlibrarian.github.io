@@ -1,26 +1,42 @@
 # Site
 title: 'The Cybersecurity Librarian'
-email: 'michael@cyberlibrarian.ca'
-#theme: 'minima'
-remote_theme: pages-themes/minimal
-github_username: 'cyberlibrarian'
-name: 'The Cybersecurity Librarian'
 description: 'Cataloguing Threats, Classifying Risks, and Building Security Literacy'
-logo: 'assets/images/logo.png'
-favicon: 'assets/images/favicon.ico'
-lang: en-us
+email: 'michael@cyberlibrarian.ca'
+github_username: 'cyberlibrarian'
 baseurl: ''
 url: 'https://cyberlibrarian.ca'
-author: 'Michael McDonnell'
-include: ["_pages"]
-permalink: /:title/
+
+# Syntax
+markdown: kramdown
+theme: 'minima'
+#remote_theme: pages-themes/minimal
+#highlighter: rouge
 
 # Plugins
 plugins: 
   - jekyll-feed
-  - jekyll-sitemap
-  - jekyll-remote-theme
+#  - jekyll-sitemap
+#  - jekyll-remote-theme
   
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
+
+  
+# custom Variables for my site
+logo: 'assets/images/logo.png'
+favicon: 'assets/images/favicon.ico'
+lang: en-us
+
 authors:
     michael:
       name:           Michael McDonnell
@@ -45,28 +61,3 @@ authors:
       bio:            "Moro is a modern day rennaissance man, an experienced network analyst, and cybersecurity professional. He is co-host of the Moro & Mike livestream."
       
  
- 
-# Defaults
-defaults:
-
-  # all posts
-  - scope:
-      path: "_posts"
-    values:
-      layout: post
-      author: cyberlibrarian
-      avatar: assets/images/IMG_0515a.png
-      
-  # all pages
-  - scope:
-      path: "_pages"
-    values:
-      layout: page
-      
-# Syntax
-markdown: kramdown
-#highlighter: rouge
-
-
-# Exclude metadata and development time dependencies (like Grunt plugins)
-exclude: [README.markdown, package.json, grunt.js, Gruntfile.js, Gruntfile.coffee, node_modules]
