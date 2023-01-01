@@ -1,5 +1,8 @@
 # Site
 title: 'The Cybersecurity Librarian'
+author:
+  email: michael@cyberlibrarian.ca
+  name: Michael McDonnell
 description: 'Cataloguing Threats, Classifying Risks, and Building Security Literacy'
 email: 'michael@cyberlibrarian.ca'
 github_username: 'cyberlibrarian'
@@ -8,15 +11,12 @@ url: 'https://cyberlibrarian.ca'
 show_excerpts: true
 logo: 'assets/images/logo.png'
 paginate: 5
-  
+theme: minima
+
 # custom Variables for my site
 logo: 'assets/images/logo.png'
-favicon: 'assets/images/favicon.ico'
+favicon: 'favicon.ico'
 lang: en-us
-
-author:
-    email: "michael@cyberlibrarian.ca"
-#    name: "Michael McDonnell"
 
 # minima
 minima:

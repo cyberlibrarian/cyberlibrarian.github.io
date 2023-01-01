@@ -12,7 +12,7 @@ permalink: "/moro-and-mike/podcast.rss"
 	<language>{{ site.lang }}</language>
 	<managingEditor>{{ site.email }} ({{ site.author }})</managingEditor>
 	<webMaster>{{ site.email }} ({{ site.author }})</webMaster>
-	<copyright>{{ site.time | "%Y" }} {{ site.title }}</copyright>
+	<copyright>{{ site.time | date: "%Y" }} {{ site.title }}</copyright>
 	<pubDate>{{ site.time | date_to_rfc822 }}</pubDate>
 	<lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
     <atom:link href="{{ site.url }}/moro-and-mike/podcast.rss" rel="self" type="application/rss+xml" />
