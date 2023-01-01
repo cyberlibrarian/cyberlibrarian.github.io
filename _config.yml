@@ -18,6 +18,7 @@ permalink: /:title/
 plugins: 
   - jekyll-feed
   - jekyll-sitemap
+  - jekyll-jupyter-notebook
   
 authors:
     michael:
