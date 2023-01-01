@@ -14,8 +14,9 @@ This allows me to re-use my containers and easily create new analysis experiment
 
 In this livestream I will walk through my use cases and how I use docker step-by-step.
 
-[![test](/{{post.image}})](https://youtu.be/{{page.youtube}} "{{page.title}}")
+[![test](/{{page.image}})](https://youtu.be/{{page.youtube}} "{{page.title}}")
 
 
-relative: {{ post.image | relative_url }}
-image: {{post.image}}
+relative: {{ page.image | relative_url }}
+
+image: {{page.image}}
