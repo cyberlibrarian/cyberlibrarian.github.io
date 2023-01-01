@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "Docker and Github"
 authors: [michael]
 categories: [ Technical Tuesday ]
@@ -14,3 +13,5 @@ Whenever I want to perform the analysis, I simply run a single command on my Win
 This allows me to re-use my containers and easily create new analysis experiments simply by creating a new repository.
 
 In this livestream I will walk through my use cases and how I use docker step-by-step.
+
+[![Youtube Video: {{post.title}}]({{post.image}})]({{post.youtube}} "{{post.title}}")

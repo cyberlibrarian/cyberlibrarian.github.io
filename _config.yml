@@ -14,8 +14,8 @@ favicon: 'assets/images/favicon.ico'
 lang: en-us
 
 author:
-  name: "Michael McDonnell"
-  email: "michael@cyberlibrarian.ca"
+    name: "Michael McDonnell"
+    email: "michael@cyberlibrarian.ca"
 
 # minima
 minima:
@@ -28,16 +28,12 @@ minima:
 
 header_pages:
     - _pages/learning.md
-    - _pages/moro-and-mike.html
+    - _pages/moro-and-mike.md
 
 include:
   - _pages
 
 defaults:
-  - scope:
-      path: "_posts"
-    values:
-      layout: post      
   - scope:
       path: "_pages"
     values:

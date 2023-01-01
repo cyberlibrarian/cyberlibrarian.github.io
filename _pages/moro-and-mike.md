@@ -6,7 +6,7 @@ permalink: "/moro-and-mike/about"
 		
 #Podcasts
 
-Moro and Mike is recorded live on YouTube, but past episodes are available in podcast (audio-only) format on [iTunes (https://podcasts.apple.com/ca/podcast/moro-and-mike/id1523514571)], [Spotify (https://open.spotify.com/show/0YK3VLKedbZ3YZyj33v7Cq?si=PtWdFp3ATJ21jhnp3TRvdw)], and [Google Podcasts (https://podcasts.google.com/feed/aHR0cHM6Ly93d3cuY3liZXJsaWJyYXJpYW4uY2EvbW9yby1hbmQtbWlrZS9wb2RjYXN0LnJzcw?sa=X&ved=0CAYQrrcFahcKEwi4zImFw-TqAhUAAAAAHQAAAAAQAQ)]. 
+Moro and Mike is recorded live on YouTube, but past episodes are available in podcast (audio-only) format on [iTunes](https://podcasts.apple.com/ca/podcast/moro-and-mike/id1523514571), [Spotify](https://open.spotify.com/show/0YK3VLKedbZ3YZyj33v7Cq?si=PtWdFp3ATJ21jhnp3TRvdw), and [Google Podcasts](https://podcasts.google.com/feed/aHR0cHM6Ly93d3cuY3liZXJsaWJyYXJpYW4uY2EvbW9yby1hbmQtbWlrZS9wb2RjYXN0LnJzcw?sa=X&ved=0CAYQrrcFahcKEwi4zImFw-TqAhUAAAAAHQAAAAAQAQ). 
 
 Search for "Moro and Mike".
 
