@@ -7,9 +7,15 @@ baseurl: ''
 url: 'https://cyberlibrarian.ca'
 show_excerpts: true
 logo: 'assets/images/logo.png'
+  
+# custom Variables for my site
+logo: 'assets/images/logo.png'
+favicon: 'assets/images/favicon.ico'
+lang: en-us
 
-include:
-  - _pages
+author:
+  name: "Michael McDonnell"
+  email: "michael@cyberlibrarian.ca"
 
 # minima
 minima:
@@ -23,6 +29,19 @@ minima:
 header_pages:
     - _pages/learning.md
     - _pages/moro-and-mike.html
+
+include:
+  - _pages
+
+defaults:
+  - scope:
+      path: "_posts"
+    values:
+      layout: post      
+  - scope:
+      path: "_pages"
+    values:
+      layout: page
 
 # Syntax
 markdown: kramdown
@@ -48,15 +67,3 @@ plugins:
 #   - vendor/gems/
 #   - vendor/ruby/
 
-  
-# custom Variables for my site
-logo: 'assets/images/logo.png'
-favicon: 'assets/images/favicon.ico'
-lang: en-us
-
-author:
-  name:           "Michael McDonnell"
-  email:          michael@cyberlibrarian.ca
-  short-name:     michael
-  avatar:         assets/images/IMG_0515a.png
-  bio:            "Michael McDonnell is The Cybersecurity Librarian. A cybersecurity professional (CISM, CTIA, GCIA, GCWN) and a professional librarian (MLIS)."
