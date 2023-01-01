@@ -11,7 +11,7 @@ url: 'https://cyberlibrarian.ca'
 show_excerpts: true
 logo: 'assets/images/logo.png'
 paginate: 5
-theme: minima
+remote_theme: jekyll/minima
 
 # custom Variables for my site
 logo: 'assets/images/logo.png'
@@ -51,7 +51,7 @@ plugins:
   - jekyll-feed
   - jekyll-paginate
   - jekyll-sitemap
-#  - jekyll-remote-theme
+  - jekyll-remote-theme
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
