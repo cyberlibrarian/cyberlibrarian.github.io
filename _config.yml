@@ -1,4 +1,3 @@
-# Site
 title: 'The Cybersecurity Librarian'
 author:
   email: michael@cyberlibrarian.ca
@@ -11,6 +10,7 @@ url: 'https://cyberlibrarian.ca'
 show_excerpts: true
 logo: 'assets/images/logo.png'
 paginate: 5
+paginate_path: "/blog/page:num"
 theme: minima
 
 # custom Variables for my site
