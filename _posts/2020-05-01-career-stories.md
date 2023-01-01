@@ -32,3 +32,5 @@ Advice on Resumes and Cover Letters
 Note: the title includes "Job Hunting and Interviewing" but we ran out of time. Job Hunting will be part of a 3 part series in our next 3 episodes!
 
 Let us know in the comments what topics you would like to see covered in future episodes 
+
+[![thumbnail for {{page.title}} youtube video]({{page.image | relative_url}})](https://youtu.be/{{page.youtube}} "{{page.title}}")

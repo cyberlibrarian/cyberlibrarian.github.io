@@ -34,6 +34,8 @@ Step-by-Step here is what I did:
 
 This article is my effort to share what I learned about Resumes and Cover Letters. I will post other articles about other things I did and learned in coming weeks.
 
+[![thumbnail for {{page.title}} youtube video]({{page.image | relative_url}})](https://youtu.be/{{page.youtube}} "{{page.title}}")
+
 # Summary of what I learned
 TLDR; This is what I learned in short:
 

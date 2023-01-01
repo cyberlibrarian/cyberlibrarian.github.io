@@ -16,3 +16,5 @@ I have published notes based on this demonstration on LinkedIn.
 This livestream was an explanation of how I rebuilt my Windows Desktop with a bit of DevOps influence to simplify my life and automate (most of) the things!  
 
 I will take questions and show-and-tell and maybe you can share your stories as well.
+
+[![thumbnail for {{page.title}} youtube video]({{page.image | relative_url}})](https://youtu.be/{{page.youtube}} "{{page.title}}")

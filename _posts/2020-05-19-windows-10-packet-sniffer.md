@@ -11,6 +11,8 @@ This Tuesday I will demonstrate "pktmon" the new Windows 10 packet sniffer. It i
 
 It won't replace Wireshark for decoding packets and it does not yet have real-time support but the filter system is useful.
 
+[![thumbnail for {{page.title}} youtube video]({{page.image | relative_url}})](https://youtu.be/{{page.youtube}} "{{page.title}}")
+
 Bleeping Computer has an article that explores pktmon's commands and use:      
   <https://www.bleepingcomputer.com/news/microsoft/windows-10-quietly-got-a-built-in-network-sniffer-how-to-use/>
 

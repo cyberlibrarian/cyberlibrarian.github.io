@@ -33,3 +33,4 @@ OMG! The Music though! Seriously, cybersecurity, IT, and machine learning are en
 
 This is the 4th Friday Night Live Stream with Moro & Mike. Each week we do a livestream for our IT and Cybersecurity friends and colleagues (mostly based in Calgary, Alberta, Canada).
 
+[![thumbnail for {{page.title}} youtube video]({{page.image | relative_url}})](https://youtu.be/{{page.youtube}} "{{page.title}}")

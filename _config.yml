@@ -15,8 +15,8 @@ favicon: 'assets/images/favicon.ico'
 lang: en-us
 
 author:
-    name: "Michael McDonnell"
     email: "michael@cyberlibrarian.ca"
+    name: "Michael McDonnell"
 
 # minima
 minima:

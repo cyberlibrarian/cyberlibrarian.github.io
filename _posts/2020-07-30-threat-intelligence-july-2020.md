@@ -19,6 +19,8 @@ Cybersecurity Analysts Alec and Chris are back to presents some of the latest cy
 
 Join us for a LIVE discussion and Q&A at the end. We will be discussing numerous aspects of the Twitter Hack and taking your questions.
 
+[![thumbnail for {{page.title}} youtube video]({{page.image | relative_url}})](https://youtu.be/{{page.youtube}} "{{page.title}}")
+
 ## Michael's Notes
 
 ### MEOW Attack

@@ -23,6 +23,8 @@ Cybersecurity lacks the same tradition of mentorship found in other established 
 
 Kristin comes from a professional society that has an established program for encouraging mentorship and matching mentors and mentees. I love it when we bring people from outside IT and cybersecurity in to show us how other professions do things. Join us as Kristin shares her perspective!
 
+[![thumbnail for {{page.title}} youtube video]({{page.image | relative_url}})](https://youtu.be/{{page.youtube}} "{{page.title}}")
+
 
 # References
 

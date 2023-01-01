@@ -36,6 +36,9 @@ As always we will take your LIVE Questions and answer them!
 
 Join us Thu Aug 6 at 7 PM MDT.
 
+[![thumbnail for {{page.title}} youtube video]({{page.image | relative_url}})](https://youtu.be/{{page.youtube}} "{{page.title}}")
+
+
 ## References
 
 No Author. \[2015\]. [2015 Talent Trends](https://business.linkedin.com/content/dam/business/talent-solutions/global/en_us/c/pdfs/global-talent-trends-report.pdf). *LinkedIn Talent Solutions*. <https://business.linkedin.com/content/dam/business/talent-solutions/global/en_us/c/pdfs/global-talent-trends-report.pdf>

@@ -28,3 +28,4 @@ NOTE: WE HAVE MOVE TO THURSDAY NIGHT.
 
 To give you more room on Friday now that it is summery.
 
+[![thumbnail for {{page.title}} youtube video]({{page.image | relative_url}})](https://youtu.be/{{page.youtube}} "{{page.title}}")

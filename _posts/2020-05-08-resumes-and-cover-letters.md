@@ -11,6 +11,8 @@ This is part of a weekly series of live discussions between cyber security profe
 
 In this episode we will discuss how to create resumes and cover letters that get noticed. Michael will share his recent experience job hunting and making over his resume. 
 
+[![thumbnail for {{page.title}} youtube video]({{page.image | relative_url}})](https://youtu.be/{{page.youtube}} "{{page.title}}")
+
 Cybersecurity & IT Career Paths and Stories
   <https://youtu.be/gsgO_S1e9v4>
 

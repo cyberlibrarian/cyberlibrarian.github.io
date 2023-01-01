@@ -18,3 +18,5 @@ I will show:
 -how to quickly run kali commands without interacting with the underlying linux OS
 -how to move data to/from your windows folders
 -how to make a customer Kali-based container when you want a pre-built container with custom tools and programs
+
+[![thumbnail for {{page.title}} youtube video]({{page.image | relative_url}})](https://youtu.be/{{page.youtube}} "{{page.title}}")

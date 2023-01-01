@@ -17,3 +17,5 @@ block: "no" #means is shown in itunes
 In the 6th Moro & Mike livestream, we discussed Professional Networking (offline and In Real Life, not just online).  We interviewed two guests who are excellent role models and expert networkers: Burhan Syed and Dr. TJ Zhang.
 
 Our panel answered live Q&A and offer advice after the interviews.
+
+[![thumbnail for {{page.title}} youtube video]({{page.image | relative_url}})](https://youtu.be/{{page.youtube}} "{{page.title}}")

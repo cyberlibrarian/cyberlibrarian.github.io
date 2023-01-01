@@ -22,6 +22,8 @@ Some of the features worked for me (like InMail) and some made no difference at 
 
 This video is a companion piece to a recent "Moro & Mike" live stream on Job Hunting and the use of social media. You can see that video here: 
 
+[![thumbnail for {{page.title}} youtube video]({{page.image | relative_url}})](https://youtu.be/{{page.youtube}} "{{page.title}}")
+
 Cybersecurity & IT Career Paths and Stories
   <https://youtu.be/gsgO_S1e9v4>
 

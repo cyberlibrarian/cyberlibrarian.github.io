@@ -28,6 +28,8 @@ In this livestream we will discuss question such as:
 
 Moro, Mike, and guest Mark Shykula will help you navigate the cybersecurity universe maze, and we have a highly certified guest to share his experience and answer your questions.
 
+[![thumbnail for {{page.title}} youtube video]({{page.image | relative_url}})](https://youtu.be/{{page.youtube}} "{{page.title}}")
+
 # News Articles
 
 ISC2. [May 12, 2020]. (ISC)2 CISSP Certification Now Comparable to Masters Degree Standard. ISC2 News. <https://www.isc2.org/News-and-Events/Press-Room/Posts/2020/05/12/ISC2-CISSP-Certification-Now-Comparable-to-Masters-Degree-Standard>

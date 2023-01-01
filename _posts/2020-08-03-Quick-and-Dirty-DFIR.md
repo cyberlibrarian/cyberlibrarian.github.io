@@ -24,8 +24,6 @@ block: "no" #means is shown in itunes
 
 ## Investigate
 
-
-
 ## References
 
 No Author. \[June 26, 2020\]. [Investigate entities on devices using lives response](https://docs.microsoft.com/en-us/windows/security/threat-protection/microsoft-defender-atp/live-response). *Microsoft Documentation*. <https://docs.microsoft.com/en-us/windows/security/threat-protection/microsoft-defender-atp/live-response>

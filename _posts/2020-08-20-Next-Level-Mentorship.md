@@ -23,6 +23,8 @@ Cybersecurity lacks the same tradition of mentorship found in other established 
 
 Join as we learn from Patti's experience, and take your LIVE questions.
 
+[![thumbnail for {{page.title}} youtube video]({{page.image | relative_url}})](https://youtu.be/{{page.youtube}} "{{page.title}}")
+
 # References
 
 Faber, S. \[2009\]. [Greater Than Yourself](https://www.goodreads.com/book/show/6072142-greater-than-yourself). *Crown Business*. <https://www.goodreads.com/book/show/6072142-greater-than-yourself>

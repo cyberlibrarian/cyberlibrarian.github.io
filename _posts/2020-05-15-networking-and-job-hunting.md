@@ -18,6 +18,8 @@ This is part of a weekly series of live discussions between cyber security profe
 
 In this episode we will discuss how to manage your online presence and leverage it during your job hunt. Mostly this means, "How do you maximize my use of LinkedIn features and my professional network."
 
+[![thumbnail for {{page.title}} youtube video]({{page.image | relative_url}})](https://youtu.be/{{page.youtube}} "{{page.title}}")
+
 Cybersecurity & IT Career Paths and Stories
   <https://youtu.be/gsgO_S1e9v4>
 

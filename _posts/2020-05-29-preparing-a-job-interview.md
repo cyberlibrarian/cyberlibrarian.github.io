@@ -29,3 +29,5 @@ Advice on Job Hunting and LinkedIn
 Advice on Resumes and Cover Letters
   <https://youtu.be/yfUy0xxd2k4>
   <https://www.linkedin.com/pulse/advice-resumes-cover-letters-michael-mcdonnell>
+
+[![thumbnail for {{page.title}} youtube video]({{page.image | relative_url}})](https://youtu.be/{{page.youtube}} "{{page.title}}")

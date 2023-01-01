@@ -13,6 +13,8 @@ I recently found myself hunting for a job and realizing that... I had NO IDEA wh
 
 But after I got over the frustration and depression, I turned that into a learning experience. I asked friends for advice, I took courses on job hunting, resume writing, and interviewing, and I took new action. I ended up turning things around and I learned a lot.
 
+[![thumbnail for {{page.title}} youtube video]({{page.image | relative_url}})](https://youtu.be/{{page.youtube}} "{{page.title}}")
+
 Here are the 3 things I wish I had done as soon as I started my job hunt:
 
 1. Announce publicly that I was unemployed and excited to look for work.

@@ -20,3 +20,5 @@ Cybersecurity Analysts Alec and Chris are back to presents some of the latest cy
 Join us for a LIVE discussion and Q&A at the end. We will be discussing numerous aspects of the Twitter Hack and taking your questions.
 
 As usual, we thought we knew what the big story was... and then it got real. Zerologon? That's bad right... well then hackers started killing people. :-/
+
+[![thumbnail for {{page.title}} youtube video]({{page.image | relative_url}})](https://youtu.be/{{page.youtube}} "{{page.title}}")

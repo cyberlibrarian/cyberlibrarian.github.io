@@ -31,6 +31,7 @@ Agenda:
 - Panel Interview
 - LIVE Q&A with Audience
 
+[![thumbnail for {{page.title}} youtube video]({{page.image | relative_url}})](https://youtu.be/{{page.youtube}} "{{page.title}}")
 
 # Resources
 This is a list of resources of interest to Cybersecurity Students and New Professionals

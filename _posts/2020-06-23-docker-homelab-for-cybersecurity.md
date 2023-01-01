@@ -20,3 +20,5 @@ But is there an easier way? Can we simulate hundreds of systems on a desktop. Wi
 As with all Technical Tuesday livestreams, I will be "flying by the seat of my pants" and experimenting unrehearsed. I will be doing on my first Docker lab complete with servers, workstations, and an attacker. 
 
 Let's see how far we can get!
+
+[![thumbnail for {{page.title}} youtube video]({{page.image | relative_url}})](https://youtu.be/{{page.youtube}} "{{page.title}}")
