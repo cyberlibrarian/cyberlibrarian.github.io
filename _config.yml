@@ -1,7 +1,8 @@
 # Site
 title: 'The Cybersecurity Librarian'
 email: 'michael@cyberlibrarian.ca'
-theme: 'minima'
+#theme: 'minima'
+remote_theme: pages-themes/minimal
 github_username: 'cyberlibrarian'
 name: 'The Cybersecurity Librarian'
 description: 'Cataloguing Threats, Classifying Risks, and Building Security Literacy'
@@ -18,7 +19,7 @@ permalink: /:title/
 plugins: 
   - jekyll-feed
   - jekyll-sitemap
-  - jekyll-jupyter-notebook
+  - jekyll-remote-theme
   
 authors:
     michael:
