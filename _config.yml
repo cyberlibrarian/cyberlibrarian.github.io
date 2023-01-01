@@ -37,6 +37,19 @@ logo: 'assets/images/logo.png'
 favicon: 'assets/images/favicon.ico'
 lang: en-us
 
+defaults:
+  - scope:
+      path: "_posts"
+    values:
+      layout: post
+      author: cyberlibrarian
+      avatar: assets/images/IMG_0515a.png
+  - scope:
+      path: "_pages"
+    values:
+      layout: page
+
+
 authors:
     michael:
       name:           Michael McDonnell
