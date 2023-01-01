@@ -16,7 +16,7 @@ lang: en-us
 
 author:
     email: "michael@cyberlibrarian.ca"
-    name: "Michael McDonnell"
+#    name: "Michael McDonnell"
 
 # minima
 minima:
