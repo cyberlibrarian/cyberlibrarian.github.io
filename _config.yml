@@ -6,9 +6,14 @@ github_username: 'cyberlibrarian'
 baseurl: ''
 url: 'https://cyberlibrarian.ca'
 show_excerpts: true
+logo: 'assets/images/logo.png'
+
+include:
+  - _pages
 
 # minima
 minima:
+    date_format: "%Y-%m-%d"
     social_links:
       - { platform: github, user_url: "https://github.com/cyberlibrarian" }
       - { platform: mastodon, user_url: "https://infosec.exchange/@cyberlibrarian" }
@@ -16,8 +21,8 @@ minima:
       - { platform: youtube, user_url: "https://www.youtube.com/c/cyberlibrarian" }
 
 header_pages:
-    - learning.md
-    - moro-and-mike.html
+    - _pages/learning.md
+    - _pages/moro-and-mike.html
 
 # Syntax
 markdown: kramdown
