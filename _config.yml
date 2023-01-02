@@ -13,7 +13,7 @@ show_excerpts: true
 logo: 'assets/images/logo.png'
 paginate: 5
 paginate_path: "/blog/page:num"
-remote_theme: minima
+remote_theme: jekyll/minima
 
 # custom Variables for my site
 logo: 'assets/images/logo.png'
