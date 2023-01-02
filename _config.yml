@@ -5,6 +5,8 @@ author:
 description: 'Cataloguing Threats, Classifying Risks, and Building Security Literacy'
 email: 'michael@cyberlibrarian.ca'
 github_username: 'cyberlibrarian'
+linkedin_username: 'itpromichael'
+mastodon_username: '@cyberlibrarian'
 baseurl: ''
 url: 'https://cyberlibrarian.ca'
 show_excerpts: true
@@ -50,7 +52,7 @@ plugins:
   - jekyll-feed
   - jekyll-paginate
   - jekyll-sitemap
-  - jekyll-remote_theme
+  - jekyll-remote-theme
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
