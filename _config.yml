@@ -11,7 +11,7 @@ show_excerpts: true
 logo: 'assets/images/logo.png'
 paginate: 5
 paginate_path: "/blog/page:num"
-theme: minima
+remote_theme: minima
 
 # custom Variables for my site
 logo: 'assets/images/logo.png'
@@ -42,7 +42,6 @@ defaults:
 
 # Syntax
 markdown: kramdown
-theme: 'minima'
 #remote_theme: pages-themes/minimal
 #highlighter: rouge
 
@@ -51,6 +50,7 @@ plugins:
   - jekyll-feed
   - jekyll-paginate
   - jekyll-sitemap
+  - jekyll-remote_theme
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
