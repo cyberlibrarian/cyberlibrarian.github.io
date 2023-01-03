@@ -33,6 +33,7 @@ layout: default
         </h3>
         {%- if site.show_excerpts -%}
           {{ post.excerpt }}
+          <img src="{{post.image | relative_url}}" height="150px" style="float:right" />
         {%- endif -%}
       </li>
       {%- endfor -%}
