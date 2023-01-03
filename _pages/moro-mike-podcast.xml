@@ -10,14 +10,14 @@ permalink: "/moro-and-mike/podcast.rss"
     <title>Moro and Mike</title>
     <description>Professional Development in Cybersecurity and IT</description>
 	<language>{{ site.lang }}</language>
-	<managingEditor>{{ site.email }} ({{ site.author }})</managingEditor>
-	<webMaster>{{ site.email }} ({{ site.author }})</webMaster>
+	<managingEditor>{{ site.email }} ({{ site.author.email }})</managingEditor>
+	<webMaster>{{ site.email }} ({{ site.author.email }})</webMaster>
 	<copyright>{{ site.time | date: "%Y" }} {{ site.title }}</copyright>
 	<pubDate>{{ site.time | date_to_rfc822 }}</pubDate>
 	<lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
     <atom:link href="{{ site.url }}/moro-and-mike/podcast.rss" rel="self" type="application/rss+xml" />
 	<image>
-      <link>{{ site.url }}/moro-and-mike</link>
+      <link>{{ site.url }}/moro-and-mike/about</link>
       <url>{{ site.url }}/assets/images/moro-and-mike-thumb-podcast.png</url>
       <title>Moro and Mike</title>
 	</image>
@@ -26,8 +26,8 @@ permalink: "/moro-and-mike/podcast.rss"
 	<itunes:summary>Moro and Mike</itunes:summary>
 	<itunes:keywords>cybersecurity,professional development</itunes:keywords>
 	<itunes:owner>
-      <itunes:name>{{ site.author }}</itunes:name>
-      <itunes:email>{{ site.email }}</itunes:email>
+      <itunes:name>{{ site.author.name }}</itunes:name>
+      <itunes:email>{{ site.author.email }}</itunes:email>
 	</itunes:owner>
 	<itunes:image href="{{ site.url}}/assets/images/moro-and-mike-thumb-itunes.png" />
 	<itunes:category text="Business">
