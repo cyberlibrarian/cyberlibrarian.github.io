@@ -44,7 +44,7 @@ permalink: "/moro-and-mike/podcast.rss"
 			<pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
 			<description>{{ post.summary | xml_escape }}</description>
 			<guid isPermaLink="true">{{ site.url }}{{ post.url }}</guid>
-			<enclosure url="{{ site.url }}/{{ post.mp3_file | xml_escape }}" length="{{ post.length }}" type="audio/mp3" />
+			<enclosure url="{{site.cdn.url}}/{site.cdn.mm_path}}/{{ post.mp3_file | xml_escape }}" length="{{ post.length }}" type="audio/mp3" />
 			<itunes:author>{{ site.author }}</itunes:author>
 			<itunes:subtitle>{{ post.title }}</itunes:subtitle>
 			<itunes:summary>{{ post.summary | xml_escape }}</itunes:summary>

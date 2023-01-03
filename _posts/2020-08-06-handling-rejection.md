@@ -8,7 +8,7 @@ image: assets/images/2020-08-06.png
 youtube: Rdh0pXzout8
 tags: [featured, youtube, livestream, cybersecurity, leadership, careers, job hunting, management, emotional intelligence, rejection, hiring, management, recruiting]
 date: 2020-08-06 19:00:00
-mp3_file: assets/mp3/2020-08-06_Handling_Rejection.mp3
+mp3_file: 2020-08-06_Handling_Rejection.mp3
 summary: Moro and Mike interview HR Professional Emilie Vincent about how job seekers and hiring managers can handle rejection better, provide meaningful feedback, and improve the hiring process.
 duration: "01:27:16" #audio length in min
 length: "81692047" #filesize in byte

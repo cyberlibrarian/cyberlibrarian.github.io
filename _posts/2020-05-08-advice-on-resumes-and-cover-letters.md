@@ -7,7 +7,7 @@ image: assets/images/2020-05-08.png
 youtube: yfUy0xxd2k4
 tags: [careers, podcast, livestream, professional development,job hunting, networking]
 date: 2020-05-08 19:00:00
-mp3_file: assets/mp3/2020-05-08_Resumes_and_Cover_Letters.mp3
+mp3_file: 2020-05-08_Resumes_and_Cover_Letters.mp3
 summary: Moro and Mike and guest Jim Clark provide advice on Resumes and Cover Letters
 duration: "01:59:38" #audio length in min
 length: "86137774" #filesize in byte

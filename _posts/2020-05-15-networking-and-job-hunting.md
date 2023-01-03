@@ -7,7 +7,7 @@ image: assets/images/2020-05-15.png
 youtube: DgBer_nb2no
 tags: [job-hunting, networking, careers, linkedin]
 date: 2020-05-15 19:00:00
-mp3_file: assets/mp3/2020-05-15_Online_Networking.mp3
+mp3_file: 2020-05-15_Online_Networking.mp3
 summary: Moro and Mike interview TJ Zhang and Jessica Riad-Wallace, two exception role models for authentic and effective online networking and social media presence.
 duration: "01:32:02" #audio length in min
 length: "86144251" #filesize in byte

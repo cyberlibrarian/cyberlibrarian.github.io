@@ -19,6 +19,9 @@ remote_theme: jekyll/minima
 logo: 'assets/images/logo.png'
 favicon: 'favicon.ico'
 lang: en-us
+cdn:
+    url: 'https://cdn.library.cyberlibrarian.ca'
+    mm_path: 'moro-and-mike'
 
 # minima
 minima:

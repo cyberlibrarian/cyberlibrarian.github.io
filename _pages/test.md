@@ -7,7 +7,7 @@ This page contains tests of technical aspects of the theme I am using and Jekyll
 
 - {{ site.theme }}
 - {{ site.plugins }}
-- {{ spec.name }}
-- {{ spec.version }}
+- {{ site.documents }}
+- {{ site.collections }}
 
 # Standard About Page

@@ -8,7 +8,7 @@ image: assets/images/2020-07-30.png
 youtube: cDB_WgxTLEM
 tags: [youtube, livestream, cybersecurity, threat intelligence]
 date: 2020-07-30 19:00:00
-mp3_file: assets/mp3/2020-07-30_Threat_Intelligence.mp3
+mp3_file: 2020-07-30_Threat_Intelligence.mp3
 summary: Alec and Chris join Moro and Mike for a briefing on the latest threats and cybersecurity news for July 2020
 duration: "01:33:26" #audio length in min
 length: "87460302" #filesize in byte
