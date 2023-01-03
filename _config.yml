@@ -44,7 +44,6 @@ defaults:
 
 # Syntax
 markdown: kramdown
-#remote_theme: pages-themes/minimal
 #highlighter: rouge
 
 # Plugins
