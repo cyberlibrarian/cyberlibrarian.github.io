@@ -32,7 +32,7 @@ layout: default
           </a>
         </h3>
         {%- if site.show_excerpts -%}
-        <div class="post-excerpt-with-image">
+        <div class="post-excerpt-with-image" style="overflow: hidden">
           {{ post.excerpt }}
           <img src="{{post.image | relative_url}}" height="96px" style="float:right" />
         </div>
