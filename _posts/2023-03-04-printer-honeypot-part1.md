@@ -2,7 +2,7 @@
 published: true
 layout: post
 title:  "Do attackers really attack printers?"
-summary: "Emily and Michael put a printer honeypot on the Internet to see who would attack and how. It didn't turn out as expected! Our honeypot experiment suggests exposed printers are not a target for cyber-attacks."
+summary: "Emily and Michael put a printer honeypot on the Internet to see who would attack it and how. It didn't turn out as expected! Our honeypot experiment suggests exposed printers are not a target for cyber-attacks."
 authors: [michael,emily]
 categories: [ Blog ]
 image: assets/images/printer-honeypots.png
