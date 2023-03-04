@@ -10,7 +10,7 @@ tags: [honeypot,printer,threat-intelligence]
 ---
 {{ page.summary }}
 
-![Graphic image of the title of this blog post](/{{page.image}})
+![Graphic image of the title of this blog post]({{page.image | relative_url }})
 
 ## Background
 
