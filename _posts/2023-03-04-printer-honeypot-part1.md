@@ -8,7 +8,7 @@ categories: [ Blog ]
 image: assets/images/printer-honeypots.png
 tags: [honeypot,printer,threat-intelligence]
 ---
-# Do exposed printers really get hacked?
+{{ page.summary }}
 
 ## Background
 
