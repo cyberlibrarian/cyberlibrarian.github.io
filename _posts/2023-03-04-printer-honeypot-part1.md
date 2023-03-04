@@ -10,6 +10,8 @@ tags: [honeypot,printer,threat-intelligence]
 ---
 {{ page.summary }}
 
+![Graphic image of the title of this blog post]({{page.image}})
+
 ## Background
 
 Printers are a potential attack vector to get onto a network. Modern 
