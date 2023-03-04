@@ -109,7 +109,7 @@ The following table shows a timeline of all connections to our honeypot
 along with date, attribution (IP, country, etc), request (truncated), and 
 our interpretation of what the adversary was attempting to do.
 
-![Screenshot of Spreadsheet of Connections to miniprint honeypot](/assets/png/2023-03-04_13-13-16.png)
+![Screenshot of Spreadsheet of Connections to miniprint honeypot](/assets/images/2023-03-04_13-13-16.png)
 
 | timestamp          | IP              | observed                                                                                                                                                                                                                    | type          | country of origin                 |
 |--------------------|-----------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------|-----------------------------------|
