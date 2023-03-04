@@ -2,8 +2,7 @@
 published: true
 layout: post
 title:  "Do attackers really attack printers?"
-subtitle: "Honeypot experiment suggest exposed printers are not a target for cyber-attacks"
-summary: "Emily and Michael put a printer honeypot on the Internet to see who would attack and how. It didn't turn out as expected!"
+summary: "Emily and Michael put a printer honeypot on the Internet to see who would attack and how. It didn't turn out as expected! Our honeypot experiment suggests exposed printers are not a target for cyber-attacks."
 authors: [michael,emily]
 categories: [ Blog ]
 image: assets/images/printer-honeypots-1.png
@@ -212,9 +211,9 @@ Pagewide Pro, OfficeJet, Enterprise, Large Format, and DeskJet.
 
 
 ## References
-https://github.com/sa7mon/miniprint
-https://cybernews.com/security/we-hacked-28000-unsecured-printers-to-raise-awareness-of-printer-security-issues/
+- https://github.com/sa7mon/miniprint
+- https://cybernews.com/security/we-hacked-28000-unsecured-printers-to-raise-awareness-of-printer-security-issues/
 
-https://nvd.nist.gov/vuln/detail/CVE-2022-3942. 
-https://www.bleepingcomputer.com/news/security/hundreds-of-hp-printer-models-vulnerable-to-remote-code-execution/
+- https://nvd.nist.gov/vuln/detail/CVE-2022-3942. 
+- https://www.bleepingcomputer.com/news/security/hundreds-of-hp-printer-models-vulnerable-to-remote-code-execution/
 
