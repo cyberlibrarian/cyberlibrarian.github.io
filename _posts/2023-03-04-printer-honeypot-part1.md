@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 layout: post
 title:  "Do attackers really attack printers?"
 subtitle: "Honeypot experiment suggest exposed printers are not a target for cyber-attacks"
@@ -8,11 +8,10 @@ authors: [michael,emily]
 categories: [ Blog ]
 image: assets/images/printer-honeypots-1.png
 tags: [honeypot,printer,threat-intelligence]
-
 ---
-#Do exposed printers really get hacked?
+# Do exposed printers really get hacked?
 
-##Background
+## Background
 
 Printers are a potential attack vector to get onto a network. Modern 
 printers support a wide variety of features and can include storing 
@@ -48,7 +47,7 @@ often it was attacked and what attackers would choose to do.
 
 This is part 1 of our experiment. 
 
-##Methods
+## Methods
 The honeypot we used was created with [miniprint by Dan Salman](https://github.com/sa7mon/miniprint) 
 and we ran it for 36 days in our first attempt.
 
@@ -84,7 +83,7 @@ Amsterdam was selected as a geographical location for our first honeypot.
 
 We occasionally port scanned the honeypot to ensure smooth operation. 
  
-##Results
+## Results
 Our results suggest that printers are a neglected attack vector.
 
 We observed few PJL connections, nothing significantly malicious. 
@@ -111,63 +110,6 @@ our interpretation of what the adversary was attempting to do.
 
 ![Screenshot of Spreadsheet of Connections to miniprint honeypot](/assets/images/2023-03-04_13-13-16.png)
 
-| timestamp          | IP              | observed                                                                                                                                                                                                                    | type          | country of origin                 |
-|--------------------|-----------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------|-----------------------------------|
-| 2023-01-21 13:25   | 103.232.54.109  | x05\x01\x00                                                                                                                                                                                                                 | SOCKS         | Hanoi,   vietnam                  |
-| 2023-01-21   13:25 | 103.232.54.109  | x05\x01\x00                                                                                                                                                                                                                 | SOCKS         | Hanoi, vietnam                    |
-| 2023-01-21 13:25   | 103.232.54.109  | x05\x01\x00                                                                                                                                                                                                                 | SOCKS         | Hanoi,   vietnam                  |
-| 2023-01-22   16:51 | 103.232.54.109  | \x05\x01\x00                                                                                                                                                                                                                | SOCKS         | Hanoi, vietnam                    |
-| 2023-01-22 16:51   | 103.232.54.109  | \x05\x01\x00                                                                                                                                                                                                                | SOCKS         | Hanoi,   vietnam                  |
-| 2023-01-22   16:51 | 103.232.54.109  | \x05\x01\x00                                                                                                                                                                                                                | SOCKS         | Hanoi, vietnam                    |
-| 2023-01-29 14:21   | 154.89.5.216    | GET /   HTTP/1.1\r\nHost: 167.99.211.61:9100\r\nAccept: */*                                                                                                                                                                 | Web           | hong   kong                       |
-| 2023-01-29   14:21 | 154.89.5.216    | GIOP\x01\x00\x00\x00\x00\x00\x00<\x00\x00\x00\x01\x00\x00\x00\x11\x00\x00\x00\x02\x00\x02\x00\x00\x00\x00\x00\x05\x01\x00\x00\x00\x00\x00\x00\x04INIT\x00\x00\x00\x04get\x00\x00\x00\x00\x00\x00\x00\x00\x0cNameService\x00 | CORBA         | hong kong                         |
-| 2023-01-29 14:21   | 154.89.5.216    | crash                                                                                                                                                                                                                       |               | hong   kong                       |
-| 2023-01-30   1:21  | 104.152.52.211  | open then close                                                                                                                                                                                                             |               | illinois,USA                      |
-| 2023-01-30 10:41   | 174.138.10.154  | GET /   HTTP/1.1\r\nHost: 167.99.211.61:9100\r\nAccept: */*\r\nUser-Agent:   Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like   Gecko) Chrome/70.0.3538.77 Safari/537.36\r\nConnection: close      | Web           | hong   kong                       |
-| 2023-01-30   10:42 | 174.138.10.154  | @PJL INFO ID\r\n                                                                                                                                                                                                            | PJL           | hong kong                         |
-| 2023-01-30 11:15   | 92.255.85.183   | crash                                                                                                                                                                                                                       |               | St.Petersburg,Russia              |
-| 2023-02-02   13:12 | 202.55.135.192  | \x05\x01\x00                                                                                                                                                                                                                | SOCKS         | Hanoi, vietnam                    |
-| 2023-02-02 13:13   | 202.55.135.192  | open and close                                                                                                                                                                                                              |               | Hanoi,   vietnam                  |
-| 2023-02-04   11:04 | 104.152.52.92   | open and close                                                                                                                                                                                                              |               | illinois,USA                      |
-| 2023-02-04 14:49   | 94.102.61.47    | @PJL INFO   STATUS                                                                                                                                                                                                          | PJL           | Amsterdam,   Netherlands          |
-| 2023-02-04   14:53 | 94.102.61.47    | GET / HTTP/1.1\r\nHost: 167.99.211.61:9100\r\nUser-Agent:   Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like   Gecko) Chrome/88.0.4324.190 Safari/537.36\r\nAccept: */*\r\nAccept-Encoding:   gzip | Web           | Amsterdam, Netherlands            |
-| 2023-02-05 8:40    | 193.118.53.138  | @PJL INFO   STATUS\r\n@PJL INFO ID\r\n@PJL INFO PRODINFO\r\n                                                                                                                                                                | PJL           | Amsterdam,   Netherlands          |
-| 2023-02-05   10:28 | 103.207.39.65   | \x05\x01\x00                                                                                                                                                                                                                | SOCKS         | Hanoi, vietnam                    |
-| 2023-02-05 10:29   | 103.207.39.65   | \x05\x01\x00                                                                                                                                                                                                                | SOCKS         | Hanoi,   vietnam                  |
-| 2023-02-05   10:29 | 103.207.39.65   | open and close                                                                                                                                                                                                              |               | Hanoi, vietnam                    |
-| 2023-02-06 9:00    | 91.191.209.202  | crash                                                                                                                                                                                                                       |               | london,england,   VPN             |
-| 2023-02-07   23:17 | 167.248.133.44  | @PJL INFO STATUS                                                                                                                                                                                                            | PJL           | Ann arbor, Michigan               |
-| 2023-02-08 4:52    | 154.89.5.201    | GET /   HTTP/1.1\r\nHost: 167.99.211.61:9100\r\nAccept: */*                                                                                                                                                                 | Web           | hong   kong                       |
-| 2023-02-08   4:52  | 154.89.5.201    | GIOP\x01\x00\x00\x00\x00\x00\x00<\x00\x00\x00\x01\x00\x00\x00\x11\x00\x00\x00\x02\x00\x02\x00\x00\x00\x00\x00\x05\x01\x00\x00\x00\x00\x00\x00\x04INIT\x00\x00\x00\x04get\x00\x00\x00\x00\x00\x00\x00\x00\x0cNameService\x00 | CORBA         | hong kong                         |
-| 2023-02-08 4:52    | 154.89.5.201    | open and close                                                                                                                                                                                                              |               | hong   kong                       |
-| 2023-02-08   23:56 | 170.106.173.40  | crash                                                                                                                                                                                                                       |               | san francisco, califonia          |
-| 2023-02-09 6:26    | 103.156.91.131  | \x05\x01\x00                                                                                                                                                                                                                | SOCKS         | Hanoi,   vietnam                  |
-| 2023-02-09   6:26  | 103.156.91.131  | \x05\x01\x00                                                                                                                                                                                                                | SOCKS         | Hanoi, vietnam                    |
-| 2023-02-09 6:26    | 103.156.91.131  | crash                                                                                                                                                                                                                       |               | Hanoi,   vietnam                  |
-| 2023-02-17   5:37  | 89.248.165.52   | crash                                                                                                                                                                                                                       |               | Amsterdam, Netherlands            |
-| 2023-02-23 5:55    | 185.224.128.17  | CONNECT   example.com:80 HTTP/1.1\r\nHost: example.com:80\r\nConnection:   keep-alive\r\n\r\n\x00                                                                                                                           | PROXY         | Amsterdam,   Netherlands          |
-| 2023-02-23   5:55  | 185.224.128.17  | \x04\x01\x00P\x00\x00\x00\x01\x00example.com\x00                                                                                                                                                                            |               | Amsterdam, Netherlands            |
-| 2023-02-23 5:55    | 185.224.128.17  | \x05\x01\x00                                                                                                                                                                                                                | SOCKS         | Amsterdam,   Netherlands          |
-| 2023-02-23   6:26  | 94.102.61.47    | @PJL INFO STATUS; @PJL INFO ID                                                                                                                                                                                              | PJL           | Amsterdam, Netherlands            |
-| 2023-02-23 6:28    | 94.102.61.47    | GET /   HTTP/1.1\r\nHost: 167.99.211.61:9100\r\nUser-Agent: Mozilla/5.0 (Windows NT   10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.190   Safari/537.36\r\nAccept: */*\r\nAccept-Encoding: gzip | Web           | Amsterdam,   Netherlands          |
-| 2023-02-25   6:32  | 89.248.163.209  | crash                                                                                                                                                                                                                       |               | Amsterdam, Netherlands            |
-| 2023-02-25 18:46   | 104.152.52.219  | open and close                                                                                                                                                                                                              |               | illinois,USA                      |
-| 2023-02-26   19:08 | 165.154.6.57    | GET / HTTP/1.1\r\nHost: 167.99.211.61:9100\r\nAccept: */*                                                                                                                                                                   | Web           | hong kong , public proxy server   |
-| 2023-02-26 19:09   | 165.154.6.57    | GIOP\x01\x00\x00\x00\x00\x00\x00<\x00\x00\x00\x01\x00\x00\x00\x11\x00\x00\x00\x02\x00\x02\x00\x00\x00\x00\x00\x05\x01\x00\x00\x00\x00\x00\x00\x04INIT\x00\x00\x00\x04get\x00\x00\x00\x00\x00\x00\x00\x00\x0cNameService\x00 | CORBA         | hong   kong , public proxy server |
-| 2023-02-26   19:09 | 165.154.6.57    | empty request                                                                                                                                                                                                               |               | hong kong , public proxy server   |
-| 2023-02-26 19:09   | 165.154.6.57    | open and close                                                                                                                                                                                                              |               | hong   kong , public proxy server |
-| 2023-02-26   19:09 | 165.154.6.57    | empty request                                                                                                                                                                                                               |               | hong kong , public proxy server   |
-| 2023-02-26 19:09   | 165.154.6.57    | @PJL INFO   STATUS                                                                                                                                                                                                          | PJL           | hong   kong , public proxy server |
-| 2023-02-26   19:09 | 165.154.6.57    | @PJL RDYMSG DISPLAY = "rdymsgarg"\r\n@PJL INFO   STATUS                                                                                                                                                                     | PJL malicious | hong kong , public proxy server   |
-| 2023-02-26 19:09   | 165.154.6.57    | @PJL INFO ID                                                                                                                                                                                                                | PJL           | hong   kong , public proxy server |
-| 2023-02-26   19:09 | 165.154.6.57    | empty request                                                                                                                                                                                                               |               | hong kong , public proxy server   |
-| 2023-02-27 16:52   | 152.32.150.117  | @PJL INFO   ID\r\n                                                                                                                                                                                                          |               | reston,virginia                   |
-| 2023-02-27   16:52 | 152.32.150.117  | @PJL   INFO ID\r\nhp LaserJet 4200\r\n\x1b                                                                                                                                                                                  |               | reston,virginia                   |
-| 2023-02-27 16:52   | 152.32.150.117  | empty request                                                                                                                                                                                                               |               | reston,virginia                   |
-| 2023-02-27   16:52 | 152.32.150.117  | empty request                                                                                                                                                                                                               |               | reston,virginia                   |
-| 2023-02-27 16:52   | 152.32.150.117  | empty request                                                                                                                                                                                                               |               | reston,virginia                   |
-| 2023-02-28   6:20  | 165.227.45.3    | GET / HTTP/1.0                                                                                                                                                                                                              | Web           | toronto, ontario, VPN server      |
-| 2023-02-28 18:22   | 162.142.125.222 | @PJL INFO   STATUS                                                                                                                                                                                                          | PJL           | Ann   arbor, Michigan             |
 
 ### Selected Examples
 These section each show details of our observations for specific
@@ -213,7 +155,7 @@ GET / HTTP/1.1\r\nHost: 167.99.211.61:9100\r\nAccept: */*'
 @PJL RDYMSG DISPLAY = "rdymsgarg"\r\n@PJL INFO STATUS
 @PJL INFO STATUS\r\nCODE=10001\r\nDISPLAY="rdymsgarg"\r\nONLINE=True
 
-##Discussion
+## Discussion
 The IP's gathered were searched using virustotal and reverseDNSlookup.
 Locations logged include: Amsterdam, Haug, St.petersburg , Hanoi , and Hong Kong. 
 Most of the IP addresses we observed were from data centers, *None* from 
@@ -238,7 +180,7 @@ the attack could use the printer to intercept data or for lateral movement.
 
 We didn't see any of those attacks. 
 
-###Limitations
+### Limitations
 Miniprint was a good starting point, but we noticed that it would frequently
 crash. There appear to be unhandled exceptions for some types of input. We
 have not attempted to correct this bug but will attempt to auto-restart it
@@ -250,7 +192,7 @@ and restarted miniprint if it had crashed.
 This left us with some gaps in our data collection but we ran the experiment
 for additional days (36 days instead of 30 days) to compenstate.
 
-##Expansion 
+## Expansion 
 A next possible step would be to add other honeypots onto the network, 
 to capture lateral movement of an attacker. 
 
@@ -269,7 +211,7 @@ Sanitization Management System. Models affected include LaserJet Pro,
 Pagewide Pro, OfficeJet, Enterprise, Large Format, and DeskJet.
 
 
-##sources
+## References
 https://github.com/sa7mon/miniprint
 https://cybernews.com/security/we-hacked-28000-unsecured-printers-to-raise-awareness-of-printer-security-issues/
 
