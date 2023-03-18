@@ -36,7 +36,11 @@ layout: base
           {%- if post.image -%}
           <img src="{{post.image | relative_url}}" height="96px" style="float:right; padding:0px 0px 0px 5px" />
           {%- endif -%}
+          {%- if post.summary -%}
+          {{ post.summary }}
+          {%- else -%}
           {{ post.excerpt }}
+          {%- endif -%}
         </div>
         {%- endif -%}
       </li>
