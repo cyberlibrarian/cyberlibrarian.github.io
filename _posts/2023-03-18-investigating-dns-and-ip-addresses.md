@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 layout: post
 title:  "Investigating DNS and IP Addresses"
 summary: "In Security Operations we frequently have to investigate DNS and IP addresses to determine if they are known threat or to attribute them to some activity or owner. This article contains a list of free, trial, or open-source resources for performing address analysis."
