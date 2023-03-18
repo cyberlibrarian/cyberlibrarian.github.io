@@ -13,6 +13,14 @@ tags: [threat-intelligence,security-operations,investigations,ip-address,dns]
 
 I'm publishing this early so Emily and others can get a list of resources. I will be making frequent updates over the next few weeks. Expect poor organization. Enjoy!
 
+## Hasn't someone else written a better guide?
+
+Yes! Here is a cyberlibrarian curated list of guides to DNS and IP intelligence guides.
+
+- [Domain Tools: top DNS, IP and Domain utilities to investigate any website](https://securitytrails.com/blog/domain-tools)
+- [Useful Resources for Investigating DNS Abuse/Misuse](https://securityskeptic.typepad.com/the-security-skeptic/investigatingdnsabuse.html)
+- [DNS Dumpster > Get Started; Footprint and Reconnaissance](https://dnsdumpster.com/footprinting-reconnaissance/)
+
 ## What can DNS and IP Addresses tell us?
 
 When you are investigating a security event, you often when to know more about the DNS and IP addresses involved. For examples:
@@ -51,6 +59,11 @@ I am grateful for these vendors who offer a "free tier". How do you know if you 
 -- DomainTools has other useful DNS intelligence offerings. Iris includes DNS intelligence and risk scoring. Is that IP evil? The risk score can tell you. 
 - [SecurityTrails](https://securitytrails.com/)
 -- You get 50 queries per month for free. Historic DNS records, domain and IP data. Suitable for experiments, learning, and causual investigations.
+- [DNSlytics](https://dnslytics.com/)
+-- I have not reviewed this but it has a free (no account required) search, and an inexpensive monthly subscription.
+
+### Free DNS Intelligence Tools
+- [dnsdumpster](https://dnsdumpster.com/)
 
 
 ## References
