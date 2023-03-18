@@ -24,25 +24,42 @@ tags: [detection-engineering,threat-detection,SIEM,SOAR,EDR]
 - Red Canary : [Behind the Scenes with Red Canary's Detection Engineering Team](https://redcanary.com/blog/detection-engineering/)
 - Alex Teixeira : [What does it mean to be a threat detection engineer?](https://ateixei.medium.com/what-does-it-mean-to-be-a-threat-detection-engineer-f14bf5916aac)
 
+## Can I get certified as a Detection Engineer?
+Maybe. I never thought about that before.
+
+- [ATT&CK Threat Hunting Detection Engineering Certification Path](https://mad-certified.mitre-engenuity.org/collection/9edbe772-c054-4004-bf4c-f5e7b09d2640)
+- [GIAC Certified Detection Analyst (GCDA)])(https://www.giac.org/certifications/certified-detection-analyst-gcda/)
+
 ## How can I learn more about Detection Engineering?
 
 ### Reading
 
 #### Articles
 
+- [The dotted lines between Threat Hunting and Detection Engineering](https://ateixei.medium.com/the-dotted-lines-between-threat-hunting-and-detection-engineering-94fa0f7f62ce)
+- [Prioritization of the Detection Engineering Backlog](https://posts.specterops.io/prioritization-of-the-detection-engineering-backlog-dcb18a896981)
+- [Detection Engineering with MITRE Top Techniques & Atomic Red Team](https://fourcore.io/blogs/detection-engineering-with-mitre-engenuity-atomic-red-team)
+- [How to Improve Security Monitoring with Detection Engineering Program](https://blogs.oracle.com/cloudsecurity/post/how-to-improve-security-monitoring-with-detection-engineering-program)
+
 #### Blogs
 
 #### Books
+
+- [Malware Analysis and Detection Engineering](https://www.google.ca/books/edition/Malware_Analysis_and_Detection_Engineeri/TDGWzQEACAAJ?hl=en)
+- [Agile Security Operations](https://www.kobo.com/ca/en/ebook/agile-security-operations)
 
 ### Listening (Podcasts)
 
 ### Watching (Videos)
 
+- [Detection Engineering Methodologies](https://www.youtube.com/watch?v=qy_0wGMJc9w)
 - [Threat Hunting SANS: What is Detection Engineering? Avigayil Mechtinger](https://www.youtube.com/watch?v=ZcXTUKPK6x0)
 - [Resilient Detection Engineering](https://www.youtube.com/watch?v=zMPouyUNX5c)
 - [Detection as Code: Detection Development Using CI/CD](https://www.youtube.com/watch?v=_JEvyem4ryg)
 - [Threat-Informed Detection Engineering](https://www.youtube.com/watch?v=2czm8dhziX8)
-- 
+- [Leveling Up Your Detection Engineering](https://www.youtube.com/watch?v=47Jd7oByorI)
+- [Measuring Detection Engineering Teams](https://www.youtube.com/watch?v=Dxccs8UDu6w)
+- [Security Onion Essentials - Detection Engineering](https://www.youtube.com/watch?v=IS2SOlDedPc)
 
 ### Courses
 
@@ -138,7 +155,7 @@ tags: [detection-engineering,threat-detection,SIEM,SOAR,EDR]
 - CrowdStrike Fusion
 
 ### Analytics
-
+- [MITRE Cyber Analytics Repository (CAR)](https://car.mitre.org/)
 - Python (Pandas) 
 - Jupyter Notebooks
 - Splunk Enterprise Security CIM Datamodels
