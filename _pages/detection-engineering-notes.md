@@ -1,6 +1,6 @@
 ---
 published: true
-layout: post
+layout: page
 title:  "Detection Engineering Notes"
 summary: "I want to better understand the industry landscape and emerging practices in Detection Engineering. These are my notes on DE perspectives, frameworks, processes, tools, and people to learn from."
 authors: [michael]
