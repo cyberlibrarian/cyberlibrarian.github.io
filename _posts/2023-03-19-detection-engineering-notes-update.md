@@ -1,6 +1,6 @@
 ---
 published: true
-layout: page
+layout: post
 title:  "Detection Engineering Notes Update"
 summary: "I have created a page to track my notes as I develop a better understanding of Detection Engineering. I am doing my best to be a good librarian and curate authoritative references, frameworks, articles, books, courses, standards, and more. If you want to learn or improve your Detection Engineering practices, I hope this helps expedite your journey!"
 authors: [michael]
