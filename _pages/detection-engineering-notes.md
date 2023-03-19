@@ -47,6 +47,13 @@ Maybe. I never thought about that before.
 
 #### Blogs
 
+- [Blog Posts Tagged "Detection Engineering" on Medium](https://medium.com/tag/detection-engineering)
+- [Florian Roth](https://cyb3rops.medium.com/)
+- [Alex Teixeira: When Data speaks, are you ready to listen?](https://ateixei.medium.com/)
+- [MITRE ATT&CK Blog](https://medium.com/mitre-attack)
+- 
+
+
 #### Books
 
 - [11 Strategies of a World-Class Cybersecurity Operations Center](https://www.mitre.org/news-insights/publication/11-strategies-world-class-cybersecurity-operations-center)
@@ -120,6 +127,7 @@ I like to focus more on the documentation of use-case development. In the MITRE 
 ## What are popular Detection Engineering Standards and Frameworks?
 
 ### Frameworks
+- [Open Detection Engineering Framework](https://github.com/wealthsimple/odef)
 - [MITRE ATT&ACK](https://attack.mitre.org/)
 - [The Cyber Kill Chain](https://www.lockheedmartin.com/en-us/capabilities/cyber/cyber-kill-chain.html)
 -- There are many variants of the killchain model. Lockheed Martin's is often cited. 
@@ -213,7 +221,6 @@ I like to focus more on the documentation of use-case development. In the MITRE 
 ## Who are the leaders in Detection Engineering?
 
 - [Florian Roth](https://twitter.com/cyb3rops)
-    "The Guru of Detection Engineering" - Avigayle Mechtinger
 - [David J Bianco](https://detect-respond.blogspot.com/)
 - [Alex Teixeira](https://ateixei.medium.com/)
 - [Kyle Bailey](https://kyle-bailey.medium.com/)
