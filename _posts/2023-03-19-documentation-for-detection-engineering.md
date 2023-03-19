@@ -19,7 +19,19 @@ I was re-reading the 2nd Edition of [11 Strategies of a World-Class Cybersecurit
 
 On Page 404, Appendix C.3, there is a table of documentation for "Engineering and System Administration". I was reaffirming to see it matches very closely to what Deryck and I came up with on our own. I was delighted to see that it also fills in some of the gaps I was missing!
 
-If work in Security Operations, Detection Engineering, or Threat Intelligence, you may have already read this book. If you haven't it is worth it. If you have, re-read the appendices. They don't call this a "documentation framework" but they should. It only lacks some core processes and taxonomy to make it a complete framework.
+They don't call this a "documentation framework" but they should. It only lacks some core processes needed to continuously created and maintain the documentation and a metadata taxonomy to make it a complete framework. 
+
+This key document types for SOC Engineering are:
+
+- Monitoring Architecture
+- Internal Change Management Processes
+- Systems and Sensors Maintenance and Build Instructions
+- Operational, Functional, and Systems Requirements
+- Budget and current spending (capital and operational expenditures)
+- Unfunded Requirements
+- Sensor and SIEM Detections/Analytics/Content Lists(s)
+- SOC System Inventory
+- Network Diagrams
 
 Deryck, I think you read this, your mind will be blown. As always, you knew the "best practices" before I can find the standard proving it.
 
