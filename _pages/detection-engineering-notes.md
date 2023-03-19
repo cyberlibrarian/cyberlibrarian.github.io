@@ -25,7 +25,7 @@ Last Update: 2023-03-19
 - Gigamon : [So, You Want to Be a Detection Engineer?](https://blog.gigamon.com/2020/02/24/so-you-want-to-be-a-detection-engineer/)
 - Red Canary : [Behind the Scenes with Red Canary's Detection Engineering Team](https://redcanary.com/blog/detection-engineering/)
 - Alex Teixeira : [What does it mean to be a threat detection engineer?](https://ateixei.medium.com/what-does-it-mean-to-be-a-threat-detection-engineer-f14bf5916aac)
-- Mark Simon : [Typical SecOps Role Evolution](https://www.linkedin.com/posts/marksimos_ive-been-thinking-deeply-about-the-evolution-activity-7030370158208544768-HkaJ/?originalSubdomain=hk)
+- Mark Simos : [Typical SecOps Role Evolution](https://www.linkedin.com/posts/marksimos_ive-been-thinking-deeply-about-the-evolution-activity-7030370158208544768-HkaJ/?originalSubdomain=hk)
 
 ## Can I get certified as a Detection Engineer?
 Maybe. I never thought about that before.
