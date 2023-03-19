@@ -49,6 +49,7 @@ Maybe. I never thought about that before.
 
 #### Books
 
+- [11 Strategies of a World-Class Cybersecurity Operations Center](https://www.mitre.org/news-insights/publication/11-strategies-world-class-cybersecurity-operations-center)
 - [Malware Analysis and Detection Engineering](https://www.google.ca/books/edition/Malware_Analysis_and_Detection_Engineeri/TDGWzQEACAAJ?hl=en)
 - [Agile Security Operations](https://www.kobo.com/ca/en/ebook/agile-security-operations)
 
