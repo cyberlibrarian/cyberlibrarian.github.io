@@ -19,7 +19,7 @@ Last Update: 2023-03-19
 
 - Florian Roth : [About Detection Engineering](https://cyb3rops.medium.com/about-detection-engineering-44d39e0755f0)
 - CrowdStrike : [What is Detection Engineering?](https://www.crowdstrike.com/cybersecurity-101/observability/detection-engineering/#:~:text=Detection%20engineering%20is%20the%20process,to%20defend%20against%20current%20threats.)
-- [Awesome Detection Engineering](https://github.com/infosecB/awesome-detection-engineering)
+- GitHub : [Awesome Detection Engineering](https://github.com/infosecB/awesome-detection-engineering)
 - Uptycs : [What Is Detection Engineering?](https://www.uptycs.com/blog/what-is-detection-engineering)
 - Panther : [A Technical Primer in Detection Engineering](https://panther.com/cyber-explained/detection-engineering-benefits/)
 - Gigamon : [So, You Want to Be a Detection Engineer?](https://blog.gigamon.com/2020/02/24/so-you-want-to-be-a-detection-engineer/)
@@ -73,7 +73,7 @@ Maybe. I never thought about that before.
 
 TODO. See articles above for now.
 
-### What tasks should a Detection Engineering Program document?
+## What tasks should a Detection Engineering Program document?
 
 Appendix C.3 of the MITRE book [11 Strategies of a World-Class Cybersecurity Operations Center](https://www.mitre.org/news-insights/publication/11-strategies-world-class-cybersecurity-operations-center) outlines a framework for Detection Engineering/SOC Systems Administrator documentation. In a past job, I worked together with a SOC Syadmin, collaborated on documentation that was similar. I was delighted when I read this appendix and found it was a strong match for what we did. It drove new effeciencies, supported better understanding by incident handlers, and ensured our systems were well maintained and worked.
 
@@ -213,7 +213,6 @@ I like to focus more on the documentation of use-case development. In the MITRE 
 
 - [Florian Roth](https://twitter.com/cyb3rops)
     "The Guru of Detection Engineering" - Avigayle Mechtinger
-- [Jake Williams]()
 - [David J Bianco](https://detect-respond.blogspot.com/)
 - [Alex Teixeira](https://ateixei.medium.com/)
 - [Kyle Bailey](https://kyle-bailey.medium.com/)
