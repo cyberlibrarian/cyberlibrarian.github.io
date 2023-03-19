@@ -34,6 +34,7 @@ minima:
       - { platform: mastodon, user_url: "https://birds.town/@cyberlibrarian" }
 
 header_pages:
+    - _pages/detection-engineering-notes.md
     - _pages/learning.md
     - _pages/moro-and-mike.md
 
