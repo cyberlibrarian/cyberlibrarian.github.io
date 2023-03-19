@@ -28,6 +28,7 @@ tags: [detection-engineering,threat-detection,SIEM,SOAR,EDR]
 Maybe. I never thought about that before.
 
 - [ATT&CK Threat Hunting Detection Engineering Certification Path](https://mad-certified.mitre-engenuity.org/collection/9edbe772-c054-4004-bf4c-f5e7b09d2640)
+-- Training is part of [MITRE MAD](https://mitre-engenuity.org/cybersecurity/mad/mad-curriculum/) which is USD$500/year.
 - [GIAC Certified Detection Analyst (GCDA)])(https://www.giac.org/certifications/certified-detection-analyst-gcda/)
 
 ## How can I learn more about Detection Engineering?
@@ -67,7 +68,25 @@ Maybe. I never thought about that before.
 
 ## What are the core Detection Engineering Processes?
 
+TODO. See articles above for now.
+
 ### What tasks should a Detection Engineering Program document?
+
+Appendix C.3 of the MITRE book [11 Strategies of a World-Class Cybersecurity Operations Center](https://www.mitre.org/news-insights/publication/11-strategies-world-class-cybersecurity-operations-center) outlines a framework for Detection Engineering/SOC Systems Administrator documentation. In a past job, I worked together with a SOC Syadmin, collaborated on documentation that was similar. I was delighted when I read this appendix and found it was a strong match for what we did. It drove new effeciencies, supported better understanding by incident handlers, and ensured our systems were well maintained and worked.
+
+This key document types for SOC Engineering are:
+
+- Monitoring Architecture
+- Internal Change Management Processes
+- Systems and Sensors Maintenance and Build Instructions
+- Operational, Functional, and Systems Requirements
+- Budget and current spending (capital and operational expenditures)
+- Unfunded Requirements
+- Sensor and SIEM Detections/Analytics/Content Lists(s)
+- SOC System Inventory
+- Network Diagrams
+
+I like to focus more on the documentation of use-case development. In the MITRE book that would be "Sensor and SIEM Detections/Analytics/Content List(s)" as well as "Internal Change Management Processes" primarily. Below is my own framework for the medium-grained tasks a Detectin Engineer would carry out. You can think of each item below as being an artifact or task documented in Jira or Confluence etc.
 
 - Document use-case
 -- Taking as input some need, define the use-case so that it maybe reviewed and prioritized and added to the backlog
@@ -90,7 +109,6 @@ Maybe. I never thought about that before.
 - Report metrics
 -- Input is all developed, implemented metrics. Operationize reporting. Output is feedback into the use-case development process or advise to stakeholders outside DE.
 - Document datasource
--- 
 - Implement datasource
 - Monitor datasource
 - 
@@ -112,6 +130,11 @@ Maybe. I never thought about that before.
 - [TaHiTI: Threat Hunting Methodology](https://www.betaalvereniging.nl/en/safety/tahiti/)
 -- Aligned with MaGMa, the TaHiTI methodology for threat hunting is created with real hunting practice in mind and provides organization with a standardized and repeatable approach to their hunting investigations. The methodology uses 3 phases and 6 steps and integrates threat intelligence throughout its execution.
 
+### Naming Conventions
+- From LASCON talk by 
+-- Primary Key:SCOPE:TTP:Short name
+-- Scope is servers, workstations, or something more granular
+-- 
 
 ### Detection Specification Languages/Formats
 - Sigma
