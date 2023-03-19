@@ -5,7 +5,7 @@ title:  "Documentation for Detection Engineering"
 summary: "Did you know that the MITRE book [11 Strategies of a World-Class Cybersecurity Operations Center](https://www.mitre.org/news-insights/publication/11-strategies-world-class-cybersecurity-operations-center) has appendices outlining the documentation framework need for Security Operations. This includes Detection Engineering!"
 authors: [michael]
 categories: [ Blog ]
-tags: [detection-engineering,threat-detection,SIEM,SOAR,EDR]
+tags: [detection-engineering,documentation,threat-detection,SIEM,SOAR,EDR]
 ---
 {{ page.summary }}
 
