@@ -9,11 +9,11 @@ tags: [detection-engineering,threat-detection,SIEM,SOAR,EDR]
 ---
 {{ page.summary }}
 
-## What is Detection Engineering?
+### What is Detection Engineering?
 
 > Detection engineering is the process of identifying threats before they can do significant damage. Detection engineering is about creating a culture, as well as a process of developing, evolving, and tuning detections to defend against current threats. -- CrowdStrike
 
 ## [My Detection Engineering Notes]({% link _pages/detection-engineering-notes.md %})
 
-Follow this permanent page {% link _pages/detection-engineering-notes.md %}
+[Follow this link to my permanent notes page]({% link _pages/detection-engineering-notes.md %})
 

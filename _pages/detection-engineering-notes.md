@@ -1,5 +1,4 @@
 ---
-published: true
 layout: page
 permalink: "/detection-engineering-notes"
 title:  "Detection Engineering Notes"
