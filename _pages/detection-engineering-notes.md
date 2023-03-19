@@ -216,6 +216,7 @@ I like to focus more on the documentation of use-case development. In the MITRE 
 - Microsoft Excel
  
 ### Data Sources (Event Logs)
+- [MITRE ATT&CK datasource mapping](https://github.com/mitre-attack/attack-datasources)
 - Sysmon
 - Linux auditd
 - Filebeat
