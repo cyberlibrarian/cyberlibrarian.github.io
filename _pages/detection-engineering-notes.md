@@ -7,6 +7,8 @@ authors: [michael]
 categories: [ Blog ]
 tags: [detection-engineering,threat-detection,SIEM,SOAR,EDR]
 ---
+Last Update: 2023-03-19
+
 {{ page.summary }}
 
 ## What is Detection Engineering?
@@ -29,7 +31,7 @@ Maybe. I never thought about that before.
 
 - [ATT&CK Threat Hunting Detection Engineering Certification Path](https://mad-certified.mitre-engenuity.org/collection/9edbe772-c054-4004-bf4c-f5e7b09d2640)
 -- Training is part of [MITRE MAD](https://mitre-engenuity.org/cybersecurity/mad/mad-curriculum/) which is USD$500/year.
-- [GIAC Certified Detection Analyst (GCDA)])(https://www.giac.org/certifications/certified-detection-analyst-gcda/)
+- [GIAC Certified Detection Analyst (GCDA)](https://www.giac.org/certifications/certified-detection-analyst-gcda/)
 
 ## How can I learn more about Detection Engineering?
 
