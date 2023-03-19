@@ -15,6 +15,23 @@ Last Update: 2023-03-19
 
 > Detection engineering is the process of identifying threats before they can do significant damage. Detection engineering is about creating a culture, as well as a process of developing, evolving, and tuning detections to defend against current threats. -- CrowdStrike
 
+> Detection engineering transforms information about threats into detections.... Detection engineering transforms an idea of how to detect a specific condition or activity into a concrete description of how to detect it. -- Florian Roth
+
+> Detection engineering is by no means limited to the detection of events (activity). It also includes detecting conditions (states), often used in digital forensics or incident response. -- Florian Roth
+
+> A Threat Detection Engineer is someone who applies domain knowledge on designing, building or maintaining detection content in the form of detections generating alerts; or interfaces in the form of dashboards or reports supporting the security monitoring practice within an organization. -- Alex Teixeira
+
+> Detection engineering is a process—applying systems thinking and engineering to more accurately detect threats. The goal is to create an automated system of threat detection which is customizable, flexible, repeatable, and produces high quality alerts for security teams to act upon. -- Laura Kenner, uptycs
+
+> Detection engineering functions within security operations and deals with the design, development, testing, and maintenance of threat detection logic. -- Mark Stone, panther
+
+> Detection engineers design and build security systems that constantly evolve to defend against current threats. -- Josh Day, gigamon
+
+> Threat hunting and detection engineering are different specializations, but are closely related. They have common goal of finding attackers using available data, whether its the attackers that got past your detections (threat hunting) or the next ones through (detections). -- Mark Simos
+
+
+
+
 ### Perspectives
 
 - Florian Roth : [About Detection Engineering](https://cyb3rops.medium.com/about-detection-engineering-44d39e0755f0)
@@ -44,6 +61,7 @@ Maybe. I never thought about that before.
 - [Prioritization of the Detection Engineering Backlog](https://posts.specterops.io/prioritization-of-the-detection-engineering-backlog-dcb18a896981)
 - [Detection Engineering with MITRE Top Techniques & Atomic Red Team](https://fourcore.io/blogs/detection-engineering-with-mitre-engenuity-atomic-red-team)
 - [How to Improve Security Monitoring with Detection Engineering Program](https://blogs.oracle.com/cloudsecurity/post/how-to-improve-security-monitoring-with-detection-engineering-program)
+- [The Evolution of Security Operations and Strategies for Building an Effective SOC](https://www.isaca.org/resources/isaca-journal/issues/2021/volume-5/the-evolution-of-security-operations-and-strategies-for-building-an-effective-soc) (ISACA, Lakshmi Narayanan Kaliyaperumal)
 
 #### Blogs
 
@@ -51,8 +69,7 @@ Maybe. I never thought about that before.
 - [Florian Roth](https://cyb3rops.medium.com/)
 - [Alex Teixeira: When Data speaks, are you ready to listen?](https://ateixei.medium.com/)
 - [MITRE ATT&CK Blog](https://medium.com/mitre-attack)
-- 
-
+- [Anton Chuvakin](https://medium.com/@anton.chuvakin)
 
 #### Books
 
@@ -61,6 +78,8 @@ Maybe. I never thought about that before.
 - [Agile Security Operations](https://www.kobo.com/ca/en/ebook/agile-security-operations)
 
 ### Listening (Podcasts)
+
+- [The Mysteries of Detection Engineering: Revealed!](https://cloud.withgoogle.com/cloudsecurity/podcast/the-mysteries-of-detection-engineering-revealed/)
 
 ### Watching (Videos)
 
