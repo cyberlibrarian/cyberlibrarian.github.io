@@ -1,7 +1,7 @@
 ---
 published: true
 layout: post
-title:  "Manually Importing CrowdStrike Falcon Events to Splunk"
+title:  "Manually Import CrowdStrike Falcon Events to Splunk"
 summary: "Do you use CrowdStrike Event search heavily? Do you come up against the 7-day data retention limit? Do you want to keep some data longer and still search it? This article explains how to manualy export events from CrowdStrike Falcon Event Search and then import that into Splunk for correlation, preservation, or further analysis."
 authors: [michael]
 categories: [ Blog ]
