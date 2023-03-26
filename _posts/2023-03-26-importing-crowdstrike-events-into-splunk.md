@@ -90,6 +90,8 @@ That is where the two "SEDCMD" settings come in. These will search-and-replace t
 
 ## Step 4: Import the JSON into Splunk
 
+Be aware that there is a 500MB limit on manually uploaded data. However, if you exported at most 50,000 records following my earlier instructions, you should have files that are at most 100MB of JSON.
+
 Now that you have created the sourcetype, you can import your CrowdStrike JSON file.
 
 1. In Splunk, from the *Settings* menu, select the "Add Data" icon on the left hand side.
