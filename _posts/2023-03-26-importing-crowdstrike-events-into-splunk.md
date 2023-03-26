@@ -63,11 +63,15 @@ Before you can import this into Splunk you will need to configure a source type.
 - SEDCMD-rename-raw: s/"_raw"/"orig_raw"/
 - SEDCMD-rename-time: s/"_time"/"orig_time"/
 
+![Splunk source type settings for crowdstrike:result:json](/assets/images/2023-03-26_13-51-55.png)
+
+
 What do these settings do?
 
 ### Event Breaks
 
 This is the the part that really matters. When you export search results from CrowdStrike Event search, the JSON includes a "wrapper" around the results that I want to remove. You can import this very simply without my changes by setting "Indexed Extractions" to JSON. But you will get the prefix "result." in from every field name.
+
 
 To remove that we treat the JSON "wrapper" as a Line Breaker. That leaves us with just the search "result" fields and preserves the same field names we use in CrowdStrike.
 
@@ -81,7 +85,7 @@ We have to specify "KV_MODE=json" in order to allow the JSON fields to be parse 
 
 There are multiple timestamps in our exported JSON but we want the one called "timestamp" in BSD/Unix format. In Splunk that is *%O*.
 
-![Timestamp setting for Splunk source type]({{ assets/images/2023-03-26_13-52-05.png | relative_url }})
+![Timestamp setting for Splunk source type](/assets/images/2023-03-26_13-52-05.png)
 
 ### Renaming conflicting fields
 But this
