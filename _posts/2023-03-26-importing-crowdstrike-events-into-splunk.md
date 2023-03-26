@@ -62,11 +62,16 @@ Before you can import this into Splunk you will need to configure a source type.
 - KV_MODE: json
 - SEDCMD-rename-raw: s/"_raw"/"orig_raw"/
 - SEDCMD-rename-time: s/"_time"/"orig_time"/
+- SEDCMD-rename-sourcetype: s/"sourcetype"/"orig_sourcetype"/
+- SEDCMD-rename-eventtype: s/"eventtype"/"orig_eventtype"/
+- SEDCMD-rename-splunkserver: s/"splunk_server"/"orig_splunk_server"/
+- SEDCMD-rename-host: s/"host"/"orig_host"/
+- SEDCMD-rename-source: s/"source"/"orig_source"/
+- SEDCMD-rename-index: s/"index"/"orig_index"/
 
 ![Splunk source type settings for crowdstrike:result:json](/assets/images/2023-03-26_13-51-55.png)
 
-
-What do these settings do?
+What do these settings do? Read below.
 
 ### Event Breaks
 
@@ -90,7 +95,7 @@ There are multiple timestamps in our exported JSON but we want the one called "t
 ### Renaming conflicting fields
 But this
 
-Note for Splunk datasource developers: Setting "INDEXED_EXTRACTION=json" will give you fields that start with "result." and while that is workable, I prefer not to have that. We don't want the CrowdStrike "_raw" and "_time" fields clobbering the Splunk ones (which will be populated when the data is indexed by Splunk).
+Note for Splunk datasource developers: Setting "INDEXED_EXTRACTION=json" will give you fields that start with "result." and while that is workable, I prefer not to have that. We don't want the CrowdStrike "_raw" and "_time" fields clobbering the Splunk ones (which will be populated when the data is indexed by Splunk). The same is true of other standard Splunk fields that are added during indexing: host, splunk_server, source, sourcetype, and index.
 
 That is where the two "SEDCMD" settings come in. These will search-and-replace the text (using sed syntax) before they are indexed. 
 
