@@ -79,7 +79,7 @@ We have to specify "KV_MODE=json" in order to allow the JSON fields to be parse 
 
 ### Timestamp
 
-There are multiple timestamps in our exported JSON but we want the one called "timestamp" in BSD/Unix format. In Splunk that is *%O%.
+There are multiple timestamps in our exported JSON but we want the one called "timestamp" in BSD/Unix format. In Splunk that is *%O*.
 
 ### Renaming conflicting fields
 But this
