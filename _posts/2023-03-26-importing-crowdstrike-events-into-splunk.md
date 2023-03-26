@@ -17,7 +17,7 @@ I like CrowdStrike Falcon Event Search. It's based on Splunk and I rely on it he
 
 ## Step 1: Perform an Event Search in CrowdStrike
 
-When my purpose for exporting CrowdStrike events is to preserve them, or to load them into Splunk for further analysis, I always export *all* events with no statistical summarization. This means no "|table" and no "|stats". I want the native CrowdStrike event fields, and I want all of them.
+When my purpose for exporting CrowdStrike events is to preserve them, or to load them into Splunk for further analysis, I always export *all* events with no statistical summarization. This means no "\|table" and no "\|stats". I want the native CrowdStrike event fields, and I want all of them.
 
 However, there limits to how many records can be returned from a search. You cannot change these settings: they are set by CrowdStrike in their internal Splunk instance (Event Search is based on Splunk currently). For me, that limit is 50,000 events. The visual sign that your search did not return all records can be subtle and you *might* miss it.
 
@@ -62,6 +62,27 @@ Before you can import this into Splunk you will need to configure a source type.
 - KV_MODE: json
 - SEDCMD-rename-raw: s/"_raw"/"orig_raw"/
 - SEDCMD-rename-time: s/"_time"/"orig_time"/
+
+What do these settings do?
+
+### Event Breaks
+
+This is the the part that really matters. When you export search results from CrowdStrike Event search, the JSON includes a "wrapper" around the results that I want to remove. You can import this very simply without my changes by setting "Indexed Extractions" to JSON. But you will get the prefix "result." in from every field name.
+
+To remove that we treat the JSON "wrapper" as a Line Breaker. That leaves us with just the search "result" fields and preserves the same field names we use in CrowdStrike.
+
+`(\}?[\r\n]*\{"preview":false(,"offset":\d+)?,"result":)`
+
+We are removing `{"preview":false,"offset":2,"result":` from every record. Sometimes "offset" is not present. And the `\}[\r\n]*` handles the very end of every record.
+
+We have to specify "KV_MODE=json" in order to allow the JSON fields to be parse out at search time. We have to sacrifice index-time field extraction, but I find that acceptable given I don't need to load a lot of data usually.
+
+### Timestamp
+
+There are multiple timestamps in our exported JSON but we want the one called "timestamp" in BSD/Unix format. In Splunk that is *%O%.
+
+### Renaming conflicting fields
+But this
 
 Note for Splunk datasource developers: Setting "INDEXED_EXTRACTION=json" will give you fields that start with "result." and while that is workable, I prefer not to have that.
 
