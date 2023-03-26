@@ -81,6 +81,8 @@ We have to specify "KV_MODE=json" in order to allow the JSON fields to be parse 
 
 There are multiple timestamps in our exported JSON but we want the one called "timestamp" in BSD/Unix format. In Splunk that is *%O*.
 
+![Timestamp setting for Splunk source type]({{ assets/images/2023-03-26_13-52-05.png | relative_url }})
+
 ### Renaming conflicting fields
 But this
 
