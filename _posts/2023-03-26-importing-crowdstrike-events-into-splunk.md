@@ -84,7 +84,9 @@ There are multiple timestamps in our exported JSON but we want the one called "t
 ### Renaming conflicting fields
 But this
 
-Note for Splunk datasource developers: Setting "INDEXED_EXTRACTION=json" will give you fields that start with "result." and while that is workable, I prefer not to have that.
+Note for Splunk datasource developers: Setting "INDEXED_EXTRACTION=json" will give you fields that start with "result." and while that is workable, I prefer not to have that. We don't want the CrowdStrike "_raw" and "_time" fields clobbering the Splunk ones (which will be populated when the data is indexed by Splunk).
+
+That is where the two "SEDCMD" settings come in. These will search-and-replace the text (using sed syntax) before they are indexed. 
 
 ## Step 4: Import the JSON into Splunk
 
