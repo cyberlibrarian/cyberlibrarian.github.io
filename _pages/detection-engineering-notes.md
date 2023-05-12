@@ -13,6 +13,10 @@ Last Update: 2023-03-19
 
 ## What is Detection Engineering?
 
+*Detection Engineering* is the populized term to describe the practice of designing, developing, and maintaining systems for the detection of cyber threats. It is a not a discipline of Engineering as defined by many regulatory bodies, but a term populized through wide-accepted usage in cybersecurity. It is used to distinguish between the roles of *Threat Intelligence* and *Incident Response* in *Security Operations*. The specific definition varies, but the term itself is now widely used.
+
+Some perspectives on how to define Detection Engineering:
+
 > Detection engineering is the process of identifying threats before they can do significant damage. Detection engineering is about creating a culture, as well as a process of developing, evolving, and tuning detections to defend against current threats. -- CrowdStrike
 
 > Detection engineering transforms information about threats into detections.... Detection engineering transforms an idea of how to detect a specific condition or activity into a concrete description of how to detect it. -- Florian Roth
@@ -29,20 +33,24 @@ Last Update: 2023-03-19
 
 > Threat hunting and detection engineering are different specializations, but are closely related. They have common goal of finding attackers using available data, whether its the attackers that got past your detections (threat hunting) or the next ones through (detections). -- Mark Simos
 
+### Are Threat Hunting and Detection Engineering the Same Thing?
 
+A number of emerging frameworks and defitions for *Threat Hunting* overlap with *Detection Engineering*. For this reason, I will include Threat Hunting models, methods, and frameworks. The newest thinking provides fewer differences, mostly around goals and who-does-what. 
 
+There appear to be more similarities that differences in processes, with differences proposed depending on the size of the organization. For example, large MSPs see a greater distinction than a mid-size financial institution would: the MSP has entire departments who much detect threats, and labour must be divided. A single organiztaion with an Information Security department of 20 people might want a one or two people to take on all detection development tasks.
 
 ### Perspectives
 
 - Florian Roth : [About Detection Engineering](https://cyb3rops.medium.com/about-detection-engineering-44d39e0755f0)
+- Alex Teixeira : [What does it mean to be a threat detection engineer?](https://ateixei.medium.com/what-does-it-mean-to-be-a-threat-detection-engineer-f14bf5916aac)
+- Mark Simos : [Typical SecOps Role Evolution](https://www.linkedin.com/posts/marksimos_ive-been-thinking-deeply-about-the-evolution-activity-7030370158208544768-HkaJ/?originalSubdomain=hk)
+- Dave Bianco : 
 - CrowdStrike : [What is Detection Engineering?](https://www.crowdstrike.com/cybersecurity-101/observability/detection-engineering/#:~:text=Detection%20engineering%20is%20the%20process,to%20defend%20against%20current%20threats.)
 - GitHub : [Awesome Detection Engineering](https://github.com/infosecB/awesome-detection-engineering)
 - Uptycs : [What Is Detection Engineering?](https://www.uptycs.com/blog/what-is-detection-engineering)
 - Panther : [A Technical Primer in Detection Engineering](https://panther.com/cyber-explained/detection-engineering-benefits/)
 - Gigamon : [So, You Want to Be a Detection Engineer?](https://blog.gigamon.com/2020/02/24/so-you-want-to-be-a-detection-engineer/)
 - Red Canary : [Behind the Scenes with Red Canary's Detection Engineering Team](https://redcanary.com/blog/detection-engineering/)
-- Alex Teixeira : [What does it mean to be a threat detection engineer?](https://ateixei.medium.com/what-does-it-mean-to-be-a-threat-detection-engineer-f14bf5916aac)
-- Mark Simos : [Typical SecOps Role Evolution](https://www.linkedin.com/posts/marksimos_ive-been-thinking-deeply-about-the-evolution-activity-7030370158208544768-HkaJ/?originalSubdomain=hk)
 
 ## Can I get certified as a Detection Engineer?
 Maybe. I never thought about that before.
@@ -53,6 +61,14 @@ Maybe. I never thought about that before.
 
 ## How can I learn more about Detection Engineering?
 
+## Maturity Models
+
+- [The DML Model](https://ryanstillions.blogspot.com/2014/04/the-dml-model_21.html), Ryan Stillions
+- [Detection Engineering Maturity Matrix](https://detectionengineering.io/), Kyle Bailey
+- [Detectin Engineering Maturity Matrix](https://kyle-bailey.medium.com/detection-engineering-maturity-matrix-f4f3181a5cc7), Blog post by Kyle Bailey.
+- [The Hunting Maturity Model (HMM)](https://www.threathunting.net/files/The%20Threat%20Hunting%20Reference%20Model%20Part%201_%20Measuring%20Hunting%20Maturity%20_%20Sqrrl.pdf), Sqrrl Threat Hunting Reference Model (*no longer maintained*)
+
+
 ### Reading
 
 #### Articles
@@ -62,6 +78,7 @@ Maybe. I never thought about that before.
 - [Detection Engineering with MITRE Top Techniques & Atomic Red Team](https://fourcore.io/blogs/detection-engineering-with-mitre-engenuity-atomic-red-team)
 - [How to Improve Security Monitoring with Detection Engineering Program](https://blogs.oracle.com/cloudsecurity/post/how-to-improve-security-monitoring-with-detection-engineering-program)
 - [The Evolution of Security Operations and Strategies for Building an Effective SOC](https://www.isaca.org/resources/isaca-journal/issues/2021/volume-5/the-evolution-of-security-operations-and-strategies-for-building-an-effective-soc) (ISACA, Lakshmi Narayanan Kaliyaperumal)
+- [Threat-Informed Defense Ecosystem](https://start.me/p/X25q7l/threat-informed-defense-ecosystem) by Micah V.
 
 #### Blogs
 
@@ -244,6 +261,7 @@ I like to focus more on the documentation of use-case development. In the MITRE 
 - [David J Bianco](https://detect-respond.blogspot.com/)
 - [Alex Teixeira](https://ateixei.medium.com/)
 - [Kyle Bailey](https://kyle-bailey.medium.com/)
+- [Dave Bianco](https://detect-respond.blogspot.com/)
 
 ## What is the relationship between Detection Engineering and Incident Response?
 
