@@ -7,7 +7,7 @@ authors: [michael]
 categories: [ Blog ]
 tags: [detection-engineering,threat-detection,SIEM,SOAR,EDR]
 ---
-Last Update: 2023-03-19
+Last Update: 2023-05-13
 
 {{ page.summary }}
 
@@ -15,7 +15,13 @@ Last Update: 2023-03-19
 
 *Detection Engineering* is the populized term to describe the practice of designing, developing, and maintaining systems for the detection of cyber threats. It is a not a discipline of Engineering as defined by many regulatory bodies, but a term populized through wide-accepted usage in cybersecurity. It is used to distinguish between the roles of *Threat Intelligence* and *Incident Response* in *Security Operations*. The specific definition varies, but the term itself is now widely used.
 
+My working definition (subject to change):
+
+> Detection Engineering and Threat Hunting are part of an agile DevOps threat-informed defense practice that produces and operationalizes threat detection analytics. These practices require threat analysis, data engineering, design and management of detection systems, development of detection analytics, and operation/execution of threat detection. This is fundemantally a DevOps practice driven by threat intelligence, enabled by data modeling on large datasets, and increasingly requiring the application of statistical techniques.
+
 Some perspectives on how to define Detection Engineering:
+
+> Threat hunting and detection engineering are different specializations, but are closely related. They have common goal of finding attackers using available data, whether its the attackers that got past your detections (threat hunting) or the next ones through (detections). -- Mark Simos
 
 > Detection engineering is the process of identifying threats before they can do significant damage. Detection engineering is about creating a culture, as well as a process of developing, evolving, and tuning detections to defend against current threats. -- CrowdStrike
 
@@ -30,8 +36,6 @@ Some perspectives on how to define Detection Engineering:
 > Detection engineering functions within security operations and deals with the design, development, testing, and maintenance of threat detection logic. -- Mark Stone, panther
 
 > Detection engineers design and build security systems that constantly evolve to defend against current threats. -- Josh Day, gigamon
-
-> Threat hunting and detection engineering are different specializations, but are closely related. They have common goal of finding attackers using available data, whether its the attackers that got past your detections (threat hunting) or the next ones through (detections). -- Mark Simos
 
 ### Are Threat Hunting and Detection Engineering the Same Thing?
 
@@ -261,9 +265,15 @@ I like to focus more on the documentation of use-case development. In the MITRE 
 - [David J Bianco](https://detect-respond.blogspot.com/)
 - [Alex Teixeira](https://ateixei.medium.com/)
 - [Kyle Bailey](https://kyle-bailey.medium.com/)
-- [Dave Bianco](https://detect-respond.blogspot.com/)
+- TBD.. what about the folks at MITRE who designed TCHAMP etc?
 
 ## What is the relationship between Detection Engineering and Incident Response?
+
+Incident Response is the key stakeholder in the development of detection analytics. In the past, or in small organizations, they may also be the developer of detection analytics.
+
+The creation of detection rules and their "tuning" to eliminate false-positives has often been described as an activity carried about by incident responders. For example, a corporate security team, the incident response manage and use the SIEM for detection. The rules exist for them, and they create those rule in response to past incidents or from a library of pre-defined rules that they customize for their environment.
+
+This approach may be considered "historic" and is not emphasized in modern frameworks. It is not that incident responder cannot or should not be involved, it is that their role is operational and should be the consumer of good analytics, the driver of the development of new analytics, and not the developers of analytics. They are a stakeholder, perhaps the most important stakeholder!
 
 ## What is the relationship between Detection Engineering and Threat Hunting?
 
@@ -281,6 +291,8 @@ The need for new detections is often driven by threat intelligence. We want to d
 
 ## What is the relationship between Detection Engineering and Offensive Security?
 
+
+
 ## What is the relationship between Detection Engineering and IT Asset Inventory?
 
 Detection Engineering both consumes and produces asset inventories. Detection Engineering crucially requires quality inventory of assets, identifies, and configurations. 
@@ -290,4 +302,6 @@ If you want to measure the converage of your detections for an specific threat, 
 Detection Engineers often have specific inventory requirements that others do not. For example, knowing which security agents are present, knowing how assets are configured, knowing what permissions an identity has. These all can be used to enrich detections to priotize alerts by priority of the asset or severity of the detected threat. Without this additional information, you can detect a threat, but not detemine how urgent a response to that threat is.
 
 ## What is the relationship between Detection Engineering and Malware Analysis?
+
+In some larger organizations, especially security product vendors and MSP, a core activitity is analyzing new malware samples to extract useful indicators and to turn those into detection rules. The continuous deployment of new detection signatures is driven by malware analysis, and malware analysis might be considered a core skill required of those in a Detection Engineering role. Given that malware hashes are trivially changed, this activity involves more in-depth understanding of malware behaviour and the identification of invariant observables as well as behavior-based detections.
 
