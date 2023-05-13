@@ -2,7 +2,7 @@
 layout: page
 permalink: "/detection-engineering-notes"
 title:  "Detection Engineering Notes"
-summary: "I want to better understand the industry landscape and emerging practices in Detection Engineering. These are my notes on DE perspectives, frameworks, processes, tools, and people to learn from."
+summary: "I want to better understand the industry landscape and emerging practices in Detection Engineering and Threat Hunting. These are my notes on DE perspectives, frameworks, processes, tools, and people to learn from."
 authors: [michael]
 categories: [ Blog ]
 tags: [detection-engineering,threat-detection,SIEM,SOAR,EDR]
@@ -13,19 +13,25 @@ Last Update: 2023-05-13
 
 ## What is Detection Engineering?
 
-*Detection Engineering* is the populized term to describe the practice of designing, developing, and maintaining systems for the detection of cyber threats. It is a not a discipline of Engineering as defined by many regulatory bodies, but a term populized through wide-accepted usage in cybersecurity. It is used to distinguish between the roles of *Threat Intelligence* and *Incident Response* in *Security Operations*. The specific definition varies, but the term itself is now widely used.
+*Detection Engineering* is the populized term to describe the practice of designing, developing, and maintaining systems for the detection of cyber threats. It is closely related to *Threat Hunting* and shares frameworks and processes. It is a not a discipline of Engineering as defined by many regulatory bodies, but a term populized through wide-accepted usage in cybersecurity. It is used to distinguish between the roles of *Threat Intelligence* and *Incident Response* in *Security Operations*. The specific definition varies, but the term itself is now widely used.
 
 My working definition (subject to change):
 
-> Detection Engineering and Threat Hunting are part of an agile DevOps threat-informed defense practice that produces and operationalizes threat detection analytics. These practices require threat analysis, data engineering, design and management of detection systems, development of detection analytics, and operation/execution of threat detection. This is fundemantally a DevOps practice driven by threat intelligence, enabled by data modeling on large datasets, and increasingly requiring the application of statistical techniques.
+> Modern *Detection Engineering* and *Threat Hunting* are agile threat-informed defense practices that develop and operationalize threat *detection analytics*. These practices require threat analysis, data engineering, design and management of detection systems, development of detection analytics, and operation/execution of threat detection. They are DevOps practices driven by threat intelligence, enabled by data modeling on large datasets, and increasingly requiring the application of statistical techniques. The product of these practices are *analytics*: rules, signatures, dashboards, reports, searches, data models, visualizations, and/or "enrichments". They are both functions of *Security Operations* and distinct from *Incident Response*, *Vulnerability Management*, and *Threat Intelligence*.
 
-Some perspectives on how to define Detection Engineering:
+Some perspectives on how to define Detection Engineering/Threat Hunting:
 
 > Threat hunting and detection engineering are different specializations, but are closely related. They have common goal of finding attackers using available data, whether its the attackers that got past your detections (threat hunting) or the next ones through (detections). -- Mark Simos
 
 > Detection engineering is the process of identifying threats before they can do significant damage. Detection engineering is about creating a culture, as well as a process of developing, evolving, and tuning detections to defend against current threats. -- CrowdStrike
 
 > Detection engineering transforms information about threats into detections.... Detection engineering transforms an idea of how to detect a specific condition or activity into a concrete description of how to detect it. -- Florian Roth
+
+> Enter Threat hunting - the proactive practice of ferreting out those sneaky cyber-rodents. Or, if you insist on a more formal definition, “any manual or machine-assisted process intended to find security incidents missed by an organization’s automated detection systems.” Either way, hunting is a great way to drive improvement in automated detection and help you stay ahead of the attackers. -- David Bianco
+
+> When I teach threat hunting, I say "The purpose of threat hunting is not to find new incidents. It's to drive improvement in automated detection." Put simply, threat hunting is detection R&D (at least at the higher levels of hunting maturity).... our hunting outputs are not only detections. We update playbooks and other documentation for our detection engineers and (especially) our response teams. Our primary goal is to improve automated detection, but we see IR improvements as important secondary goals. -- [David Bianco](https://twitter.com/DavidJBianco/status/1323253575150194688)
+
+> 
 
 > Detection engineering is by no means limited to the detection of events (activity). It also includes detecting conditions (states), often used in digital forensics or incident response. -- Florian Roth
 
@@ -36,6 +42,12 @@ Some perspectives on how to define Detection Engineering:
 > Detection engineering functions within security operations and deals with the design, development, testing, and maintenance of threat detection logic. -- Mark Stone, panther
 
 > Detection engineers design and build security systems that constantly evolve to defend against current threats. -- Josh Day, gigamon
+
+> Threat hunting is an active means of cyber defense in contrast to traditional protection measures, such as firewalls, intrusion detection and prevention systems, quarantining malicious code in sandboxes, and Security Information and Event Management technologies and systems. Cyber threat hunting involves proactively searching organizational systems, networks, and infrastructure for advanced threats. The objective is to track and disrupt cyber adversaries as early as possible in the attack sequence and to measurably improve the speed and accuracy of organizational responses. Indications of compromise include unusual network traffic, unusual file changes, and the presence of malicious code. Threat hunting teams leverage existing threat intelligence and may create new threat intelligence, which is shared with peer organizations, Information Sharing and Analysis Organizations (ISAO), Information Sharing and Analysis Centers (ISAC), and relevant government departments and agencies. -- NIST SP 800-53 v5: RA-10
+
+> Detection Engineering sits at the intersection of InfoSec, Cloud Infrastructure, DevOps, and Software Development.  -- [Jack Naglieri](https://jacknaglieri.substack.com/p/detection-engineer-pt-1)
+
+> If you want to scale your detection program, you need to hire a Detection Engineering team that can complement each other in the following areas: 1. Subject matter expertise in security, 2. Software engineering, 3. Statistics -- [Zack Allen](https://www.detectionengineering.net/p/table-stakes-for-detection-engineering)
 
 ### Are Threat Hunting and Detection Engineering the Same Thing?
 
@@ -55,6 +67,10 @@ There appear to be more similarities that differences in processes, with differe
 - Panther : [A Technical Primer in Detection Engineering](https://panther.com/cyber-explained/detection-engineering-benefits/)
 - Gigamon : [So, You Want to Be a Detection Engineer?](https://blog.gigamon.com/2020/02/24/so-you-want-to-be-a-detection-engineer/)
 - Red Canary : [Behind the Scenes with Red Canary's Detection Engineering Team](https://redcanary.com/blog/detection-engineering/)
+- Secureworks : [Threat Hunting as an Official Cybersecurity Discipline](https://www.secureworks.com/blog/threat-hunting-as-an-official-cybersecurity-discipline)
+- NIST SP800-53 v5 : [RA-10: Threat Hunting](https://csf.tools/reference/nist-sp-800-53/r5/ra/ra-10/)
+- Jack Naglieri : [Think Like a Detection Engineer](https://jacknaglieri.substack.com/p/detection-engineer-pt-1)
+- Zack Allen : [Table Stakes for Detection Engineering](https://www.detectionengineering.net/p/table-stakes-for-detection-engineering)
 
 ## Can I get certified as a Detection Engineer?
 Maybe. I never thought about that before.
@@ -86,6 +102,7 @@ Maybe. I never thought about that before.
 
 #### Blogs
 
+- [Detection Engineering Weekly from Zack Allen](https://www.detectionengineering.net/)
 - [Blog Posts Tagged "Detection Engineering" on Medium](https://medium.com/tag/detection-engineering)
 - [Florian Roth](https://cyb3rops.medium.com/)
 - [Alex Teixeira: When Data speaks, are you ready to listen?](https://ateixei.medium.com/)
@@ -266,6 +283,12 @@ I like to focus more on the documentation of use-case development. In the MITRE 
 - [Alex Teixeira](https://ateixei.medium.com/)
 - [Kyle Bailey](https://kyle-bailey.medium.com/)
 - TBD.. what about the folks at MITRE who designed TCHAMP etc?
+
+## Where does Detection Engineering fit into the NIST Cybersecurity Framework
+
+That's complicated. The NIST CSF has an entire category called *Detect* but various activities that are part of *Detection Engineering* and *Threat Hunting* are found in other CSF categories as well.
+
+It can be modeled as a control to address the *Identity* category. For example, through NIST 800-53v5 RA-10: Threat Hunting. Have they confused the role that *Threat Intelligence* has in informing *Threat Hunting*? No. The control definition clearly outlines a requirement to establish a capability to monitor for and detect threats. Multiple controls, including threat hunting must be applied toward this requirement.
 
 ## What is the relationship between Detection Engineering and Incident Response?
 
