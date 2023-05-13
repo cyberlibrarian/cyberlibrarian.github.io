@@ -265,7 +265,6 @@ I like to focus more on the documentation of use-case development. In the MITRE 
 - Anti-virus Alerts
 - Active Directory changes
 - AWS CloudTrail
-- 
 
 ### Malware Analysis
 
