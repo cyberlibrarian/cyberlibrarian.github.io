@@ -31,8 +31,6 @@ Some perspectives on how to define Detection Engineering/Threat Hunting:
 
 > When I teach threat hunting, I say "The purpose of threat hunting is not to find new incidents. It's to drive improvement in automated detection." Put simply, threat hunting is detection R&D (at least at the higher levels of hunting maturity).... our hunting outputs are not only detections. We update playbooks and other documentation for our detection engineers and (especially) our response teams. Our primary goal is to improve automated detection, but we see IR improvements as important secondary goals. -- [David Bianco](https://twitter.com/DavidJBianco/status/1323253575150194688)
 
-> 
-
 > Detection engineering is by no means limited to the detection of events (activity). It also includes detecting conditions (states), often used in digital forensics or incident response. -- Florian Roth
 
 > A Threat Detection Engineer is someone who applies domain knowledge on designing, building or maintaining detection content in the form of detections generating alerts; or interfaces in the form of dashboards or reports supporting the security monitoring practice within an organization. -- Alex Teixeira
@@ -87,7 +85,6 @@ Maybe. I never thought about that before.
 - [Detection Engineering Maturity Matrix](https://detectionengineering.io/), Kyle Bailey
 - [Detectin Engineering Maturity Matrix](https://kyle-bailey.medium.com/detection-engineering-maturity-matrix-f4f3181a5cc7), Blog post by Kyle Bailey.
 - [The Hunting Maturity Model (HMM)](https://www.threathunting.net/files/The%20Threat%20Hunting%20Reference%20Model%20Part%201_%20Measuring%20Hunting%20Maturity%20_%20Sqrrl.pdf), Sqrrl Threat Hunting Reference Model (*no longer maintained*)
-
 
 ### Reading
 
@@ -184,6 +181,8 @@ I like to focus more on the documentation of use-case development. In the MITRE 
 ## What are popular Detection Engineering Standards and Frameworks?
 
 ### Frameworks
+- [MITRE TTP-Based Hunting (TCHAMP)](https://www.mitre.org/sites/default/files/2021-11/prs-19-3892-ttp-based-hunting.pdf)
+- [Splunk SURGE PEAK](https://www.splunk.com/en_us/blog/security/peak-threat-hunting-framework.html)
 - [Open Detection Engineering Framework](https://github.com/wealthsimple/odef)
 - [MITRE ATT&ACK](https://attack.mitre.org/)
 - [The Cyber Kill Chain](https://www.lockheedmartin.com/en-us/capabilities/cyber/cyber-kill-chain.html)
@@ -278,8 +277,11 @@ I like to focus more on the documentation of use-case development. In the MITRE 
 
 ## Who are the leaders in Detection Engineering?
 
+These are leaders in the sense, that they are people I follow! I have quite a few more to add to this list, many quoted earlier this these notes.
+
 - [Florian Roth](https://twitter.com/cyb3rops)
 - [David J Bianco](https://detect-respond.blogspot.com/)
+- [Roman Daszczyszak](https://twitter.com/rdunspellable?lang=en)
 - [Alex Teixeira](https://ateixei.medium.com/)
 - [Kyle Bailey](https://kyle-bailey.medium.com/)
 - TBD.. what about the folks at MITRE who designed TCHAMP etc?

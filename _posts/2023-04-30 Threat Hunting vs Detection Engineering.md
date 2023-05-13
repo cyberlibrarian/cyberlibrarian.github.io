@@ -18,7 +18,6 @@ Differences beteween these practices are primarily driven by the need to apply t
 - Threat Hunting is proactive, prioritizing efforts based on based on relevance
 - Detection Engineering prioritizes development by relevance and feasbility
 
-
 Fallacies:
 
 - Threat Hunting execution may trigger Incident Response, but Detection Engineering processes do not. In reality, developing a new detection rule involves the same iterative development process and examination of data as TH. Testing a detection analytic may trigger an Incident Response.
