@@ -47,6 +47,12 @@ Some perspectives on how to define Detection Engineering/Threat Hunting:
 
 > If you want to scale your detection program, you need to hire a Detection Engineering team that can complement each other in the following areas: 1. Subject matter expertise in security, 2. Software engineering, 3. Statistics -- [Zack Allen](https://www.detectionengineering.net/p/table-stakes-for-detection-engineering)
 
+> Detection engineering is a new approach to threat detection. More than just writing detection rules, detection engineering is a process — applying systems thinking and engineering to more accurately detect threats. Detection Engineering involves the research, design, development, testing, documentation, deployment and maintenance of detections/analytics and metrics. - [Sohan G](https://d4rkciph3r.medium.com/establishing-a-detection-engineering-program-from-the-ground-up-b170811166c)
+
+> Detection Engineering is a capability that researches and models threats in order to deliver modern and effective threat detections. What is Detection Engineering? Goal is to provide automated analytical capabilities {hunts} that can capture and detect the behaviours and TTPs of adversaries. -- [Atanas Viyachki, Senior Threat Hunter@Weatlthsimple](https://defcontoronto.com/wp-content/uploads/2023/03/DetectionEngineeringFramework-AtanasViyachki.pdf)
+
+> Detection engineering is the continuous process of deploying, tuning, and operating automated infrastructure for finding active threats in systems and orchestrating responses. Indeed, both the terms “detection” and “engineering” carry important connotations when it comes to the new approaches to security we’re discussing. -- [Jamie Lewis](https://medium.com/swlh/detection-engineering-for-cloud-native-security-190afdd4558c)
+
 ### Are Threat Hunting and Detection Engineering the Same Thing?
 
 A number of emerging frameworks and defitions for *Threat Hunting* overlap with *Detection Engineering*. For this reason, I will include Threat Hunting models, methods, and frameworks. The newest thinking provides fewer differences, mostly around goals and who-does-what. 
@@ -83,7 +89,7 @@ Maybe. I never thought about that before.
 
 - [The DML Model](https://ryanstillions.blogspot.com/2014/04/the-dml-model_21.html), Ryan Stillions
 - [Detection Engineering Maturity Matrix](https://detectionengineering.io/), Kyle Bailey
-- [Detectin Engineering Maturity Matrix](https://kyle-bailey.medium.com/detection-engineering-maturity-matrix-f4f3181a5cc7), Blog post by Kyle Bailey.
+    - [Detectin Engineering Maturity Matrix](https://kyle-bailey.medium.com/detection-engineering-maturity-matrix-f4f3181a5cc7), Blog post by Kyle Bailey.
 - [The Hunting Maturity Model (HMM)](https://www.threathunting.net/files/The%20Threat%20Hunting%20Reference%20Model%20Part%201_%20Measuring%20Hunting%20Maturity%20_%20Sqrrl.pdf), Sqrrl Threat Hunting Reference Model (*no longer maintained*)
 
 ### Reading
@@ -181,10 +187,19 @@ I like to focus more on the documentation of use-case development. In the MITRE 
 ## What are popular Detection Engineering Standards and Frameworks?
 
 ### Frameworks
+
+#### Frameworks for Detection Engineering/Threat Hunting
 - [MITRE TTP-Based Hunting (TCHAMP)](https://www.mitre.org/sites/default/files/2021-11/prs-19-3892-ttp-based-hunting.pdf)
 - [Splunk SURGE PEAK](https://www.splunk.com/en_us/blog/security/peak-threat-hunting-framework.html)
 - [Open Detection Engineering Framework](https://github.com/wealthsimple/odef)
+- [MaGMa: a framework and tool for use case management](https://www.betaalvereniging.nl/en/safety/magma/)
+-- The MaGMa Use Case Framework (UCF) is a framework and tool for use case management and administration on security monitoring. MaGMa's tool is decprecated and not maintained but the methodology remains sound well aligned with current practices. It is documented where other practices are often shared word-of-mouth. The primary author works at Splunk which now offers the Entprise Security Content library, with MaGMa like features.
+- [TaHiTI: Threat Hunting Methodology](https://www.betaalvereniging.nl/en/safety/tahiti/)
+-- Aligned with MaGMa, the TaHiTI methodology for threat hunting is created with real hunting practice in mind and provides organization with a standardized and repeatable approach to their hunting investigations. The methodology uses 3 phases and 6 steps and integrates threat intelligence throughout its execution.
+
+#### Standards for Implementing Detection Engineering Processes
 - [MITRE ATT&ACK](https://attack.mitre.org/)
+- [MITRE DETT&CT](https://github.com/rabobank-cdc/DeTTECT)
 - [The Cyber Kill Chain](https://www.lockheedmartin.com/en-us/capabilities/cyber/cyber-kill-chain.html)
 -- There are many variants of the killchain model. Lockheed Martin's is often cited. 
 - [The Pyramid of Pain](https://detect-respond.blogspot.com/2013/03/the-pyramid-of-pain.html)
@@ -193,10 +208,6 @@ I like to focus more on the documentation of use-case development. In the MITRE 
 - [The DML Model](https://ryanstillions.blogspot.com/2014/04/the-dml-model_21.html)
 - [Purple Team Exercise Framework (PTEF)](https://scythe.io/ptef)
 -- This is compatible with and includes a role for Detection Engineering
-- [MaGMa: a framework and tool for use case management](https://www.betaalvereniging.nl/en/safety/magma/)
--- The MaGMa Use Case Framework (UCF) is a framework and tool for use case management and administration on security monitoring. MaGMa's tool is decprecated and not maintained but the methodology remains sound well aligned with current practices. It is documented where other practices are often shared word-of-mouth. The primary author works at Splunk which now offers the Entprise Security Content library, with MaGMa like features.
-- [TaHiTI: Threat Hunting Methodology](https://www.betaalvereniging.nl/en/safety/tahiti/)
--- Aligned with MaGMa, the TaHiTI methodology for threat hunting is created with real hunting practice in mind and provides organization with a standardized and repeatable approach to their hunting investigations. The methodology uses 3 phases and 6 steps and integrates threat intelligence throughout its execution.
 
 ### Naming Conventions
 - From LASCON talk by 
@@ -220,12 +231,6 @@ I like to focus more on the documentation of use-case development. In the MITRE 
 
 - Agile Use Case Detection Methodologies
 - DevOps CI/CD
-
-### Standards
-
-- Sigma
-- 
-
 
 ## What tools are popular for Detection Engineering?
 
