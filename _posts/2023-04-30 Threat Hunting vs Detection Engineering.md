@@ -72,6 +72,13 @@ In the PEAK framework, a *Hypothesis-Driven* hunt closely matches older definiti
 
 Importantly, there is an overlap in PEAK's definition of Baseline and Model-Assisted hunts and emerging concepts for *Detection Engineering*. For example, Alex T.'s [Table Stakes for Detection Engineering]() argues that DE requires DevOps and Statistical methods. So does PEAK: data pipleines, baseline analysis and machine learning.
 
+## Splunk STRT Approach to Detection Engineering
+
+Splunk's STRT is a "team of security experts [that] develops security content in the form of detections, ML models and SOAR playbooks to help teams address time-sensitive threats and understand attack methods." [Splunk Threat Research Team](https://www.splunk.com/en_us/surge/threat-research.html). They produce Splunk's Enterprise Security Content Updates (ESCU): a library of *detection analytics*.
+
+- Study Threats, Create Datasets, Build Detections, Test Detections, Release [Splunk, 2023, Detection Engineering](https://www.splunk.com/en_us/blog/security/security-content-from-the-splunk-threat-research-team.html)
+- 
+
 # Detection Analytics
 
 What is a *Detection Analytic*?
@@ -84,3 +91,8 @@ What is a *Detection Analytic*?
 
 While the general usage in security operation is that "analytic" means "rule", it is clear that current thinking includes more than that including enrichment of data, searches, and re-usable outputs of statistical analysis (baselines). If you examine all of the common outputs of both Threat Hunting and Detection Engineering processes, you will see that they are all outputs of an analytic process that transforms data into something more actionable: data pipelines, data enrichments, data models, are not significantly different from the work needed to build correlation logic or a complex search. Which in turn as the same work needed to produce a report, visualization, or dashboard. I agrue that these are all "analytics" (noun).
 
+# If they are different, how are they different?
+
+There is a valid perspective that *Threat Hunting* and *Detection Engineering* are different practices, requiring similar skills and methods. Supporting this perspective are descriptions coming from large organizations, SIEM vendors, and MSSPs.
+
+For example, Splunk SURGE and STRT teams published processes make it clear that *Detection Engineering* is much heavier on DevOps processes and requires rigous development and systems and administration. The threat hunters do not have a requirement to continuously deliver a high quality published software product that will be used by thousands of stakeholders. Perhaps their methods need not be as rigorous.
