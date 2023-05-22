@@ -19,7 +19,7 @@ My working definition (subject to change):
 
 > Modern *Detection Engineering* and *Threat Hunting* are agile threat-informed defense practices that develop and operationalize threat *detection analytics*. These practices require threat analysis, data engineering, design and management of detection systems, development of detection analytics, and operation/execution of threat detection. They are DevOps practices driven by threat intelligence, enabled by data modeling on large datasets, and increasingly requiring the application of statistical techniques. The product of these practices are *analytics*: rules, signatures, dashboards, reports, searches, data models, visualizations, and/or "enrichments". They are both functions of *Security Operations* and distinct from *Incident Response*, *Vulnerability Management*, and *Threat Intelligence*.
 
-Some perspectives on how to define Detection Engineering/Threat Hunting:
+## Some perspectives on how to define Detection Engineering/Threat Hunting:
 
 > Threat hunting and detection engineering are different specializations, but are closely related. They have common goal of finding attackers using available data, whether its the attackers that got past your detections (threat hunting) or the next ones through (detections). -- Mark Simos
 
@@ -59,6 +59,13 @@ A number of emerging frameworks and defitions for *Threat Hunting* overlap with 
 
 There appear to be more similarities that differences in processes, with differences proposed depending on the size of the organization. For example, large MSPs see a greater distinction than a mid-size financial institution would: the MSP has entire departments who much detect threats, and labour must be divided. A single organiztaion with an Information Security department of 20 people might want a one or two people to take on all detection development tasks.
 
+- Cyborg Security. (2023, May 19). [Guarding the Gates: The Intriccasies of Detection Engineering and Threat Hunting](https://www.cyborgsecurity.com/blog/guarding-the-gates-the-intricacies-of-detection-engineering-and-threat-hunting/).
+- Zendejas, D. (2023, May 16). [Detection Engineering vs Threat Hunting](https://zendannyy.substack.com/p/detection-engineering-vs-threat-hunting). Danny's Newsletter.
+- Teixeira, A. (2023, February 25). [The dotted lines between Threat Hunting and Detection Engineering](https://ateixei.medium.com/the-dotted-lines-between-threat-hunting-and-detection-engineering-94fa0f7f62ce).
+- Kostas, T. (2023, Feburary 21). [Detection Engineering VS Threat Hunting](https://kostas-ts.medium.com/threat-hunting-series-detection-engineering-vs-threat-hunting-f12f3a72185f). Threat Hunting Series. 
+- Wickramasinghe, S. (2023, February 21). [Threat Hunting vs. Threat Detecting: Two Approaches to Finding & Mitigating Threats](https://www.splunk.com/en_us/blog/learn/threat-hunting-vs-threat-detecting.html). Splunk Blogs.
+- Delgado, M. (2021, September 02). [4 Differences Between Threat Hunting vs. Threat Detection](https://www.watchguard.com/wgrd-news/blog/4-differences-between-threat-hunting-vs-threat-detection). WatchGuard Blog.
+
 ### Perspectives
 
 - Florian Roth : [About Detection Engineering](https://cyb3rops.medium.com/about-detection-engineering-44d39e0755f0)
@@ -77,7 +84,6 @@ There appear to be more similarities that differences in processes, with differe
 - Zack Allen : [Table Stakes for Detection Engineering](https://www.detectionengineering.net/p/table-stakes-for-detection-engineering)
 
 ## Can I get certified as a Detection Engineer?
-Maybe. I never thought about that before.
 
 - [ATT&CK Threat Hunting Detection Engineering Certification Path](https://mad-certified.mitre-engenuity.org/collection/9edbe772-c054-4004-bf4c-f5e7b09d2640)
 -- Training is part of [MITRE MAD](https://mitre-engenuity.org/cybersecurity/mad/mad-curriculum/) which is USD$500/year.
@@ -96,12 +102,16 @@ Maybe. I never thought about that before.
 
 #### Articles
 
+
+- Roth, F. (2022, September 11). *[About Detection Engineering](https://cyb3rops.medium.com/about-detection-engineering-44d39e0755f0)*. Medium Blog.
 - [The dotted lines between Threat Hunting and Detection Engineering](https://ateixei.medium.com/the-dotted-lines-between-threat-hunting-and-detection-engineering-94fa0f7f62ce)
 - [Prioritization of the Detection Engineering Backlog](https://posts.specterops.io/prioritization-of-the-detection-engineering-backlog-dcb18a896981)
 - [Detection Engineering with MITRE Top Techniques & Atomic Red Team](https://fourcore.io/blogs/detection-engineering-with-mitre-engenuity-atomic-red-team)
 - [How to Improve Security Monitoring with Detection Engineering Program](https://blogs.oracle.com/cloudsecurity/post/how-to-improve-security-monitoring-with-detection-engineering-program)
 - [The Evolution of Security Operations and Strategies for Building an Effective SOC](https://www.isaca.org/resources/isaca-journal/issues/2021/volume-5/the-evolution-of-security-operations-and-strategies-for-building-an-effective-soc) (ISACA, Lakshmi Narayanan Kaliyaperumal)
+- Kenner, L. (2022, July 14). [What is Detection Engineering](https://www.uptycs.com/blog/what-is-detection-engineering). Uptycs Blog.
 - [Threat-Informed Defense Ecosystem](https://start.me/p/X25q7l/threat-informed-defense-ecosystem) by Micah V.
+- Bastidas, L. (2023, April 11). *[On the road to detection engineering](https://www.trustedsec.com/blog/on-the-road-to-detection-engineering/)*. TrustedSec Blog.
 
 #### Blogs
 
@@ -213,7 +223,6 @@ I like to focus more on the documentation of use-case development. In the MITRE 
 - From LASCON talk by 
 -- Primary Key:SCOPE:TTP:Short name
 -- Scope is servers, workstations, or something more granular
--- 
 
 ### Detection Specification Languages/Formats
 - Sigma
@@ -288,7 +297,8 @@ These are leaders in the sense, that they are people I follow! I have quite a fe
 - [Roman Daszczyszak](https://twitter.com/rdunspellable?lang=en)
 - [Alex Teixeira](https://ateixei.medium.com/)
 - [Kyle Bailey](https://kyle-bailey.medium.com/)
-- TBD.. what about the folks at MITRE who designed TCHAMP etc?
+- TBD.. what about the folks at MITRE who designed MITRE TTP-Based Hunting etc?
+- Rob van Os. Primary author of MaGMa, TaHiTI, and SOC-CMM.
 
 ## Where does Detection Engineering fit into the NIST Cybersecurity Framework
 
