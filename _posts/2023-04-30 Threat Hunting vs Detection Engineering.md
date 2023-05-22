@@ -54,9 +54,17 @@ A memorable term introduced by Sqrrl was *Advanced Persistent Defense* to contra
 
 ## MaGMa and TaHiTI
 
+van Os, R., Bakker, M., Bouman, R., van Leeuwen, M., van der Kraan, M., de Volksbank, W., & Piers, A. (2017, November 15). *[TaHiTI Threat Hunting Methodology](https://www.betaalvereniging.nl/wp-content/uploads/DEF-TaHiTI-Threat-Hunting-Methodology.pdf)*
+
+van Os, R., Ladan, F., Casteren, T., Toornstra, R., Metsemakers, R., Neieuwenhuize, L., & Grotenhuis, H. (2017, November 15). *[MaGMa Use Case Framework](https://www.betaalvereniging.nl/wp-content/uploads/FI-ISAC-Use-Case-Framework-Full-Documentation.pdf)*. FI-ISAC NL.
+
 A note of interest: one of the primary authors of MaGMa went on to work at Splunk which today offers the Splunk Security Content Library: a tool that can easily replace the MaGMa spreadsheet planning/tracking tool.
 
-## MITRE TCHAMP
+## MITRE TTP-Based Hunting
+
+
+(Daszczyszak, Ellis, Luke, Whitley, 2019)
+Daszczyszak, R., Ellis, D., Luke, S., & Whitley, S. (2019, March). *[TTP-Based Hunting](https://www.mitre.org/sites/default/files/2021-11/prs-19-3892-ttp-based-hunting.pdf)*. 
 
 ## Splunk PEAK
 
