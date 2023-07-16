@@ -29,13 +29,57 @@ Our goal is to map [AWS GuarDuty Finding](https://docs.aws.amazon.com/guardduty/
 
 ## Parsing the GuardDuty Finding Format
 
+The general JSON structure of a [GuardDuty finding from CloudWatch](https://docs.aws.amazon.com/guardduty/latest/ug/guardduty_findings_cloudwatch.html) looks like this. But we only care about what is in the *detail* field.
+
+```
+{
+         "version": "0",
+         "id": "cd2d702e-ab31-411b-9344-793ce56b1bc7",
+         "detail-type": "GuardDuty Finding",
+         "source": "aws.guardduty",
+         "account": "111122223333",
+         "time": "1970-01-01T00:00:00Z",
+         "region": "us-east-1",
+         "resources": [],
+         "detail": {GUARDDUTY_FINDING_JSON_OBJECT}
+}   
+```
+
+You can see a sample of the *details* object on the [AWS GuardDuty Response Syntax](https://docs.aws.amazon.com/guardduty/latest/APIReference/API_GetFindings.html#API_GetFindings_ResponseSyntax) page. Here is a sample:
+
+```
+{
+  "account: ...,
+  "detail": {
+    "id": ...,
+    "type": ...,
+    "resource": {},
+    "service": {},
+    "severity": 3.3,
+    "createdAt": ...,
+    "updatedAt": ...,
+    "title": ...,
+    "description": ...
+  }
+  "detail-type": "GuardDuty Finding",
+  "id": ...,
+  "region": "us-east-1",
+  resources: [],
+  source: "aws.guardduty",
+  time: ...,
+  version: 0
+}
+```
+
+You can see [an example from the *aws-samples/amazon-guardduty-waf-acl* GitHub repository](https://github.com/aws-samples/amazon-guardduty-waf-acl/blob/master/templates/gd2acl_test_event.json). It shows all the fields you might expect for one specific type of finding. The fields vary from finding type to finding type.
+
 ### Parsing the Finding Overview
 The GuardDuty Finding overview contains descriptive metadata to help us understand the type of finding, how it was detected, who the actor was, and was resource was affected. The finding overview data fills in most of the CIM Alert fields.
 
 | CIM Alert Field | GuardDuty Finding Field | Description |
 |-----------------|-------------------------|-------------|
-| app | detail.service.serviceName | What generated the alert? |
-| description | detail.description |
+| app | source | When you have many alert sources in the CIM datamodel, you need this to find the GuardDuty ones. |
+| description | detail.description | A human readable description of the details of the alert.
 | dest | TBD | The thing affected by detected activity |
 | dest_type | TBD | The type of thing affected by the activity detected |
 | id | detail.id | A unique ID for this specific occurence of the detection type. Updates or related details will share this ID |
@@ -47,18 +91,11 @@ The GuardDuty Finding overview contains descriptive metadata to help us understa
 | src | TBD | The thing that caused the detected activity |
 | src_type | TBD | The type of thing that caused the detected activity |
 | tag | "alert" | These will determine which datamodels this event is mapped to |
-| type | "alert" | The alert type prescribed by the Splunk Alert datamode: alarm, alert, event, task, warning, unknown |
+| type | "alert" | The alert type prescribed by the Splunk Alert datamodel: alarm, alert, event, task, warning, unknown |
 | user | TBD | A user involved in the detected activity in the format used by the Splunk ES Identity inventory. This can the actor or target: we have to choose what makes sense for our use-case. |
 | user_name | n/a | A username invovled in the detected activity. Human readable. |
 | vendor_account | account | The AWS where the activity took place |
 | vendor_region | region | The AWS region where the finding was generated |
-
-### Parsing the Finding Type/Signature ID
-GuardDuty provides a [*Finding Type* field](https://docs.aws.amazon.com/guardduty/latest/ug/guardduty_finding-format.html) in a machine parseable format that we will use as the CIM Alert *signature_id*. It contains a lot of detail that we may want to use during our mapping process. I use the following Splunk Regular Expression in *rex* to parse out it's parts.
-
-`| rex field=detail.findingType "(?<ThreatPurpose>[^:]+):(?<ResourceTypeAffected>[^/]+)/(?<ThreatFamilyName>[^\.]+)\.(?<DetectionMechanism>[^!]+)!(?<Artifact>)"`
-
-This will produce the fields *ThreatPurpose, ResourceTypeAffected, ThreatFamilyName, DetectionMechanism, Artifact* and we may or may not want to use these later when determining what other fields to map to the CIM Alert datamodel.
 
 ## Parsing the Finding Details
 This is the tricky part. GuardDuty has many different types of findings and each one provides different details with different field names. There are thousands of them! How do we know which fields to parse?
@@ -71,11 +108,98 @@ We may need a few other details to help provide us context and generate a human 
 
 The field names follow a well structured format defined by an API and easily parsible when exported in JSON. If we parse out relevent details about the type of finding and the resources affected, we can determine which detial fields we want to parse out as well.
 
+### Parsing the Finding Type/Signature ID
+GuardDuty provides a [*Finding Type* field](https://docs.aws.amazon.com/guardduty/latest/ug/guardduty_finding-format.html) in a machine parseable format that we will use as the CIM Alert *signature_id*. It contains a lot of detail that we may want to use during our mapping process. I use the following Splunk Regular Expression in *rex* to parse out it's parts.
+
+```
+| rex field=detail.findingType "(?<ThreatPurpose>[^:]+):(?<ResourceTypeAffected>[^/]+)/(?<ThreatFamilyName>[^\.]+)\.(?<DetectionMechanism>[^!]+)!(?<Artifact>)"`
+```
+
+This will produce the fields *ThreatPurpose, ResourceTypeAffected, ThreatFamilyName, DetectionMechanism, Artifact* and we may or may not want to use these later when determining what other fields to map to the CIM Alert datamodel.
+
+### Mapping GuardDuty Severity to CIM Alert Severities
+GuardDuty severities to map completely to Splunk CIM's Alert datamodel. You will need to make a design decision and below you can see my choices.
+
+GuardDuty currenlty uses a 0-10 numeric value and maps these to *low*, *medium*, *high*. However, they do not use the numeric values 0-1 or 9-10. Further, GuardDuty's documentation recommends "that you treat any High severity finding security issue as a priority and take immediate remediation steps to prevent further unauthorized use of your resources." CIM Alert uses *critical*, *high*, *medium*, *low*, *informational*, and *unknown*. 
+
+How should we map GuardDuty severity to CIM Alert severity? I use the following table and only deviate from GuardDuty's mapping of numeric ratings to word labels to put the highest GuardDuty findings as Splunk CIM "critical". I make an assumption that GuardDuty will only use 1 decimal place.
+
+| GuardDuty | CIM Alert | Comment | 
+|-----------|-----------|---------|
+| 0-0.9 | informational | Unused by GuardDuty |
+| 1-3.9 | low | Failed attempts |
+| 4 - 6.9 | medium | Suspicious and anomylous activity |
+| 7-7.9 | High | We will stick with the GuarDuty definition here |
+| 8-10 | Critical | Based on my experience | 
+
+A simple Splunk eval to acheive this:
+
+```
+| eval severity=case(
+    detail.severity > 7.9, "critical",
+    detail.severity > 6.9, "high",
+    detail.severity > 3.9, "medium",
+    detail.severity > 0.9, "low",
+    detail.severity > -1, "informational"
+)
+```
+
 ## Dynamically Mapping GuardDuty Targets to CIM Destinations
 The CIM uses *dest* to represent the thing that is affected by an event. GuardDuty findings call these *targets*. In the CIM Alert datamodel there is only one *dest* field, but we can describe it with the *dest_type* field. 
 
+There are several CIM Alert fields that are still *To Be Determined* (TBD). We must use additional details from the GuardDuty finding to determine the values we need.
 
-## Should we map GuardDuty Findings to other Splunk CIM Datamodels?
+| CIM Alert Field | GuardDuty Finding Field | Description |
+|-----------------|-------------------------|-------------|
+| dest | TBD | The thing affected by detected activity |
+| dest_type | TBD | The type of thing affected by the activity detected |
+| mitre_technique_id | TBD | We could create a lookup table to perform this mapping |
+| severity | TBD | The Splunk prescribed severity values: critical, high, medium, low, informational, unknown |
+| src | TBD | The thing that caused the detected activity |
+| src_type | TBD | The type of thing that caused the detected activity |
+| user | TBD | A user involved in the detected activity in the format used by the Splunk ES Identity inventory. This can the actor or target: we have to choose what makes sense for our use-case. |
+| user_name | n/a | A username invovled in the detected activity. Human readable. |
+
+The values we want are usually found in the GuardDuty *resource* details. Some of them might be in the *service* details. However, these are complex data objects with many fields. We may need to combine them or compare other field values to determine the specific one we need.
+
+### Understanding GuardDuty Resource Details
+
+Each GuardDuty finding detail will contain a *resource* but is this the thing that was the target or the source of the detected activity? Is the threat actor or the victim?
+
+We can determine this by look at the *service* details. This is contains details of what the GuardDuty service observed and how to interpret them.
+
+Relevant parts can be
+```
+detail.service.resourceRole == TARGET
+detail.service.action.actionType = <actionTypeParseable> (eg. NETWORK_CONNECTION)
+map actioneTypeParseable to actionType
+detail.service.action.<actionType>Action
+detail.resource.resourceType == <resourceType>
+detail.resource.<resourceType>Details
+```
+
+## Enriching the Alert Description
+We have an opportunity to enrich the CIM Alert *description* field by combining the GuardDuty *description* with other information. The *description* field provided by GuardDuty is fine, but relatively generic. Most of the details GuardDuty provides are in other fields. For any important information we want our Splunk users to see but for which CIM Alert has not field, we should consider adding it to the *description* field.
+
+Another approach is to noralize GuardDuty events to multiple CIM datamodels, some of which can represent the details of GuardDuty alerts better than others. This is discussed in the *Conclusion* of this article.
+
+What could we add to the description?
+
+- Attack Details
+- Malware family details
+- Quarantine status
+- Threat intel used to determine the finding
+- Additional 'src' and 'dest' values we chose not to use in our mapping
+- AWS identifiers that would help an analyst quickly lookup more details
+- Links to GuardDuty
+
+
+## Conclusion 
+Mapping a complex detection alert to a the CIM Alert fields requires us to make design decisions that interpret the intention of both systems. For example, what is the intended meaning of *critical* in labeling an alert? Our design choices will affect how the normalized data is used later.
+
+Further, it takes analysis to determine which data represents the threat actor, action, and impacted asset. In this excercise, both models have presentations for these, but mapping this is not straight forward. We have learn about how each format intends to represent them and transform one into the other, often comparing and combining multiple fields.
+
+### Should we map GuardDuty Findings to other Splunk CIM Datamodels?
 Yes. While all GuardDuty findings can be usefully modeled as Splunk Alerts, some GuardDuty findings can be mapped to other CIM Datamodels.
 
 For examples:
