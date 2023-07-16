@@ -176,7 +176,52 @@ map actioneTypeParseable to actionType
 detail.service.action.<actionType>Action
 detail.resource.resourceType == <resourceType>
 detail.resource.<resourceType>Details
+
+detail.resource.accessKeyDetails.accessKeyId
+detail.resource.accessKeyDetails.principalId
+detail.resource.accessKeyDetails.userName
+detail.resource.accessKeyDetails.userType
+
+detail.resource.containerDetails
+
+detail.resource.ebsVolumeDetails
+detail.resource.ebsVolumeDetails.scannedVolumeDetails.deviceName
+detail.resource.ebsVolumeDetails.scannedVolumeDetails.volumeArn
+
+detail.resource.ecsClusterDetails
+detail.resource.eksClusterDetails
+
+detail.resource.instanceDetails
+detail.resource.instanceDetails.imageDescription
+detail.resource.instanceDetails.instanceId
+detail.resource.instanceDetails.networkInterfaces{}.privateIpAddress
+detail.resource.instanceDetails.networkInterfaces{}.publicIp
+
+detail.resource.lambdaDetails
+detail.resource.rdsDbInstanceDetails
+detail.resource.rdsDbuserDetails
+
+detail.resource.s3BucketDetails
+detail.resource.s3BucketDetails.arn
+detail.resource.s3BucketDetails.name
+detail.resource.s3BucketDetails.owner.id
+detail.resource.s3BucketDetails.type
 ```
+
+We can easily map the dest_type and src_type from *detail.service.resourceRole* and *detail.resource.resourceType*.
+
+```
+| eval dest_type=case(detail.service.resourceRole=="TARGET", detail.resource.resourceType, True, "unknown")
+| eval src_type=case(detail.service.resourceRole=="ACTOR", detail.resource.resourceType, True, "unknown")
+```
+
+It is more challenging to determine the specific value we should put in src or dest however. The following table can be used to describe how we choose values to put into src, dest, user, and user_name. It should have one value for each combination of resourceType and resourceRole. We may need to include a column for the *finding type*, *threat family name*, *detection mechanism* as well. If so, this will be quite long and may need to be updated overtime as we encounter findings we have not handled. 
+
+| Resource Type | Resource Role | dest field | src field | user field |
+|---------------|---------------|------------|-----------|------------|
+| accessKey | TARGET | detail.resource.accessKeyDetails.accessKeyId | TBD | detail.resource.accessKeyDetails.principalId |
+| instance | TARGET | detail.resource.instanceDetails.instanceId | | TBD |
+| ebsVolume | TARGET | detail.resource.ebsVolumeDetails.scannedVolumeDetails.deviceName | TBD | TBD |
 
 ## Enriching the Alert Description
 We have an opportunity to enrich the CIM Alert *description* field by combining the GuardDuty *description* with other information. The *description* field provided by GuardDuty is fine, but relatively generic. Most of the details GuardDuty provides are in other fields. For any important information we want our Splunk users to see but for which CIM Alert has not field, we should consider adding it to the *description* field.
