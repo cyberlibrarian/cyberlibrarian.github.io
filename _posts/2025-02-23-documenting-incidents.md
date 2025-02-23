@@ -47,34 +47,6 @@ Some common reasons to keep good records are:
     - Sometimes the nature of a threat is only known later, and cyber threat intelligence can tell us more by reviewing details of recent investigations that are closed.
     - Detection engineering and cyber threat intelligence help incident response, and our good records enable them to help us.
 
-Understanding the actions that will be taken needs to be coordinated. When there are multiple 
-people involved and multiple systems, coordinating becomes critical. Centralized tracking is 
-best (see Section 8.4 for more on incident case management), to ensure responders can 
-reference the work done, and access data across activities. Above all, SOCs should avoid 
-a system where responders maintain their own spreadsheets of indicators, actions, and 
-artifacts. Spreadsheets limit the ability to coordinate, inhibit incident reporting, and can lead 
-to misfires and misunderstandings. A tracking system should minimally capture the following:
- • Incident summary and details
- • Timeline
- • Incident responder lead and contact information
- • Actions completed and in process
- • Status
- If the SOC deems it necessary to break down specific findings, indicators, and adversary actions 
-into a spreadsheet or similar tool, it is critical that all team members, including supporting 
-IT personnel, snap to a consistent set of data capture and vetting, and all have the access 
-when they need it. Above all, responding to incidents is most effective when following plans 
-Strategy 5: Prioritize Incident Response | 141
-and procedures. Stay true to incident plans and standard operating procedures throughout 
-response, and update with lessons learned when the heat of response simmers down.
-
-
-## A note on audit and regulatory requirements
-Some analysts do not respect the value audit and assessment plays in cybersecurity. Why should the auditor's requirements matter? We did the work, nothing bad happened. Other analysts misinterpret requirements for auditability and assume they have to keep incredibly detailed records. 
-
-The easier you make reviewing your incident records for auditors, the more time you have to conduct your work and improve your skills. Bad records mean more time spent in needless meetings. Good records mean, auditors understand your work and can easily verify you have met your requirements.
-
-In the case of serious incident, lawyers may need to review your records. If you have poor records they may want to obtain countless details to verify they have not missed anything. Good records save you hassle.
-
 You should always assume that someone like yourself will be asked to look at your incident records *without your assistance* and under time pressure. Could you understand what happened based on your incident record alone? If so, you've done enough.
 
 # What to include in your investigation record
