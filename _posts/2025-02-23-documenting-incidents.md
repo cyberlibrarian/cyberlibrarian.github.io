@@ -7,7 +7,7 @@ authors: [michael]
 categories: [Blog]
 image: https://www.splunk.com/content/dam/splunk-blogs/images/en_us/2024/11/workflows-hero.png
 tags: [secops,security-operations,documentation,writing,case-management,incident-reporting,case-notes]
-date: 2025-02-23 14:53:00
+date: 2025-02-23 15:20:00
 ---
 {{ page.summary }}
 
@@ -53,15 +53,14 @@ You should always assume that someone like yourself will be asked to look at you
 
 Well-documented records provide a clear trail of evidence, allowing investigators to reconstruct events and analyze the root cause of an incident. Your records need to have enough detail of your _observations, findings, and actions_ that you or your team can continue if you are interupted.
 
-Your *observations* include simple things like the source of the detection, alert, or problem report. It also includes observables that you found relevant to your analysis. What did you see? 
-
-Your *findings* are your conclusions based on what you observed. This is your analysis. Did you determine than an IP address was malicious? If so, say that, but also explain concisely *why*. It should be possible for someone else to read your note and come to the same conclusion.
-
-Your *actions* are what you decided to do. What resolved the incident? Did you block an IP? Disable an account? Quarantine a system? You need to record what you decided to do, and provide evidence of how you did it. For example, did you block an IP by opening a ticket in ServiceNow for the your network team to reconfigure the firewall? Or did you do it yourself by logging into a system and adding the IP to a list? Someone else should be able to know what you changed and how you changed it.
-
 If you include brief *observations*, *findings*, and *actions*, then someone like you should be able to review your record and undertand what occured, your conclusions, and verify the actions your took.
 
 If you get interrupted in the middle of an investigation then you, or someone else, should be able to continue where you left off without your help.
+
+
+1. Your *observations* include simple things like the source of the detection, alert, or problem report. It also includes observables that you found relevant to your analysis. What did you see? 
+2. Your *findings* are your conclusions based on what you observed. This is your analysis. Did you determine than an IP address was malicious? If so, say that, but also explain concisely *why*. It should be possible for someone else to read your note and come to the same conclusion.
+3. Your *actions* are what you decided to do. What resolved the incident? Did you block an IP? Disable an account? Quarantine a system? You need to record what you decided to do, and provide evidence of how you did it. For example, did you block an IP by opening a ticket in ServiceNow for the your network team to reconfigure the firewall? Or did you do it yourself by logging into a system and adding the IP to a list? Someone else should be able to know what you changed and how you changed it.
 
 ## Triage
 In the first few minutes you should determine if you think the event is worth further investigation and, if so, what kind of threat it *appears to be*.
