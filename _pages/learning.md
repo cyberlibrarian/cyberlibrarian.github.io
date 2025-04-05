@@ -7,6 +7,7 @@ The Cybersecurity Librarian maintains a list of use references for helping you t
 
 ## Resource Categories
 
+- [A Curated List of Threat Intel Reports]({% link _pages/curated-threat-report-list %})
 - [My Detection Engineering Notes]({% link _pages/detection-engineering-notes.md %})
 - [Recommended Podcasts]({{site.baseurl}}/learning/podcasts)
 - [Improve your Writing]({{site.baseurl}}/learning/writing)

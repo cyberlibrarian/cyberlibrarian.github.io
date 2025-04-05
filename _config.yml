@@ -35,7 +35,7 @@ minima:
 header_pages:
     - _pages/detection-engineering-notes.md
     - _pages/learning.md
-    - _pages/moro-and-mike.md
+    - _pages/curated-threat-report-list.md
 
 include:
   - _pages
