@@ -2,12 +2,12 @@
 layout: page
 permalink: "/curated-threat-report-list"
 title:  "A Curate List of Threat Reports"
-summary: "(DRAFT) This is a list of threat and risk reports curated by The Cybersecurity Librarian. This is the list of annual and periodic reports I read to keep informed on changes in the threat landscape and to forecast threats for the coming months. It is updated annually."
+summary: "DRAFT This is a list of threat and risk reports curated by The Cybersecurity Librarian. This is the list of annual and periodic reports I read to keep informed on changes in the threat landscape and to forecast threats for the coming months. It is updated annually."
 authors: [michael]
 categories: [ Blog ]
 tags: [threat-intelligence,risk-reports,threat-informed-defense]
 ---
-Last Update: 2025-04-05
+Last Update: 2025-08-20
 
 {{ page.summary }}
 
